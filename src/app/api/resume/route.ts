@@ -28,7 +28,11 @@ export async function GET() {
 
         // Only use Supabase data if content is non-empty
         if (!error && data && data.content && Object.keys(data.content).length > 0) {
-          return NextResponse.json(data.content);
+          return NextResponse.json(data.content, {
+            headers: {
+              'Cache-Control': 'no-store, max-age=0, must-revalidate'
+            }
+          });
         }
       }
     }
@@ -37,7 +41,11 @@ export async function GET() {
     const filePath = path.join(process.cwd(), 'src/data/resume-data.json');
     if (fs.existsSync(filePath)) {
       const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-      return NextResponse.json(jsonData);
+      return NextResponse.json(jsonData, {
+        headers: {
+          'Cache-Control': 'no-store, max-age=0, must-revalidate'
+        }
+      });
     }
 
     throw new Error('No data source available');
