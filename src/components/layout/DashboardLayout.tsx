@@ -47,6 +47,10 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
   const pathname = usePathname();
 
+  if (pathname === '/admin/login') {
+    return <div className="admin-root min-h-screen">{children}</div>;
+  }
+
   return (
     <div className="flex h-screen bg-[#f8fafc] text-[#1e293b]">
       {/* Sidebar */}
@@ -63,7 +67,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
               P
             </div>
             {isSidebarOpen && (
-              <span className="ml-3 font-bold text-xl tracking-tight">IT Manager</span>
+              <span className="ml-3 font-bold text-xl tracking-tight text-slate-950">IT Manager</span>
             )}
           </div>
 
@@ -77,17 +81,17 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                   'flex items-center px-3 py-3 rounded-xl transition-colors duration-200 group',
                   pathname === item.href
                     ? 'bg-blue-50 text-primary-blue font-bold shadow-sm'
-                    : 'text-slate-700 hover:bg-slate-50 hover:text-slate-900 font-semibold'
+                    : 'text-slate-900 hover:bg-slate-50 hover:text-black font-bold'
                 )}
               >
                 <span className={cn(
                   'shrink-0',
-                  pathname === item.href ? 'text-primary-blue' : 'text-slate-500 group-hover:text-slate-700'
+                  pathname === item.href ? 'text-primary-blue' : 'text-slate-800 group-hover:text-black'
                 )}>
                   {item.icon}
                 </span>
                 {isSidebarOpen && (
-                  <span className="ml-3 text-[17px]">{item.title}</span>
+                  <span className="ml-3 text-[16px]">{item.title}</span>
                 )}
               </Link>
             ))}
@@ -97,10 +101,10 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           <div className="p-4 border-t border-slate-100">
             <button
               onClick={handleLogout}
-              className="flex items-center w-full px-3 py-3 text-slate-700 hover:bg-red-50 hover:text-red-600 rounded-xl transition-colors duration-200 font-semibold"
+              className="flex items-center w-full px-3 py-3 text-slate-900 hover:bg-red-50 hover:text-red-600 rounded-xl transition-colors duration-200 font-bold"
             >
-              <LogOut size={20} className="text-slate-500 group-hover:text-red-500" />
-              {isSidebarOpen && <span className="ml-3 text-[17px]">ออกจากระบบ</span>}
+              <LogOut size={20} className="text-slate-800 group-hover:text-red-600" />
+              {isSidebarOpen && <span className="ml-3 text-[16px]">ออกจากระบบ</span>}
             </button>
           </div>
         </div>
@@ -118,30 +122,30 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           <div className="flex items-center gap-4">
             <button
               onClick={() => setSidebarOpen(!isSidebarOpen)}
-              className="p-2 hover:bg-slate-100 rounded-lg text-slate-500 transition-colors"
+              className="p-2 hover:bg-slate-100 rounded-lg text-slate-800 transition-colors"
             >
               {isSidebarOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
             <div className="hidden md:flex items-center bg-slate-100 px-4 py-2 rounded-full w-64">
-              <Search size={16} className="text-slate-400" />
+              <Search size={16} className="text-slate-700" />
               <input
                 type="text"
                 placeholder="ค้นหาข้อมูล..."
-                className="bg-transparent border-none focus:ring-0 text-sm ml-2 w-full"
+                className="bg-transparent border-none focus:ring-0 text-[16px] ml-2 w-full text-slate-950 font-bold"
               />
             </div>
           </div>
 
           <div className="flex items-center gap-4">
-            <button className="relative p-2 hover:bg-slate-100 rounded-full text-slate-500 transition-colors">
+            <button className="relative p-2 hover:bg-slate-100 rounded-full text-slate-850 transition-colors">
               <Bell size={20} />
               <span className="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full border-2 border-white"></span>
             </button>
             <div className="h-8 w-px bg-slate-200 mx-2"></div>
             <div className="flex items-center gap-3">
               <div className="text-right hidden sm:block">
-                <p className="text-sm font-semibold text-slate-900 leading-none">Patiwat M.</p>
-                <p className="text-xs text-slate-500 mt-1">Administrator</p>
+                <p className="text-[16px] font-bold text-slate-950 leading-none">Patiwat M.</p>
+                <p className="text-[14px] font-semibold text-slate-800 mt-1">Administrator</p>
               </div>
               <div className="w-10 h-10 rounded-full bg-slate-200 border-2 border-white overflow-hidden shadow-sm">
                 <img

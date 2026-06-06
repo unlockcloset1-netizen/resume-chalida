@@ -142,7 +142,7 @@ export default function ExperienceAdmin() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <h1 className="text-3xl font-bold text-slate-900 tracking-tight">จัดการประสบการณ์ทำงาน</h1>
-          <p className="text-slate-500 mt-1">เพิ่มหรือแก้ไขประวัติการทำงานในแต่ละช่วงเวลา</p>
+          <p className="text-slate-900 font-semibold mt-1">เพิ่มหรือแก้ไขประวัติการทำงานในแต่ละช่วงเวลา</p>
         </div>
         <div className="flex items-center gap-3">
           <button 
@@ -180,8 +180,8 @@ export default function ExperienceAdmin() {
             key={lang}
             onClick={() => setActiveLang(lang)}
             className={cn(
-              "px-6 py-2 rounded-xl text-sm font-bold transition-all uppercase",
-              activeLang === lang ? "bg-slate-900 text-white" : "text-slate-400 hover:text-slate-600 hover:bg-slate-50"
+              "px-6 py-2 rounded-xl text-sm font-black transition-all uppercase",
+              activeLang === lang ? "bg-slate-900 text-white" : "text-slate-800 hover:text-black hover:bg-slate-50"
             )}
           >
             {lang === 'th' ? 'ภาษาไทย' : lang === 'en' ? 'English' : 'Chinese'}
@@ -200,7 +200,7 @@ export default function ExperienceAdmin() {
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900">{item.translations[activeLang].title || 'ไม่มีชื่อตำแหน่ง'}</h3>
-                  <p className="text-sm text-slate-500">{item.translations[activeLang].org} • {item.translations[activeLang].meta}</p>
+                  <p className="text-sm text-slate-900 font-semibold">{item.translations[activeLang].org} • {item.translations[activeLang].meta}</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
@@ -243,8 +243,8 @@ export default function ExperienceAdmin() {
             <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mx-auto mb-4 text-slate-300">
               <Briefcase size={32} />
             </div>
-            <p className="text-slate-400 font-medium">ยังไม่มีข้อมูลประสบการณ์ทำงาน</p>
-            <button onClick={addItem} className="mt-4 text-primary-blue font-bold hover:underline">
+            <p className="text-slate-900 font-bold">ยังไม่มีข้อมูลประสบการณ์ทำงาน</p>
+            <button onClick={addItem} className="mt-4 text-primary-blue font-extrabold hover:underline">
               + เพิ่มรายการแรก
             </button>
           </div>
@@ -265,12 +265,12 @@ export default function ExperienceAdmin() {
             {/* Header */}
             <div className="p-8 border-b border-slate-50 flex items-center justify-between bg-white sticky top-0 z-10">
               <div>
-                <h2 className="text-2xl font-bold text-slate-900 tracking-tight uppercase">Edit Experience</h2>
-                <p className="text-slate-500 text-sm mt-1">แก้ไขรายละเอียดประสบการณ์ทำงาน ({activeLang.toUpperCase()})</p>
+                <h2 className="text-2xl font-bold text-slate-950 tracking-tight uppercase">Edit Experience</h2>
+                <p className="text-slate-900 text-sm font-bold mt-1">แก้ไขรายละเอียดประสบการณ์ทำงาน ({activeLang.toUpperCase()})</p>
               </div>
               <button 
                 onClick={() => setIsModalOpen(false)}
-                className="p-2 hover:bg-slate-100 rounded-full text-slate-400 hover:text-slate-900 transition-all"
+                className="p-2 hover:bg-slate-100 rounded-full text-slate-500 hover:text-slate-950 transition-all"
               >
                 <X size={24} />
               </button>
@@ -280,59 +280,59 @@ export default function ExperienceAdmin() {
             <div className="flex-1 overflow-y-auto p-8 space-y-8 custom-scrollbar">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="text-sm font-bold text-slate-500 uppercase tracking-wider">ตำแหน่ง (Job Title)</label>
+                  <label className="text-sm font-bold text-slate-950 uppercase tracking-wider">ตำแหน่ง (Job Title)</label>
                   <input 
                     type="text" 
                     value={editingItem.translations[activeLang].title}
                     onChange={(e) => updateEditingItem('title', e.target.value)}
-                    className="w-full px-5 py-3.5 rounded-2xl border border-slate-100 bg-slate-50/50 focus:bg-white focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-bold text-slate-900"
+                    className="w-full px-5 py-3.5 rounded-2xl border border-slate-100 bg-slate-50/50 focus:bg-white focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-bold text-slate-950"
                     placeholder="เช่น Senior Software Engineer"
                   />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-bold text-slate-500 uppercase tracking-wider">องค์กร (Organization)</label>
+                  <label className="text-sm font-bold text-slate-955 uppercase tracking-wider">องค์กร (Organization)</label>
                   <input 
                     type="text" 
                     value={editingItem.translations[activeLang].org}
                     onChange={(e) => updateEditingItem('org', e.target.value)}
-                    className="w-full px-5 py-3.5 rounded-2xl border border-slate-100 bg-slate-50/50 focus:bg-white focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-bold text-slate-700"
+                    className="w-full px-5 py-3.5 rounded-2xl border border-slate-100 bg-slate-50/50 focus:bg-white focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-bold text-slate-950"
                     placeholder="เช่น Google Inc."
                   />
                 </div>
               </div>
 
               <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-500 uppercase tracking-wider">ช่วงเวลา (Period)</label>
+                <label className="text-sm font-bold text-slate-955 uppercase tracking-wider">ช่วงเวลา (Period)</label>
                 <input 
                   type="text" 
                   value={editingItem.translations[activeLang].meta}
                   onChange={(e) => updateEditingItem('meta', e.target.value)}
-                  className="w-full px-5 py-3.5 rounded-2xl border border-slate-100 bg-slate-50/50 focus:bg-white focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-slate-600"
+                  className="w-full px-5 py-3.5 rounded-2xl border border-slate-100 bg-slate-50/50 focus:bg-white focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-slate-950"
                   placeholder="เช่น Jan 2020 - Present"
                 />
               </div>
 
               <div className="space-y-3">
-                <label className="text-sm font-bold text-slate-500 uppercase tracking-wider flex items-center justify-between">
+                <label className="text-sm font-bold text-slate-955 uppercase tracking-wider flex items-center justify-between">
                   <span>รายละเอียดงาน (Responsibilities)</span>
-                  <span className="text-[10px] font-normal text-slate-400 italic normal-case">* หนึ่งรายการต่อหนึ่งบรรทัด</span>
+                  <span className="text-[12px] font-bold text-slate-800 italic normal-case">* หนึ่งรายการต่อหนึ่งบรรทัด</span>
                 </label>
                 <textarea 
                   rows={10}
                   value={editingItem.translations[activeLang].bullets.join('\n')}
                   onChange={(e) => updateEditingItem('bullets', e.target.value)}
-                  className="w-full px-6 py-5 rounded-[24px] border border-slate-100 bg-slate-50/50 focus:bg-white focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-medium leading-relaxed text-[17px] text-slate-700 min-h-[250px]"
+                  className="w-full px-6 py-5 rounded-[24px] border border-slate-100 bg-slate-50/50 focus:bg-white focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-medium leading-relaxed text-[17px] text-slate-950 min-h-[250px]"
                   placeholder="• Developed scalable microservices&#10;• Led a team of 5 engineers"
                 />
               </div>
 
               <div className="space-y-3">
-                <label className="text-sm font-bold text-slate-500 uppercase tracking-wider">ผลงานเด่น (Key Highlights)</label>
+                <label className="text-sm font-bold text-slate-955 uppercase tracking-wider">ผลงานเด่น (Key Highlights)</label>
                 <textarea 
                   rows={4}
                   value={editingItem.translations[activeLang].highlight || ''}
                   onChange={(e) => updateEditingItem('highlight', e.target.value)}
-                  className="w-full px-6 py-5 rounded-[24px] border border-blue-50 bg-blue-50/5 focus:bg-white focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-bold text-slate-800 leading-relaxed text-[17px]"
+                  className="w-full px-6 py-5 rounded-[24px] border border-blue-50 bg-blue-50/5 focus:bg-white focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-bold text-slate-950 leading-relaxed text-[17px]"
                   placeholder="เช่น ลดเวลาการทำงานของระบบลง 50% หรือได้รับรางวัลพนักงานดีเด่น"
                 />
               </div>
@@ -342,7 +342,7 @@ export default function ExperienceAdmin() {
             <div className="p-8 border-t border-slate-50 bg-slate-50/50 flex items-center justify-end gap-4 sticky bottom-0 z-10">
               <button 
                 onClick={() => setIsModalOpen(false)}
-                className="px-8 py-3.5 rounded-2xl text-slate-500 font-bold hover:bg-slate-100 hover:text-slate-900 transition-all uppercase tracking-wider text-sm"
+                className="px-8 py-3.5 rounded-2xl text-slate-900 font-extrabold hover:bg-slate-100 hover:text-black transition-all uppercase tracking-wider text-sm"
               >
                 Cancel
               </button>

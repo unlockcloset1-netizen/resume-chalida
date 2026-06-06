@@ -86,7 +86,7 @@ export default function EducationAdmin() {
       <div className="flex justify-between items-center">
         <div>
           <h1 className="text-3xl font-bold text-slate-900">จัดการการศึกษา</h1>
-          <p className="text-slate-500">ประวัติการศึกษาและวุฒิการศึกษาต่างๆ</p>
+          <p className="text-slate-900 font-semibold">ประวัติการศึกษาและวุฒิการศึกษาต่างๆ</p>
         </div>
         <div className="flex gap-3">
           <button onClick={addItem} className="bg-white text-slate-700 px-5 py-2.5 rounded-xl card-shadow border border-slate-100 font-bold hover:bg-slate-50 transition-all flex items-center gap-2">
@@ -106,7 +106,7 @@ export default function EducationAdmin() {
 
       <div className="flex gap-2 bg-white p-1 rounded-2xl w-fit card-shadow border border-slate-50">
         {(['th', 'en', 'zh'] as const).map(l => (
-          <button key={l} onClick={() => setActiveLang(l)} className={cn("px-6 py-2 rounded-xl text-sm font-bold uppercase transition-all", activeLang === l ? "bg-slate-900 text-white" : "text-slate-400")}>
+          <button key={l} onClick={() => setActiveLang(l)} className={cn("px-6 py-2 rounded-xl text-sm font-black uppercase transition-all", activeLang === l ? "bg-slate-900 text-white" : "text-slate-800 hover:text-black hover:bg-slate-50")}>
             {l}
           </button>
         ))}
@@ -115,22 +115,22 @@ export default function EducationAdmin() {
       <div className="grid gap-6">
         {data?.education.map((item, idx) => (
           <div key={item.id} className="bg-white rounded-3xl card-shadow border border-slate-50 p-8 space-y-6">
-            <div className="flex justify-between items-center text-slate-400">
+            <div className="flex justify-between items-center text-slate-800">
               <GraduationCap size={24} />
-              <button onClick={() => removeItem(item.id)} className="hover:text-red-500"><Trash2 size={20} /></button>
+              <button onClick={() => removeItem(item.id)} className="text-slate-800 hover:text-red-600"><Trash2 size={20} /></button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="space-y-2">
-                <label className="text-xs font-bold text-slate-400 uppercase">วุฒิการศึกษา</label>
-                <input value={item.translations[activeLang].title} onChange={(e) => updateItem(idx, 'title', e.target.value)} className="w-full px-4 py-3 rounded-xl border border-slate-100 focus:border-primary-blue outline-none font-bold" />
+                <label className="text-xs font-bold text-slate-950 uppercase">วุฒิการศึกษา</label>
+                <input value={item.translations[activeLang].title} onChange={(e) => updateItem(idx, 'title', e.target.value)} className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue outline-none font-bold text-slate-950 bg-white" />
               </div>
               <div className="space-y-2">
-                <label className="text-xs font-bold text-slate-400 uppercase">สถานบัน</label>
-                <input value={item.translations[activeLang].org} onChange={(e) => updateItem(idx, 'org', e.target.value)} className="w-full px-4 py-3 rounded-xl border border-slate-100 focus:border-primary-blue outline-none font-bold" />
+                <label className="text-xs font-bold text-slate-950 uppercase">สถาบัน</label>
+                <input value={item.translations[activeLang].org} onChange={(e) => updateItem(idx, 'org', e.target.value)} className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue outline-none font-bold text-slate-950 bg-white" />
               </div>
               <div className="space-y-2">
-                <label className="text-xs font-bold text-slate-400 uppercase">เกรด / ปีที่จบ</label>
-                <input value={item.translations[activeLang].meta} onChange={(e) => updateItem(idx, 'meta', e.target.value)} className="w-full px-4 py-3 rounded-xl border border-slate-100 focus:border-primary-blue outline-none font-bold" />
+                <label className="text-xs font-bold text-slate-950 uppercase">เกรด / ปีที่จบ</label>
+                <input value={item.translations[activeLang].meta} onChange={(e) => updateItem(idx, 'meta', e.target.value)} className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue outline-none font-bold text-slate-950 bg-white" />
               </div>
             </div>
           </div>

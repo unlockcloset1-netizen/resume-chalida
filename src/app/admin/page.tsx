@@ -111,10 +111,10 @@ export default function AdminPage() {
       className={`w-full flex items-center gap-4 px-6 py-4 rounded-xl transition-all ${
         activeSection === section 
           ? 'bg-slate-900 text-white shadow-lg translate-x-1' 
-          : 'text-slate-500 hover:bg-slate-100 hover:text-slate-900'
+          : 'text-slate-900 hover:bg-slate-100 hover:text-black font-bold'
       }`}
     >
-      <Icon className={`w-5 h-5 ${activeSection === section ? 'text-white' : 'text-slate-400'}`} />
+      <Icon className={`w-5 h-5 ${activeSection === section ? 'text-white' : 'text-slate-700'}`} />
       <span className="font-bold text-[18px]">{label}</span>
     </button>
   );
@@ -128,7 +128,7 @@ export default function AdminPage() {
           className={`px-8 py-2 rounded-full text-[14px] font-black uppercase transition-all ${
             activeLang === l 
               ? 'bg-slate-900 text-white shadow-sm' 
-              : 'text-slate-400 hover:text-slate-600'
+              : 'text-slate-800 hover:text-black hover:bg-slate-50'
           }`}
         >
           {l === 'th' ? 'Thai' : l === 'en' ? 'English' : 'Chinese'}
@@ -145,7 +145,7 @@ export default function AdminPage() {
   );
 
   const FieldLabel = ({ children }: { children: React.ReactNode }) => (
-    <label className="text-[16px] font-black text-slate-500 uppercase tracking-wide block mb-2 ml-1">
+    <label className="text-[16px] font-black text-slate-950 uppercase tracking-wide block mb-2 ml-1">
       {children}
     </label>
   );
@@ -473,10 +473,9 @@ export default function AdminPage() {
       </main>
 
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Sarabun:wght@300;400;500;600;700;800&display=swap');
-        
         body, h1, h2, h3, h4, h5, h6, p, span, a, li, button, input, textarea {
-          font-family: 'Inter', 'Sarabun', sans-serif;
+          font-family: 'AngsanaUPC', 'Angsana New', 'TH Sarabun New', sans-serif !important;
+          font-size: 16px !important;
         }
 
         body {

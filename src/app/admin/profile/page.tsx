@@ -148,7 +148,7 @@ export default function ProfileAdmin() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <h1 className="text-3xl font-bold text-slate-950 tracking-tight">จัดการประวัติส่วนตัว</h1>
-          <p className="text-slate-600 mt-1">อัปเดตข้อมูลติดต่อและบทสรุปแนะนำตัวเอง</p>
+          <p className="text-slate-900 font-semibold mt-1">อัปเดตข้อมูลติดต่อและบทสรุปแนะนำตัวเอง</p>
         </div>
         <button 
           onClick={handleSave}
@@ -179,15 +179,15 @@ export default function ProfileAdmin() {
                 key={lang}
                 onClick={() => setActiveLang(lang)}
                 className={cn(
-                  "px-4 py-1.5 rounded-full text-sm font-bold transition-all uppercase",
-                  activeLang === lang ? "bg-slate-900 text-white" : "text-slate-400 hover:text-slate-600"
+                  "px-4 py-1.5 rounded-full text-sm font-black transition-all uppercase",
+                  activeLang === lang ? "bg-slate-900 text-white" : "text-slate-800 hover:text-black hover:bg-slate-100"
                 )}
               >
                 {lang}
               </button>
             ))}
           </div>
-          <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">โหมดแก้ไขข้อมูล</span>
+          <span className="text-xs font-bold text-slate-900 uppercase tracking-widest">โหมดแก้ไขข้อมูล</span>
         </div>
 
         <div className="p-8 grid grid-cols-1 md:grid-cols-12 gap-10">
@@ -208,63 +208,63 @@ export default function ProfileAdmin() {
                 <input type="file" className="hidden" accept="image/*" onChange={handleFileUpload} />
               </label>
             </div>
-            <p className="text-xs text-slate-600 text-center font-medium">แนะนำรูปถ่ายหน้าตรง พื้นหลังเรียบ<br />ขนาดไฟล์ไม่เกิน 2MB</p>
+            <p className="text-xs text-slate-900 text-center font-bold">แนะนำรูปถ่ายหน้าตรง พื้นหลังเรียบ<br />ขนาดไฟล์ไม่เกิน 2MB</p>
           </div>
 
           {/* Form Fields */}
           <div className="md:col-span-8 space-y-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-700 flex items-center gap-2">
-                  <Mail size={14} className="text-slate-500" /> อีเมล (Email)
+                <label className="text-sm font-bold text-slate-950 flex items-center gap-2">
+                  <Mail size={14} className="text-slate-800" /> อีเมล (Email)
                 </label>
                 <input 
                   type="email" 
                   value={data.personal.email}
                   onChange={(e) => updateField('email', e.target.value)}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-slate-900 bg-white"
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-slate-950 bg-white"
                 />
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-700 flex items-center gap-2">
-                  <Phone size={14} className="text-slate-500" /> เบอร์โทรศัพท์ (Phone)
+                <label className="text-sm font-bold text-slate-950 flex items-center gap-2">
+                  <Phone size={14} className="text-slate-800" /> เบอร์โทรศัพท์ (Phone)
                 </label>
                 <input 
                   type="text" 
                   value={data.personal.phone}
                   onChange={(e) => updateField('phone', e.target.value)}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-slate-900 bg-white"
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-slate-950 bg-white"
                 />
               </div>
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm font-bold text-slate-700">ชื่อ-นามสกุล ({activeLang.toUpperCase()})</label>
+              <label className="text-sm font-bold text-slate-950">ชื่อ-นามสกุล ({activeLang.toUpperCase()})</label>
               <input 
                 type="text" 
                 value={data.personal.translations[activeLang].name}
                 onChange={(e) => updateField('name', e.target.value, true)}
-                className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all text-lg font-bold text-slate-900 bg-white"
+                className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all text-lg font-bold text-slate-950 bg-white"
               />
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm font-bold text-slate-700">ตำแหน่งงาน (Job Title)</label>
+              <label className="text-sm font-bold text-slate-950">ตำแหน่งงาน (Job Title)</label>
               <input 
                 type="text" 
                 value={data.personal.translations[activeLang].title}
                 onChange={(e) => updateField('title', e.target.value, true)}
-                className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-slate-900 bg-white"
+                className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-slate-950 bg-white"
               />
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm font-bold text-slate-700">บทสรุปแนะนำตัวเอง (Summary)</label>
+              <label className="text-sm font-bold text-slate-950">บทสรุปแนะนำตัวเอง (Summary)</label>
               <textarea 
                 rows={8}
                 value={data.personal.translations[activeLang].summary}
                 onChange={(e) => updateField('summary', e.target.value, true)}
-                className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-medium leading-relaxed text-slate-900 bg-white"
+                className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue focus:ring-4 focus:ring-blue-50 outline-none transition-all font-medium leading-relaxed text-slate-950 bg-white"
               />
             </div>
           </div>

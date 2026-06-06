@@ -44,7 +44,7 @@ export default function LoginPage() {
               <Lock className="w-8 h-8" />
             </div>
             <h1 className="text-2xl font-bold text-slate-800">Admin Login</h1>
-            <p className="text-slate-500 text-sm mt-1">Patiwat Resume — Dashboard</p>
+            <p className="text-slate-900 text-sm font-bold mt-1">Patiwat Resume — Dashboard</p>
           </div>
           
           <div className="p-8">
@@ -57,7 +57,7 @@ export default function LoginPage() {
             
             <form onSubmit={handleLogin} className="space-y-6">
               <div className="space-y-2">
-                <label className="text-xs font-bold text-slate-500 uppercase tracking-widest px-1">
+                <label className="text-xs font-bold text-slate-950 uppercase tracking-widest px-1">
                   Password
                 </label>
                 <input
@@ -80,7 +80,7 @@ export default function LoginPage() {
               </button>
             </form>
             
-            <Link href="/" className="flex items-center justify-center gap-2 mt-8 text-slate-400 hover:text-slate-600 transition-colors text-sm font-medium">
+            <Link href="/" className="flex items-center justify-center gap-2 mt-8 text-slate-900 hover:text-black transition-colors text-sm font-bold">
               <ArrowLeft className="w-4 h-4" />
               กลับหน้าหลัก
             </Link>

@@ -84,7 +84,7 @@ export default function SkillsAdmin() {
       <div className="flex justify-between items-center">
         <div>
           <h1 className="text-3xl font-bold text-slate-900">ทักษะและความสามารถ</h1>
-          <p className="text-slate-500">จัดการหมวดหมู่และรายการทักษะต่างๆ</p>
+          <p className="text-slate-900 font-semibold">จัดการหมวดหมู่และรายการทักษะต่างๆ</p>
         </div>
         <div className="flex gap-3">
           <button onClick={addItem} className="bg-white text-slate-700 px-5 py-2.5 rounded-xl card-shadow border border-slate-100 font-bold hover:bg-slate-50 transition-all flex items-center gap-2">
@@ -98,7 +98,7 @@ export default function SkillsAdmin() {
 
       <div className="flex gap-2 bg-white p-1 rounded-2xl w-fit card-shadow border border-slate-50">
         {(['th', 'en', 'zh'] as const).map(l => (
-          <button key={l} onClick={() => setActiveLang(l)} className={cn("px-6 py-2 rounded-xl text-sm font-bold uppercase transition-all", activeLang === l ? "bg-slate-900 text-white" : "text-slate-400")}>
+          <button key={l} onClick={() => setActiveLang(l)} className={cn("px-6 py-2 rounded-xl text-sm font-black uppercase transition-all", activeLang === l ? "bg-slate-900 text-white" : "text-slate-800 hover:text-black hover:bg-slate-50")}>
             {l}
           </button>
         ))}
@@ -116,13 +116,13 @@ export default function SkillsAdmin() {
               />
               <button onClick={() => removeItem(item.id)} className="text-slate-300 hover:text-red-500"><Trash2 size={20} /></button>
             </div>
-            <div className="space-y-2">
-              <label className="text-xs font-bold text-slate-400 uppercase">รายการทักษะ (คั่นด้วย ,)</label>
+             <div className="space-y-2">
+              <label className="text-xs font-bold text-slate-950 uppercase">รายการทักษะ (คั่นด้วย ,)</label>
               <textarea 
                 rows={4}
                 value={item.translations[activeLang].tags.join(', ')}
                 onChange={(e) => updateItem(idx, item.translations[activeLang].label, e.target.value)}
-                className="w-full px-4 py-3 rounded-xl border border-slate-100 focus:border-primary-blue outline-none font-semibold text-slate-600 leading-relaxed"
+                className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue outline-none font-semibold text-slate-950 bg-white leading-relaxed"
               />
             </div>
           </div>
