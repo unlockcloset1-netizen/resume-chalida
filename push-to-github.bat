@@ -1,22 +1,28 @@
 @echo off
 echo ========================================
-echo  Pushing upload fix (Uint8Array)...
+echo  Pushing to GitHub...
 echo ========================================
 cd /d "C:\Users\ITadmin\resume-next"
 
+REM Delete ALL git lock files
 del /f .git\index.lock 2>nul
-git remote set-url origin https://github.com/ariff2006/resume-next.git
+del /f .git\HEAD.lock 2>nul
+del /f .git\MERGE_HEAD.lock 2>nul
+del /f .git\COMMIT_EDITMSG.lock 2>nul
+del /f .git\packed-refs.lock 2>nul
+del /f .git\refs\heads\main.lock 2>nul
 
-git add src/app/api/upload/route.ts
-git commit -m "Fix: use Uint8Array instead of Buffer for Supabase Storage upload"
+git remote set-url origin https://github.com/ariff2006/resume-next.git
+git add src/app/api/debug-env/route.ts src/app/api/resume/route.ts
+git commit -m "debug: add env var diagnostic endpoint"
 git push origin main
 
 echo ========================================
 if %ERRORLEVEL% == 0 (
     echo  SUCCESS! Deploy in ~2 minutes.
-    echo  Test upload at resume-next-blond.vercel.app/admin
+    echo  Test: https://resume-next-blond.vercel.app/admin
 ) else (
-    echo  ERROR: Push failed.
+    echo  ERROR: Push failed. Check credentials.
 )
 echo ========================================
 pause

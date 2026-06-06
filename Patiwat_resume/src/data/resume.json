@@ -1,0 +1,86 @@
+{
+  "profile": {
+    "name": "Patiwat Meekaeo",
+    "nameTH": "ปฏิวัติ มีแก้ว",
+    "title": "IT Manager / System Administrator",
+    "photo": "",
+    "email": "patiwatmeekaeo@gmail.com",
+    "phone": "",
+    "line": "",
+    "location": "Bangkok, Thailand",
+    "summary": "Experienced IT Manager with expertise in system administration, network infrastructure, and technology project management. Passionate about implementing efficient IT solutions and leading technical teams."
+  },
+  "skills": [
+    {
+      "category": "Infrastructure & Network",
+      "items": ["Windows Server", "Linux", "TCP/IP", "DNS", "DHCP", "Firewall", "VPN"]
+    },
+    {
+      "category": "Systems & Tools",
+      "items": ["Active Directory", "VMware", "Hyper-V", "Office 365", "Azure"]
+    },
+    {
+      "category": "Programming & Web",
+      "items": ["JavaScript", "TypeScript", "Next.js", "React", "Python", "SQL"]
+    },
+    {
+      "category": "Security",
+      "items": ["Network Security", "Endpoint Protection", "Backup & Recovery", "PDPA Compliance"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "บริษัท ตัวอย่าง จำกัด",
+      "position": "IT Manager",
+      "period": "2563 – ปัจจุบัน",
+      "location": "กรุงเทพมหานคร",
+      "description": "บริหารจัดการระบบ IT ทั้งองค์กร วางแผนและดูแลโครงสร้างพื้นฐานด้านเทคโนโลยีสารสนเทศ",
+      "achievements": [
+        "บริหารทีม IT จำนวน 5 คน",
+        "วางระบบ Network และ Server ใหม่ทั้งองค์กร",
+        "ลด downtime ได้ 80% ด้วยการ implement ระบบ monitoring",
+        "ดำเนินการ PDPA compliance ให้องค์กร"
+      ],
+      "tech": ["Windows Server", "VMware", "Cisco", "Office 365"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ระบบ Network Infrastructure",
+      "description": "ออกแบบและติดตั้งระบบ Network ใหม่ทั้งองค์กร พร้อม Firewall และ VPN",
+      "achievements": [
+        "ติดตั้ง Firewall และ VPN สำหรับ remote work",
+        "วาง Network segmentation เพื่อความปลอดภัย",
+        "ทำ redundancy ให้ระบบ uptime 99.9%"
+      ],
+      "tech": ["Cisco", "Firewall", "VPN", "VLAN"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "วิทยาศาสตรบัณฑิต สาขาวิทยาการคอมพิวเตอร์",
+      "institution": "มหาวิทยาลัย ตัวอย่าง",
+      "period": "2558 – 2562",
+      "status": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": "CompTIA Network+",
+      "issuer": "CompTIA",
+      "year": "2563"
+    }
+  ],
+  "personal": {
+    "birthdate": "",
+    "nationality": "ไทย",
+    "religion": "พุทธ",
+    "status": "โสด"
+  },
+  "additionalSkills": [
+    "บริหารจัดการทีมได้ดี",
+    "แก้ปัญหาเฉพาะหน้าได้รวดเร็ว",
+    "สื่อสารภาษาอังกฤษได้",
+    "เรียนรู้เทคโนโลยีใหม่ได้เร็ว"
+  ]
+}
