@@ -76,13 +76,13 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                 className={cn(
                   'flex items-center px-3 py-3 rounded-xl transition-colors duration-200 group',
                   pathname === item.href
-                    ? 'bg-blue-50 text-primary-blue font-semibold'
-                    : 'text-slate-500 hover:bg-slate-50 hover:text-slate-900'
+                    ? 'bg-blue-50 text-primary-blue font-bold shadow-sm'
+                    : 'text-slate-700 hover:bg-slate-50 hover:text-slate-900 font-semibold'
                 )}
               >
                 <span className={cn(
                   'shrink-0',
-                  pathname === item.href ? 'text-primary-blue' : 'text-slate-400 group-hover:text-slate-600'
+                  pathname === item.href ? 'text-primary-blue' : 'text-slate-500 group-hover:text-slate-700'
                 )}>
                   {item.icon}
                 </span>
@@ -97,9 +97,9 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           <div className="p-4 border-t border-slate-100">
             <button
               onClick={handleLogout}
-              className="flex items-center w-full px-3 py-3 text-slate-500 hover:bg-red-50 hover:text-red-600 rounded-xl transition-colors duration-200"
+              className="flex items-center w-full px-3 py-3 text-slate-700 hover:bg-red-50 hover:text-red-600 rounded-xl transition-colors duration-200 font-semibold"
             >
-              <LogOut size={20} />
+              <LogOut size={20} className="text-slate-500 group-hover:text-red-500" />
               {isSidebarOpen && <span className="ml-3 text-[17px]">ออกจากระบบ</span>}
             </button>
           </div>
