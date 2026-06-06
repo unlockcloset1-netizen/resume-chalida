@@ -30,5 +30,13 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules", "Patiwat_resume"]
+  "exclude": [
+    "node_modules",
+    "Patiwat_resume",
+    "src/components/ThemeProvider.tsx",
+    "src/components/ui/sonner.tsx",
+    "src/components/LanguageContext.tsx",
+    "src/components/ui/badge.tsx",
+    "src/components/ui/card.tsx"
+  ]
 }
