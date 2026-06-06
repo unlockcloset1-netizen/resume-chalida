@@ -57,7 +57,8 @@ export default function AdminPage() {
         setMessage({ text: 'บันทึกข้อมูลสำเร็จ', type: 'success' });
         setTimeout(() => setMessage(null), 3000);
       } else {
-        setMessage({ text: 'เกิดข้อผิดพลาดในการบันทึก', type: 'error' });
+        const errData = await res.json().catch(() => ({}));
+        setMessage({ text: errData.error || 'เกิดข้อผิดพลาดในการบันทึก', type: 'error' });
       }
     } catch (e) {
       setMessage({ text: 'Error saving data', type: 'error' });
