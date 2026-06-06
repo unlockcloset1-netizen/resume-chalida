@@ -474,7 +474,7 @@ export default function AdminPage() {
 
       <style jsx global>{`
         body, h1, h2, h3, h4, h5, h6, p, span, a, li, button, input, textarea {
-          font-family: 'TH Sarabun New', 'Sarabun', sans-serif !important;
+          font-family: 'Inter', 'Sarabun', sans-serif !important;
         }
 
         body {

@@ -1,5 +1,5 @@
 .admin-root {
-  font-family: 'TH Sarabun New', 'Sarabun', sans-serif !important;
+  font-family: 'Inter', 'Sarabun', sans-serif !important;
   font-size: 22px !important;
   background-color: #eef1f5 !important;
 }
@@ -20,7 +20,7 @@
 .admin-root label,
 .admin-root select,
 .admin-root div {
-  font-family: 'TH Sarabun New', 'Sarabun', sans-serif !important;
+  font-family: 'Inter', 'Sarabun', sans-serif !important;
 }
 
 /* 1. ลดความจ้าของสีขาว (eye-comfort) */
