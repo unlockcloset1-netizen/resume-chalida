@@ -137,7 +137,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           </div>
 
           <div className="flex items-center gap-4">
-            <button className="relative p-2 hover:bg-slate-100 rounded-full text-slate-850 transition-colors">
+            <button className="relative p-2 hover:bg-slate-100 rounded-full text-slate-800 transition-colors">
               <Bell size={20} />
               <span className="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full border-2 border-white"></span>
             </button>

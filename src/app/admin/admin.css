@@ -1,6 +1,7 @@
 .admin-root {
   font-family: 'TH Sarabun New', 'Sarabun', sans-serif !important;
   font-size: 22px !important;
+  background-color: #eef1f5 !important;
 }
 
 .admin-root h1,
@@ -20,4 +21,105 @@
 .admin-root select,
 .admin-root div {
   font-family: 'TH Sarabun New', 'Sarabun', sans-serif !important;
+}
+
+/* 1. ลดความจ้าของสีขาว (eye-comfort) */
+.admin-root .bg-white {
+  background-color: #f7f8fa !important;
+}
+
+.admin-root input,
+.admin-root textarea,
+.admin-root select {
+  background-color: #fcfcfd !important;
+}
+
+.admin-root .bg-slate-50,
+.admin-root .bg-slate-50\/30,
+.admin-root .bg-slate-50\/50 {
+  background-color: #e9edf2 !important;
+}
+
+.admin-root .bg-slate-100 {
+  background-color: #e2e7ee !important;
+}
+
+.admin-root .bg-\[\#f8fafc\] {
+  background-color: #eef1f5 !important;
+}
+
+.admin-root .glass-header {
+  background: rgba(247, 248, 250, 0.85) !important;
+  border-bottom: 1px solid rgba(203, 213, 225, 0.6) !important;
+}
+
+.admin-root .card-shadow {
+  box-shadow: 0 1px 2px rgba(15,23,42,0.04), 0 2px 8px rgba(15,23,42,0.04) !important;
+}
+
+/* 2. ลดคอนทราสต์ดำสนิท -> เทาเข้ม soft */
+.admin-root .text-slate-955,
+.admin-root .text-slate-950,
+.admin-root .text-black {
+  color: #1d2733 !important;
+}
+
+.admin-root .text-slate-900 {
+  color: #243140 !important;
+}
+
+.admin-root .text-slate-400 {
+  color: #5b6877 !important;
+}
+
+.admin-root .text-slate-500 {
+  color: #44505f !important;
+}
+
+.admin-root .text-slate-600 {
+  color: #34404e !important;
+}
+
+/* 3. ขนาดฟอนต์ */
+.admin-root .text-xs {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+
+.admin-root .text-sm {
+  font-size: 18px !important;
+  line-height: 1.55 !important;
+}
+
+.admin-root .text-base {
+  font-size: 20px !important;
+  line-height: 1.6 !important;
+}
+
+.admin-root .text-lg {
+  font-size: 22px !important;
+}
+
+.admin-root .text-xl {
+  font-size: 26px !important;
+}
+
+.admin-root .text-2xl {
+  font-size: 30px !important;
+}
+
+.admin-root .text-3xl {
+  font-size: 36px !important;
+}
+
+.admin-root .text-\[14px\] {
+  font-size: 18px !important;
+}
+
+.admin-root .text-\[16px\] {
+  font-size: 19px !important;
+}
+
+.admin-root .text-\[17px\] {
+  font-size: 20px !important;
 }

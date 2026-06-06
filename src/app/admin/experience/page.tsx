@@ -199,8 +199,8 @@ export default function ExperienceAdmin() {
                   <GripVertical size={20} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900">{item.translations[activeLang].title || 'ไม่มีชื่อตำแหน่ง'}</h3>
-                  <p className="text-sm text-slate-900 font-semibold">{item.translations[activeLang].org} • {item.translations[activeLang].meta}</p>
+                  <h3 className="font-bold text-slate-900 text-lg">{item.translations[activeLang].title || 'ไม่มีชื่อตำแหน่ง'}</h3>
+                  <p className="text-base text-slate-700 font-semibold">{item.translations[activeLang].org} • {item.translations[activeLang].meta}</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
@@ -290,7 +290,7 @@ export default function ExperienceAdmin() {
                   />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-bold text-slate-955 uppercase tracking-wider">องค์กร (Organization)</label>
+                  <label className="text-sm font-bold text-slate-950 uppercase tracking-wider">องค์กร (Organization)</label>
                   <input 
                     type="text" 
                     value={editingItem.translations[activeLang].org}
@@ -302,7 +302,7 @@ export default function ExperienceAdmin() {
               </div>
 
               <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-955 uppercase tracking-wider">ช่วงเวลา (Period)</label>
+                <label className="text-sm font-bold text-slate-950 uppercase tracking-wider">ช่วงเวลา (Period)</label>
                 <input 
                   type="text" 
                   value={editingItem.translations[activeLang].meta}
@@ -313,7 +313,7 @@ export default function ExperienceAdmin() {
               </div>
 
               <div className="space-y-3">
-                <label className="text-sm font-bold text-slate-955 uppercase tracking-wider flex items-center justify-between">
+                <label className="text-sm font-bold text-slate-950 uppercase tracking-wider flex items-center justify-between">
                   <span>รายละเอียดงาน (Responsibilities)</span>
                   <span className="text-[12px] font-bold text-slate-800 italic normal-case">* หนึ่งรายการต่อหนึ่งบรรทัด</span>
                 </label>
@@ -327,7 +327,7 @@ export default function ExperienceAdmin() {
               </div>
 
               <div className="space-y-3">
-                <label className="text-sm font-bold text-slate-955 uppercase tracking-wider">ผลงานเด่น (Key Highlights)</label>
+                <label className="text-sm font-bold text-slate-950 uppercase tracking-wider">ผลงานเด่น (Key Highlights)</label>
                 <textarea 
                   rows={4}
                   value={editingItem.translations[activeLang].highlight || ''}
