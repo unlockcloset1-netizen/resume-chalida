@@ -1,6 +1,6 @@
 "use client";
 import React, { createContext, useContext, useState, useEffect } from "react";
-import { Language } from "@/lib/data";
+export type Language = "th" | "en" | "zh";
 interface LanguageContextType { language: Language; setLanguage: (lang: Language) => void; }
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
