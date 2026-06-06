@@ -13,8 +13,8 @@ del /f .git\packed-refs.lock 2>nul
 del /f .git\refs\heads\main.lock 2>nul
 
 git remote set-url origin https://github.com/ariff2006/resume-next.git
-git add src/app/api/debug-env/route.ts src/app/api/resume/route.ts
-git commit -m "debug: add env var diagnostic endpoint"
+git add .
+git commit -m "style: fix admin UI contrast, font-sizes, hierarchy, typos, cache control, and sync resume data"
 git push origin main
 
 echo ========================================

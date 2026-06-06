@@ -84,12 +84,22 @@ export async function POST(request: Request) {
       supabaseError = error;
     }
 
+    let localSaveSuccess = false;
     // Try to save to local JSON (works in dev, may fail on Vercel - that's OK)
     try {
       const filePath = path.join(process.cwd(), 'src/data/resume-data.json');
       fs.writeFileSync(filePath, JSON.stringify(newData, null, 2), 'utf8');
+      localSaveSuccess = true;
     } catch (fsError) {
       console.log('Local JSON write skipped (read-only filesystem):', fsError);
+    }
+
+    // If Supabase is not configured and local write failed, it's a total failure
+    const supabaseConfigured = !!process.env.NEXT_PUBLIC_SUPABASE_URL;
+    if (!supabaseConfigured && !localSaveSuccess) {
+      return NextResponse.json({ 
+        error: 'Failed to save: Local filesystem is read-only (Vercel) and Supabase is not configured. Please configure Supabase environment variables on Vercel.' 
+      }, { status: 500 });
     }
 
     if (supabaseError) {
