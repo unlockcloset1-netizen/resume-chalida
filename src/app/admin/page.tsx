@@ -473,24 +473,20 @@ export default function AdminPage() {
       </main>
 
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Sarabun:wght@300;400;500;600;700;800&display=swap');
         
-        body {
-          background-color: #f1f5f9;
+        body, h1, h2, h3, h4, h5, h6, p, span, a, li, button, input, textarea {
+          font-family: 'Inter', 'Sarabun', sans-serif;
         }
 
-        .font-sarabun {
-          font-family: 'Sarabun', sans-serif;
+        body {
+          background-color: #f1f5f9;
         }
 
         ::-webkit-scrollbar { width: 10px; }
         ::-webkit-scrollbar-track { background: #f1f1f1; }
         ::-webkit-scrollbar-thumb { background: #0a1120; border-radius: 10px; }
         ::-webkit-scrollbar-thumb:hover { background: #1e293b; }
-
-        input, textarea {
-          font-family: 'Sarabun', sans-serif;
-        }
 
         input::placeholder, textarea::placeholder {
           color: #cbd5e1;
