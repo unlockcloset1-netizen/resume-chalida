@@ -8,7 +8,7 @@ export const RichText: React.FC<RichTextProps> = ({ text }) => {
   const lines = Array.isArray(text) ? text : text.split('\n');
   
   return (
-    <div className="space-y-4">
+    <div className="space-y-2">
       {lines.map((line, i) => {
         const trimmed = line.trim();
         if (!trimmed) return null;
@@ -46,7 +46,7 @@ export const RichText: React.FC<RichTextProps> = ({ text }) => {
         const isPoint = /^[-•○*-–]/.test(trimmed);
         if (isPoint) {
           return (
-            <div key={i} className="flex items-start gap-4 text-[19px] text-slate-700 leading-[1.7] pl-3 py-1 group">
+            <div key={i} className="flex items-start gap-4 text-[19px] text-slate-700 leading-[1.7] pl-3 py-0.5 group">
               <div className="mt-3 w-2 h-2 rounded-full bg-blue-500 flex-shrink-0 shadow-sm" />
               <span className="flex-1 font-medium">{trimmed.replace(/^[-•○*-–]\s*/, '')}</span>
             </div>
