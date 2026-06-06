@@ -1,6 +1,6 @@
 .admin-root {
-  font-family: 'AngsanaUPC', 'Angsana New', 'TH Sarabun New', sans-serif !important;
-  font-size: 20px !important;
+  font-family: 'TH Sarabun New', 'Sarabun', sans-serif !important;
+  font-size: 22px !important;
 }
 
 .admin-root h1,
@@ -19,5 +19,5 @@
 .admin-root label,
 .admin-root select,
 .admin-root div {
-  font-family: 'AngsanaUPC', 'Angsana New', 'TH Sarabun New', sans-serif !important;
+  font-family: 'TH Sarabun New', 'Sarabun', sans-serif !important;
 }
