@@ -33,10 +33,21 @@ data.experience[0].translations.en.bullets = [
   "- Maintain SQL Server: user management, backup/restore, basic indexing, error log review, and basic query operations (SELECT, INSERT, UPDATE, DELETE, JOIN, GROUP BY, SUM).",
   "6. Internal Web Application Development",
   "- Develop and maintain internal systems using Google Apps Script + Google Sheets.",
-  "- Developed a Help Desk Ticketing system, IT Project Dashboard (for tracking tasks/budgets), Print Cost Dashboard, and a software license renewal notification system via LINE/Email."
+  "- Developed a Help Desk Ticketing system, IT Project Dashboard (for tracking tasks/budgets), Print Cost Dashboard, and a software license renewal notification system via LINE/Email.",
+  "7. Key Results",
+  "- Developed a dashboard to analyze copier/printer usage costs by project (17 projects) to track and manage budgets for maximum efficiency.",
+  "- Developed a web-based application (HTML + API + SQL) for tracking the IT budget and summarizing expenses by project, enabling analysis of actual usage costs and supporting strategic decision-making.",
+  "- Developed a Help Desk system (Vercel + Google Apps Script): improving the efficiency of repair-request management and enabling real-time status tracking across the organization.",
+  "- Migrated from AutoCAD to ZwCAD (70 licenses): reducing costs by ~770,000 THB/year.",
+  "- Migrated virtualization from VMware to Nutanix: reducing server costs by ~132,000 THB/year.",
+  "- Migrated the HR cloud server: reducing costs by ~124,000 THB/year while improving performance.",
+  "- Managed Microsoft 365 licenses (160 users): optimized the cost structure, reducing costs by ~100,000 THB/year.",
+  "- Switched antivirus solutions (150 licenses): reducing costs by ~45,000 THB/year.",
+  "- Rebuilt the entire head office infrastructure: supporting 160 employees with full network and security systems (FortiGate 100F).",
+  "- Led the team in migrating the Mango ERP system (Sybase to SQL Web): completing the project within 2 months, improving system performance and stability to better support operations."
 ];
 
-data.experience[0].translations.en.highlight = "★ Key Results at S.MEC Engineering\n- Developed a dashboard to analyze copier/printer usage costs by project (17 projects) to track and manage budgets for maximum efficiency.\n- Developed a web-based application (HTML + API + SQL) for tracking the IT budget and summarizing expenses by project, enabling analysis of actual usage costs and supporting strategic decision-making.\n- Developed a Help Desk system (Vercel + Google Apps Script): improving the efficiency of repair-request management and enabling real-time status tracking across the organization.\n- Migrated from AutoCAD to ZwCAD (70 licenses): reducing costs by ~770,000 THB/year.\n- Migrated virtualization from VMware to Nutanix: reducing server costs by ~132,000 THB/year.\n- Migrated the HR cloud server: reducing costs by ~124,000 THB/year while improving performance.\n- Managed Microsoft 365 licenses (160 users): optimized the cost structure, reducing costs by ~100,000 THB/year.\n- Switched antivirus solutions (150 licenses): reducing costs by ~45,000 THB/year.\n- Rebuilt the entire head office infrastructure: supporting 160 employees with full network and security systems (FortiGate 100F).\n- Led the team in migrating the Mango ERP system (Sybase to SQL Web): completing the project within 2 months, improving system performance and stability to better support operations.";
+data.experience[0].translations.en.highlight = "";
 
 data.experience[0].translations.zh.bullets = [
   "1. IT 部门规划与管理",
@@ -46,14 +57,17 @@ data.experience[0].translations.zh.bullets = [
   "- 维护 IT 系统，确保每年顺利通过 ISO 9001:2015 审核",
   "2. 网络与基础设施 (Network & Infrastructure)",
   "- 从零开始搭建总部网络（包括 AD、VLAN、交换机和 8 个 Omada AP）",
-  "- 配置双 ISP 负载均衡互联网接入（实现 99% 正常运行时间）",
+  "- 部署 Zabbix 监控系统，实现 network 和服务器的实时监控与日志分析",
+  "- 配置 dual ISP 负载均衡互联网接入（实现 99% 正常运行时间）",
   "- 安装并配置 Fortigate 100F（防火墙策略、VPN、访问控制）",
   "3. 服务器与云端管理 (Server & Cloud)",
+  "- 管理虚拟化环境（VMware, Proxmox, Hyper-V）",
   "- 管理 Active Directory（域名、OU、组策略和文件访问权限）",
   "- 维护 ERP Mango（UIH 云）和 Humano HR（Inet 云）系统",
   "- 管理 Microsoft 365（用户、Exchange、Teams 和 MFA 设置）",
   "- 管理 M365、AutoCAD、Revit、BIM、SketchUp 等软件许可证",
   "4. 安全与终端设备管理 (Security & Endpoint)",
+  "- 管理高可用性系统的 SAN（存储区域网络）",
   "- 管理 163 台终端设备（158 台笔记本电脑，5 台台式机）",
   "- 在各项目现场安装 CCTV 监控和云端集成指纹考勤系统",
   "- 管理 NAS 备份系统（日备份/周备份）及灾难恢复计划",
@@ -66,10 +80,21 @@ data.experience[0].translations.zh.bullets = [
   "- 管理 SQL Server：编写查询（SELECT, JOIN, GROUP BY 等）并执行备份",
   "7. 团队领导与服务标准",
   "- 分配任务、监控进度并指导团队成员",
-  "- 制定 IT 服务的 SLA 和 KPI 考核标准"
+  "- 制定 IT 服务的 SLA 和 KPI 考核标准",
+  "8. 关键成果",
+  "- 通过系统优化和战略管理，每年降低 IT 成本超过 110 万泰铢",
+  "- 独自一人端端到端完成总部 IT 基础设施搭建（支持 160 名用户）",
+  "- 开发 4 个内部 Web 应用程序，大幅提升运营效率",
+  "- 在 2 个月内成功完成 ERP 系统迁移，系统稳定性达 100%",
+  "- 将 AutoCAD 切换为 ZwCAD（70 个许可证）：每年节省约 770,000 泰铢",
+  "- 将虚拟化平台从 VMware 迁移至 Nutanix：每年节省服务器成本约 132,000 泰铢",
+  "- 迁移人力资源系统云服务器：每年节省服务费约 124,000 泰铢",
+  "- 优化 160 名用户的 Microsoft 365 许可证结构：每年节省约 100,000 泰铢",
+  "- 部署 Fortigate 100F 防火墙，重建总部整体 network 与安全基础设施（支持 160 名员工）",
+  "- 负责 Mango ERP 系统迁移项目（Sybase 转 SQL Web），在 2 个月内顺利完成"
 ];
 
-data.experience[0].translations.zh.highlight = "★ S.MEC Engineering 3 年工作成果总结\n✓ 通过系统优化和战略管理，每年降低 IT 成本超过 110 万泰铢\n✓ 独自一人端到端完成总部 IT 基础设施搭建（支持 160 名用户）\n✓ 开发 4 个内部 Web 应用程序，大幅提升运营效率\n✓ 在 1 个月内成功完成 ERP 系统迁移，系统稳定性达 100%\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 IT 成本优化成果 — 每年节省 1,126,000 泰铢\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n1. 将 AutoCAD 切换为 ZwCAD（70 个许可证）\n   ➤ 每年节省约 770,000 泰铢\n2. 将虚拟化平台从 VMware 迁移至 Nutanix\n   ➤ 每年节省服务器成本约 132,000 泰铢\n3. 迁移人力资源系统云服务器（升级规格并降本）\n   ➤ 每年节省服务费约 124,000 泰铢\n4. 优化 160 名用户的 Microsoft 365 许可证结构\n   ➤ 每年节省约 100,000 泰铢\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 基础设施与开发亮点\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n5. 总部基础设施翻新：独自负责设计、采购及安装全过程。\n6. ERP Mango 迁移（Sybase 转 SQL Web）：作为项目负责人，1个月内完成迁移，彻底解决了带宽延迟问题。\n7. 基于 Google Apps Script 开发了 3 个应用：IT 报修系统、项目预算仪表板、打印成本报告。\n8. 内部自主安装 IP 电话系统（2 线/10 分机），节省了外包服务费。";
+data.experience[0].translations.zh.highlight = "";
 
 // ---------------------------------------------------------
 // EXP 2: TK-Connecting
@@ -148,7 +173,7 @@ data.experience[2].translations.zh.bullets = [
   "- 设计并安装 AD 服务器、交换机、指纹考勤、CCTV 和 NAS 备份系统",
   "4. 技术支持与 SLA 管理",
   "- 通过在线工单系统管理并跟踪报修请求",
-  "- 设定 SLA 标准并分析支持数据，不断优化故障解决速度",
+  "- 设定 SLA 标准并分析支持 data，不断优化故障解决速度",
   "5. 预算与供应商管理",
   "- 编制设备采购、系统维护及软件许可证的年度预算",
   "- 与供应商协调，通过价格比对选择最优服务商"
@@ -178,7 +203,7 @@ data.experience[3].translations.zh.bullets = [
   "1. 服务器与 AD 维护",
   "- 监控服务器健康状态并管理公司 Active Directory",
   "- 处理用户账号生命周期、组策略管理及数据访问权限",
-  "2. 技术排障",
+  "2. Technical Troubleshooting",
   "- 针对硬件、软件、网络及 ERP (Oracle) 问题提供专业的维修和排障服务",
   "3. 基础设施维护",
   "- 维护电脑、笔记本及网络外设，确保其始终处于良好运行状态",

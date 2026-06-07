@@ -31,10 +31,21 @@ data.experience[0].translations.th.bullets = [
   "- ดูแล SQL Server: User Management, Backup/Restore, Basic Indexing, ตรวจสอบ Error Log และจัดการคำสั่งพื้นฐาน (SELECT, INSERT, UPDATE, DELETE, JOIN, GROUP BY, SUM)",
   "6. Internal Web Application Development",
   "- พัฒนาและดูแลระบบภายในด้วย Google Apps Script + Google Sheets",
-  "- พัฒนาระบบ Help Desk Ticketing, IT Project Dashboard (สำหรับติดตามงาน/งบประมาณ), Print Cost Dashboard และระบบแจ้งเตือนต่ออายุ Software License ผ่าน LINE/Email"
+  "- พัฒนาระบบ Help Desk Ticketing, IT Project Dashboard (สำหรับติดตามงาน/งบประมาณ), Print Cost Dashboard และระบบแจ้งเตือนต่ออายุ Software License ผ่าน LINE/Email",
+  "7. ผลงานเด่น",
+  "- พัฒนา Dashboard วิเคราะห์ต้นทุนการใช้งานเครื่องถ่ายเอกสารรายโครงการ (17 โครงการ) เพื่อติดตามและบริหารจัดการงบประมาณให้เกิดประสิทธิภาพสูงสุด",
+  "- พัฒนา Web-based Application (HTML + API + SQL) สำหรับติดตามงบประมาณ IT และสรุปค่าใช้จ่ายแยกรายโครงการ เพื่อวิเคราะห์ Cost การใช้งานจริงและสนับสนุนการตัดสินใจเชิงกลยุทธ์",
+  "- พัฒนาระบบ Help Desk (Vercel + Google Apps Script): เพิ่มประสิทธิภาพการจัดการงานแจ้งซ่อมและติดตามสถานะงานภายในองค์กรแบบ Real-time",
+  "- เปลี่ยนจาก AutoCAD เป็น ZwCAD (70 License): ลด Cost ได้ ~770,000 บาท/ปี",
+  "- ย้าย Virtualization จาก VMware เป็น Nutanix: ลด Cost ด้าน Server ได้ ~132,000 บาท/ปี",
+  "- ย้าย Cloud Server ระบบ HR: ลด Cost ได้ ~124,000 บาท/ปี พร้อมประสิทธิภาพที่สูงขึ้น",
+  "- บริหารจัดการ License Microsoft 365 (160 user): ปรับโครงสร้างต้นทุนให้เหมาะสม ลด Cost ได้ ~100,000 บาท/ปี",
+  "- เปลี่ยนโซลูชัน Antivirus (150 License): ลด Cost ได้ ~45,000 บาท/ปี",
+  "- วาง Infrastructure สำนักงานใหญ่ใหม่ทั้งหมด: รองรับพนักงาน 160 คน พร้อมระบบ Network และ Security (Fortigate 100F)",
+  "- นำทีมดำเนินการย้ายระบบ ERP Mango (Sybase to SQL Web): จบโครงการภายใน 2 เดือน ช่วยเพิ่มประสิทธิภาพและความเสถียรของระบบให้รองรับการใช้งานได้ดียิ่งขึ้น"
 ];
 
-data.experience[0].translations.th.highlight = "★ สรุปผลงานที่ S.MEC Engineering\n✓ ลดต้นทุน IT รวมกว่า 1.1 ล้านบาท/ปี\n✓ วาง Infrastructure สำนักงานใหญ่ใหม่จากศูนย์ รองรับพนักงาน 160 คน\n✓ พัฒนา Web App ใช้เองในองค์กรถึง 4 ระบบ\n✓ ย้ายระบบ ERP สำเร็จภายใน 1 เดือน\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 ผลงานลดต้นทุน IT (ประหยัดไป 1,126,000 บาท/ปี)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n1. เปลี่ยนมาใช้ ZwCAD แทน AutoCAD (70 License) \n   ➤ ประหยัดไป ~770,000 บาท/ปี\n2. เปลี่ยนระบบ Virtualization จาก VMware เป็น Nutanix\n   ➤ ประหยัดค่า Server ไป ~132,000 บาท/ปี\n3. ย้าย Cloud Server ของระบบ HR (ได้สเปคดีขึ้น)\n   ➤ ประหยัดค่าบริการไป ~124,000 บาท/ปี\n4. ปรับแพ็กเกจ Microsoft 365 ใหม่ให้ตรงกับการใช้งานจริง (160 User)\n   ➤ ประหยัดไป ~100,000 บาท/ปี\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 ผลงานวางระบบและพัฒนาแอป\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n5. วางระบบ IT สำนักงานใหญ่ใหม่ (ทำคนเดียวตั้งแต่ต้นจนจบ)\n   • ตั้ง Server AD คุมสิทธิ์พนักงาน 160 คน\n   • ติดตั้ง Fortigate 100F จัดการ Policy และ VPN\n   • ติดตั้ง Switch และ AP คลุมทั้งตึก\n   • จัดการให้เครื่องสแกนนิ้ว 19 ไซต์งานส่งข้อมูลเข้าส่วนกลางแบบ Real-time\n6. คุมโปรเจกต์ย้ายระบบ ERP Mango (จาก Sybase เป็น SQL Web)\n   ➤ จบโปรเจกต์ใน 1 เดือน ระบบนิ่ง 100% แก้ปัญหาเน็ตเวิร์กหน่วงที่เรื้อรังมานาน\n7. เขียน Web App ใช้งานเอง 3 ระบบ (ใช้ Google Apps Script + Google Sheets)\n   • ระบบแจ้งซ่อม IT (Help Desk)\n   • ระบบติดตามงานและงบประมาณ IT (Dashboard)\n   • ระบบรายงานค่าพิมพ์ (Print Cost)\n8. ติดตั้งระบบโทรศัพท์ IP Phone ภายในเอง ช่วยประหยัดค่าจ้าง Outsource";
+data.experience[0].translations.th.highlight = "";
 
 // Exp 2
 data.experience[1].translations.th.bullets = [

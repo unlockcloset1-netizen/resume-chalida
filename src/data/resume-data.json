@@ -94,9 +94,20 @@
             "- ดูแล SQL Server: User Management, Backup/Restore, Basic Indexing, ตรวจสอบ Error Log และจัดการคำสั่งพื้นฐาน (SELECT, INSERT, UPDATE, DELETE, JOIN, GROUP BY, SUM)",
             "6. Internal Web Application Development",
             "- พัฒนาและดูแลระบบภายในด้วย Google Apps Script + Google Sheets",
-            "- พัฒนาระบบ Help Desk Ticketing, IT Project Dashboard (สำหรับติดตามงาน/งบประมาณ), Print Cost Dashboard และระบบแจ้งเตือนต่ออายุ Software License ผ่าน LINE/Email"
+            "- พัฒนาระบบ Help Desk Ticketing, IT Project Dashboard (สำหรับติดตามงาน/งบประมาณ), Print Cost Dashboard และระบบแจ้งเตือนต่ออายุ Software License ผ่าน LINE/Email",
+            "7. ผลงานเด่น",
+            "- พัฒนา Dashboard วิเคราะห์ต้นทุนการใช้งานเครื่องถ่ายเอกสารรายโครงการ (17 โครงการ) เพื่อติดตามและบริหารจัดการงบประมาณให้เกิดประสิทธิภาพสูงสุด",
+            "- พัฒนา Web-based Application (HTML + API + SQL) สำหรับติดตามงบประมาณ IT และสรุปค่าใช้จ่ายแยกรายโครงการ เพื่อวิเคราะห์ Cost การใช้งานจริงและสนับสนุนการตัดสินใจเชิงกลยุทธ์",
+            "- พัฒนาระบบ Help Desk (Vercel + Google Apps Script): เพิ่มประสิทธิภาพการจัดการงานแจ้งซ่อมและติดตามสถานะงานภายในองค์กรแบบ Real-time",
+            "- เปลี่ยนจาก AutoCAD เป็น ZwCAD (70 License): ลด Cost ได้ ~770,000 บาท/ปี",
+            "- ย้าย Virtualization จาก VMware เป็น Nutanix: ลด Cost ด้าน Server ได้ ~132,000 บาท/ปี",
+            "- ย้าย Cloud Server ระบบ HR: ลด Cost ได้ ~124,000 บาท/ปี พร้อมประสิทธิภาพที่สูงขึ้น",
+            "- บริหารจัดการ License Microsoft 365 (160 user): ปรับโครงสร้างต้นทุนให้เหมาะสม ลด Cost ได้ ~100,000 บาท/ปี",
+            "- เปลี่ยนโซลูชัน Antivirus (150 License): ลด Cost ได้ ~45,000 บาท/ปี",
+            "- วาง Infrastructure สำนักงานใหญ่ใหม่ทั้งหมด: รองรับพนักงาน 160 คน พร้อมระบบ Network และ Security (Fortigate 100F)",
+            "- นำทีมดำเนินการย้ายระบบ ERP Mango (Sybase to SQL Web): จบโครงการภายใน 2 เดือน ช่วยเพิ่มประสิทธิภาพและความเสถียรของระบบให้รองรับการใช้งานได้ดียิ่งขึ้น"
           ],
-          "highlight": "★ สรุปผลงานที่ S.MEC Engineering\n✓ ลดต้นทุน IT รวมกว่า 1.1 ล้านบาท/ปี\n✓ วาง Infrastructure สำนักงานใหญ่ใหม่จากศูนย์ รองรับพนักงาน 160 คน\n✓ พัฒนา Web App ใช้เองในองค์กรถึง 4 ระบบ\n✓ ย้ายระบบ ERP สำเร็จภายใน 2 เดือน\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 ผลงานลดต้นทุน IT (ประหยัดไป 1,126,000 บาท/ปี)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n1. เปลี่ยนมาใช้ ZwCAD แทน AutoCAD (70 License) \n   ➤ ประหยัดไป ~770,000 บาท/ปี\n2. เปลี่ยนระบบ Virtualization จาก VMware เป็น Nutanix\n   ➤ ประหยัดค่า Server ไป ~132,000 บาท/ปี\n3. ย้าย Cloud Server ของระบบ HR (ได้สเปคดีขึ้น)\n   ➤ ประหยัดค่าบริการไป ~124,000 บาท/ปี\n4. ปรับแพ็กเกจ Microsoft 365 ใหม่ให้ตรงกับการใช้งานจริง (160 User)\n   ➤ ประหยัดไป ~100,000 บาท/ปี\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 ผลงานวางระบบและพัฒนาแอป\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n5. วางระบบ IT สำนักงานใหญ่ใหม่ (ทำคนเดียวตั้งแต่ต้นจนจบ)\n   • ตั้ง Server AD คุมสิทธิ์พนักงาน 160 คน\n   • ติดตั้ง Fortigate 100F จัดการ Policy และ VPN\n   • ติดตั้ง Switch และ AP คลุมทั้งตึก\n   • จัดการให้เครื่องสแกนนิ้ว 19 ไซต์งานส่งข้อมูลเข้าส่วนกลางแบบ Real-time\n6. คุมโปรเจกต์ย้ายระบบ ERP Mango (จาก Sybase เป็น SQL Web)\n   ➤ จบโปรเจกต์ใน 2 เดือน ระบบนิ่ง 100% แก้ปัญหาเน็ตเวิร์กหน่วงที่เรื้อรังมานาน\n7. เขียน Web App ใช้งานเอง 3 ระบบ (ใช้ Google Apps Script + Google Sheets)\n   • ระบบแจ้งซ่อม IT (Help Desk)\n   • ระบบติดตามงานและงบประมาณ IT (Dashboard)\n   • ระบบรายงานค่าพิมพ์ (Print Cost)\n8. ติดตั้งระบบโทรศัพท์ IP Phone ภายในเอง ช่วยประหยัดค่าจ้าง Outsource"
+          "highlight": ""
         },
         "en": {
           "title": "IT Manager (Acting)",
@@ -129,9 +140,20 @@
             "- Maintain SQL Server: user management, backup/restore, basic indexing, error log review, and basic query operations (SELECT, INSERT, UPDATE, DELETE, JOIN, GROUP BY, SUM).",
             "6. Internal Web Application Development",
             "- Develop and maintain internal systems using Google Apps Script + Google Sheets.",
-            "- Developed a Help Desk Ticketing system, IT Project Dashboard (for tracking tasks/budgets), Print Cost Dashboard, and a software license renewal notification system via LINE/Email."
+            "- Developed a Help Desk Ticketing system, IT Project Dashboard (for tracking tasks/budgets), Print Cost Dashboard, and a software license renewal notification system via LINE/Email.",
+            "7. Key Results",
+            "- Developed a dashboard to analyze copier/printer usage costs by project (17 projects) to track and manage budgets for maximum efficiency.",
+            "- Developed a web-based application (HTML + API + SQL) for tracking the IT budget and summarizing expenses by project, enabling analysis of actual usage costs and supporting strategic decision-making.",
+            "- Developed a Help Desk system (Vercel + Google Apps Script): improving the efficiency of repair-request management and enabling real-time status tracking across the organization.",
+            "- Migrated from AutoCAD to ZwCAD (70 licenses): reducing costs by ~770,000 THB/year.",
+            "- Migrated virtualization from VMware to Nutanix: reducing server costs by ~132,000 THB/year.",
+            "- Migrated the HR cloud server: reducing costs by ~124,000 THB/year while improving performance.",
+            "- Managed Microsoft 365 licenses (160 users): optimized the cost structure, reducing costs by ~100,000 THB/year.",
+            "- Switched antivirus solutions (150 licenses): reducing costs by ~45,000 THB/year.",
+            "- Rebuilt the entire head office infrastructure: supporting 160 employees with full network and security systems (FortiGate 100F).",
+            "- Led the team in migrating the Mango ERP system (Sybase to SQL Web): completing the project within 2 months, improving system performance and stability to better support operations."
           ],
-          "highlight": "★ Key Results at S.MEC Engineering\n- Developed a dashboard to analyze copier/printer usage costs by project (17 projects) to track and manage budgets for maximum efficiency.\n- Developed a web-based application (HTML + API + SQL) for tracking the IT budget and summarizing expenses by project, enabling analysis of actual usage costs and supporting strategic decision-making.\n- Developed a Help Desk system (Vercel + Google Apps Script): improving the efficiency of repair-request management and enabling real-time status tracking across the organization.\n- Migrated from AutoCAD to ZwCAD (70 licenses): reducing costs by ~770,000 THB/year.\n- Migrated virtualization from VMware to Nutanix: reducing server costs by ~132,000 THB/year.\n- Migrated the HR cloud server: reducing costs by ~124,000 THB/year while improving performance.\n- Managed Microsoft 365 licenses (160 users): optimized the cost structure, reducing costs by ~100,000 THB/year.\n- Switched antivirus solutions (150 licenses): reducing costs by ~45,000 THB/year.\n- Rebuilt the entire head office infrastructure: supporting 160 employees with full network and security systems (FortiGate 100F).\n- Led the team in migrating the Mango ERP system (Sybase to SQL Web): completing the project within 2 months, improving system performance and stability to better support operations."
+          "highlight": ""
         },
         "zh": {
           "title": "IT 经理(代理)",
@@ -168,9 +190,20 @@
             "- 管理 SQL Server：编写查询（SELECT, JOIN, GROUP BY 等）并执行备份",
             "7. 团队领导与服务标准",
             "- 分配任务、监控进度并指导团队成员",
-            "- 制定 IT 服务的 SLA 和 KPI 考核标准"
+            "- 制定 IT 服务的 SLA 和 KPI 考核标准",
+            "8. 关键成果",
+            "- 通过系统优化和战略管理，每年降低 IT 成本超过 110 万泰铢",
+            "- 独自一人端端到端完成总部 IT 基础设施搭建（支持 160 名用户）",
+            "- 开发 4 个内部 Web 应用程序，大幅提升运营效率",
+            "- 在 2 个月内成功完成 ERP 系统迁移，系统稳定性达 100%",
+            "- 将 AutoCAD 切换为 ZwCAD（70 个许可证）：每年节省约 770,000 泰铢",
+            "- 将虚拟化平台从 VMware 迁移至 Nutanix：每年节省服务器成本约 132,000 泰铢",
+            "- 迁移人力资源系统云服务器：每年节省服务费约 124,000 泰铢",
+            "- 优化 160 名用户的 Microsoft 365 许可证结构：每年节省约 100,000 泰铢",
+            "- 部署 Fortigate 100F 防火墙，重建总部整体 network 与安全基础设施（支持 160 名员工）",
+            "- 负责 Mango ERP 系统迁移项目（Sybase 转 SQL Web），在 2 个月内顺利完成"
           ],
-          "highlight": "★ S.MEC Engineering 3 年工作成果总结\n✓ 通过系统优化和战略管理，每年降低 IT 成本超过 110 万泰铢\n✓ 独自一人端端到端完成总部 IT 基础设施搭建（支持 160 名用户）\n✓ 开发 4 个内部 Web 应用程序，大幅提升运营效率\n✓ 在 2 个月内成功完成 ERP 系统迁移，系统稳定性达 100%\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 IT 成本优化成果 — 每年节省 1,126,000 泰铢\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n1. 将 AutoCAD 切换为 ZwCAD（70 个许可证）\n   ➤ 每年节省约 770,000 泰铢\n2. 将虚拟化平台从 VMware 迁移至 Nutanix\n   ➤ 每年节省服务器成本约 132,000 泰铢\n3. 迁移人力资源系统云服务器（升级规格并降本）\n   ➤ 每年节省服务费约 124,000 泰铢\n4. 优化 160 名用户的 Microsoft 365 许可证 structure\n   ➤ 每年节省约 100,000 泰铢\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 基础设施与开发亮点\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n5. 总部基础设施翻新：独自负责设计、采购及安装全过程。\n6. ERP Mango 迁移（Sybase 转 SQL Web）：作为项目负责人，2个月内完成迁移，彻底解决了带宽延时问题。\n7. 基于 Google Apps Script 开发了 3 个应用：IT 报修系统、项目预算仪表板、打印成本报告。\n8. 内部自主安装 IP 电话系统（2 线/10 分机），节省了外包服务费。"
+          "highlight": ""
         }
       }
     },
