@@ -58,7 +58,7 @@ export default function Resume() {
           if (/^[➤►▶]/.test(trimmed)) return <div key={i} className="flex items-start gap-2 font-semibold text-[#0f2942]"><ChevronRight className="w-4 h-4 text-[#c9a961] mt-0.5 flex-shrink-0" /><span>{trimmed.replace(/^[➤►▶]\s*/, '')}</span></div>;
           if (/^\d+\.\s/.test(trimmed)) return <div key={i} className="font-bold text-[#0f2942] mt-3 mb-1">{trimmed}</div>;
           if (/^[•○]\s/.test(trimmed)) return <div key={i} className="flex items-start gap-2 pl-4 text-slate-500 text-xs"><span>•</span><span>{trimmed.replace(/^[•○]\s*/, '')}</span></div>;
-          if (/^[*-–]\s/.test(trimmed)) return <div key={i} className="flex items-start gap-2 pl-2"><span>•</span><span>{trimmed.replace(/^[*-–]\s*/, '')}</span></div>;
+          if (/^[*–]\s/.test(trimmed)) return <div key={i} className="flex items-start gap-2 pl-2"><span>•</span><span>{trimmed.replace(/^[*–]\s*/, '')}</span></div>;
           
           return <div key={i} className="flex items-start gap-2 pl-2"><span>•</span><span>{trimmed}</span></div>;
         })}

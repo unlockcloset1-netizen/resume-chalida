@@ -25,11 +25,11 @@ export const RichText: React.FC<RichTextProps> = ({ text }) => {
           );
         }
 
-        const isPoint = /^[-•○*-–]/.test(trimmed);
+        const isPoint = /^[-•○*–]/.test(trimmed);
         return (
           <div key={i} className={`flex items-start gap-4 text-[18px] text-slate-800 leading-[1.8] font-medium ${isPoint ? 'pl-4' : ''}`}>
             <div className="mt-2.5 w-2 h-2 rounded-full bg-slate-400 flex-shrink-0" />
-            <span className="flex-1">{trimmed.replace(/^[-•○*-–]\s*/, '')}</span>
+            <span className="flex-1">{trimmed.replace(/^[-•○*–]\s*/, '')}</span>
           </div>
         );
       })}

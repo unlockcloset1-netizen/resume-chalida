@@ -43,12 +43,12 @@ export const RichText: React.FC<RichTextProps> = ({ text }) => {
         }
 
         // Standard Bullets (-)
-        const isPoint = /^[-•○*-–]/.test(trimmed);
+        const isPoint = /^[-•○*–]/.test(trimmed);
         if (isPoint) {
           return (
             <div key={i} className="flex items-start gap-4 text-[19px] text-slate-700 leading-[1.7] pl-3 py-0.5 group">
               <div className="mt-3 w-2 h-2 rounded-full bg-blue-500 flex-shrink-0 shadow-sm" />
-              <span className="flex-1 font-medium">{trimmed.replace(/^[-•○*-–]\s*/, '')}</span>
+              <span className="flex-1 font-medium">{trimmed.replace(/^[-•○*–]\s*/, '')}</span>
             </div>
           );
         }
