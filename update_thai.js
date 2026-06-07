@@ -44,65 +44,57 @@ data.experience[0].translations.th.bullets = [
   "- วาง Infrastructure สำนักงานใหญ่ใหม่ทั้งหมด: รองรับพนักงาน 160 คน พร้อมระบบ Network และ Security (Fortigate 100F)",
   "- นำทีมดำเนินการย้ายระบบ ERP Mango (Sybase to SQL Web): จบโครงการภายใน 2 เดือน ช่วยเพิ่มประสิทธิภาพและความเสถียรของระบบให้รองรับการใช้งานได้ดียิ่งขึ้น"
 ];
-
 data.experience[0].translations.th.highlight = "";
 
 // Exp 2
 data.experience[1].translations.th.bullets = [
-  "1. ออกแบบและวางแผน IT Solution",
-  "- คุยกับลูกค้าเพื่อวิเคราะห์ความต้องการและออกแบบระบบ (Network, Server, Security, Cloud)",
-  "- ทำ Solution Diagram และเตรียมเอกสารเสนอราคา",
-  "2. สนับสนุนทีมขาย (Pre-Sales)",
-  "- ไปพรีเซนต์งานกับเซลส์ ช่วยอธิบายเชิงเทคนิคให้ลูกค้าเข้าใจ",
-  "- ตอบคำถามและให้คำปรึกษาเพื่อช่วยให้ลูกค้าตัดสินใจง่ายขึ้น",
-  "3. ติดตั้งและตั้งค่าระบบ (Implementation)",
-  "- ติดตั้งและ Config อุปกรณ์ให้ลูกค้า (Server, Firewall, Switch, Router, NAS)",
-  "- เทสต์ระบบให้ชัวร์ก่อนส่งมอบงาน",
-  "4. บริการหลังการขาย (After-Sales Support)",
-  "- รีโมทและวิ่ง On-site เพื่อแก้ปัญหาให้ลูกค้าในช่วงรับประกัน",
-  "5. บำรุงรักษาระบบ (PM)",
-  "- เข้าตรวจเช็คอุปกรณ์ตามรอบ (Server, UPS, Network)",
-  "- ทำรายงานสภาพระบบ (Network Health Check Report) ส่งให้ลูกค้า",
-  "6. การทำเอกสารและอบรม",
-  "- ทำคู่มือและสอนลูกค้าใช้งานระบบ",
-  "- จัดทำเอกสารส่งมอบงาน (UAT)"
+  "ดูแลงานโครงการให้ลูกค้าแบบครบวงจร ตั้งแต่ออกพบลูกค้าเพื่อเก็บความต้องการ (Requirement) ออกแบบและวางแผนระบบ ลงหน้างานติดตั้งจริง จนถึง Support ดูแลลูกค้าหลังการติดตั้ง",
+  "1. ระบบ Virtualization (VMware, Hyper-V, Proxmox)",
+  "ออกแบบ ติดตั้ง และบริหารจัดการระบบ Virtualization หลายแพลตฟอร์ม ทั้ง VMware ESXi + vCenter Server, Microsoft Hyper-V และ Proxmox VE พร้อมดูแล VM Guest, vSwitch (Virtual Network) และ VMware vSAN สำหรับ Storage ทั้งภายในองค์กรและติดตั้งให้แก่ลูกค้า",
+  "2. ระบบ Server & High Availability",
+  "ติดตั้งและบริหารจัดการ Windows Server พร้อม Active Directory 2 Server แบบ Replication รองรับ High Availability จัดโครงสร้าง OU, GPO, DNS, DHCP และ File Share Permission ตั้งค่า Shadow Copy สำหรับ Backup และ Restore ไฟล์ พร้อมวางแผน Preventive Maintenance ประจำปี",
+  "3. ระบบ Backup",
+  "ออกแบบและบริหารจัดการระบบสำรองข้อมูลด้วย Veeam Backup + NAS Synology",
+  "4. ระบบความปลอดภัย (Security & Endpoint)",
+  "ติดตั้งและ Config Firewall หลายแพลตฟอร์ม (Fortigate, Zyxel, Sophos) ครอบคลุม Firewall Policy, SSL VPN, IPSec VPN, NAT, IPS และ Web Filtering พร้อม Monitor Traffic, Threat และตรวจสอบ Security Log และ Traffic Log อย่างสม่ำเสมอ",
+  "5. ระบบเครือข่าย (Network)",
+  "ออกแบบและติดตั้งระบบเครือข่าย ครอบคลุม VLAN, Inter-VLAN Routing, SSID แยกตามประเภทผู้ใช้, QoS และ Port Trunk/Access พร้อม Monitor Network ผ่าน Omada Controller ติดตาม Bandwidth, Client และ Uptime แบบ Real-time พร้อมดูแล Switches, Biometric, CCTV และอุปกรณ์ปลายทาง ทั้งภายในองค์กรและให้แก่ลูกค้า"
 ];
-data.experience[1].translations.th.highlight = "ผลงานเด่น:\n• ออกแบบและติดตั้งระบบ Network ให้องค์กรลูกค้ากว่า 10 โปรเจกต์ (โปรเจกต์ใหญ่สุดมูลค่า 800,000 บาท)\n• ติดตั้งและ Config อุปกรณ์ Network (Switch, Router, Firewall) และ Server ให้อย่างเสถียร\n• ทำ VPN Site-to-Site เชื่อมต่อสาขาต่างๆ ให้พนักงานทำงานข้ามสาขาได้อย่างปลอดภัย\n• ช่วยทีมขายทำ Solution Diagram อธิบายเทคนิคจนปิดการขายได้เยอะขึ้น";
+data.experience[1].translations.th.highlight = "ออกแบบและติดตั้งระบบ Network ให้ลูกค้าองค์กรกว่า 10 โปรเจกต์ ตั้งแต่ขนาดกลางถึงขนาดใหญ่ ติดตั้งและ Config อุปกรณ์ Network (Switch, Router, Firewall) พร้อม Server ให้ทำงานได้อย่างเสถียร ตั้งค่า VPN Site-to-Site เชื่อมต่อระหว่างสาขาเพื่อให้พนักงานทำงานข้ามสาขาได้อย่างปลอดภัย รวมถึงสนับสนุนทีมขายจัดทำ Solution Diagram และอธิบายด้านเทคนิคให้ลูกค้า ช่วยปิดการขายได้มากขึ้น";
 
 // Exp 3
 data.experience[2].translations.th.bullets = [
-  "1. ดูแลจัดการระบบ Server",
-  "- จัดการ User ผ่าน Active Directory",
-  "- ตั้งค่าความปลอดภัยด้วย Group Policy และกำหนดสิทธิ์การแชร์ไฟล์",
-  "2. จัดการระบบ Cloud และความปลอดภัย",
-  "- ดูแลระบบ HIS-LIS SQL SYMPHONY",
-  "- จัดการแอนตี้ไวรัส (ESET Nod32) บน Cloud",
-  "- ดูแลระบบ Google Workspace (อีเมลและบัญชีองค์กร)",
-  "3. โครงสร้างพื้นฐาน IT",
-  "- ออกแบบและติดตั้ง Server AD, Switch, สแกนนิ้ว, กล้อง CCTV, NAS และระบบ Backup",
-  "4. ซัพพอร์ตและซ่อมบำรุง",
-  "- จัดคิวและตามงานแจ้งซ่อมผ่านระบบออนไลน์",
-  "- ตั้ง SLA และเก็บข้อมูลมาวิเคราะห์เพื่อปรับปรุงการทำงานให้เร็วขึ้น",
-  "5. จัดการงบประมาณ",
-  "- วางแผนงบซื้ออุปกรณ์, ค่าซ่อมบำรุง และค่า License รายปี",
-  "- คุยกับ Vendor เทียบราคาเพื่อหาตัวเลือกที่คุ้มที่สุด"
+  "1. ระบบ Virtualization (VMware)",
+  "บริหารจัดการ VMware ESXi และ vCenter Server ดูแล VM Guest, vSwitch (Virtual Network) และ VMware vSAN สำหรับ Storage",
+  "2. ระบบ Server & High Availability",
+  "ดูแล Windows Server และ Active Directory แบบ Redundancy จัดโครงสร้าง OU และกำหนดสิทธิ์ผ่าน GPO ตั้งค่า Shadow Copy สำหรับ Backup และ Restore ไฟล์ พร้อมวางแผน Preventive Maintenance ประจำปี",
+  "3. ระบบ Backup",
+  "บริหารจัดการระบบสำรองข้อมูลด้วย Veeam Backup + NAS Synology",
+  "4. ระบบ HIS-LIS (SQL Symphony)",
+  "ดูแลระบบ HIS-LIS ให้ทำงานต่อเนื่อง 24 ชั่วโมง พร้อมร่วมทีมย้ายฐานข้อมูล HIS จาก On-Premise ขึ้นสู่ Cloud Infrastructure",
+  "5. ระบบความปลอดภัย",
+  "จัดการ Endpoint Security ผ่าน ESET NOD32 (On-Premise) และบริหารจัดการ Google G-Suite ในฐานะ Admin: สร้าง/ลบ/โอนย้ายบัญชีผู้ใช้, กำหนดสิทธิ์การเข้าถึง, จัดการ Group, License และ Shared Drive",
+  "6. ระบบเครือข่ายและอุปกรณ์ไอที",
+  "ติดตั้งและดูแล Switches, Biometric, CCTV และอุปกรณ์ปลายทาง พร้อมบริหารสิทธิ์ผ่าน GPO และบัญชีผู้ใช้ผ่าน Active Directory",
+  "7. Business Applications Support",
+  "ดูแลและแก้ไขปัญหาการใช้งานโปรแกรมบัญชี Express On Cloud ให้ใช้งานได้ต่อเนื่อง",
+  "8. IT Asset Management",
+  "จัดทำและดูแลทะเบียนทรัพย์สินไอที ตรวจสอบสถานะการทำงานของอุปกรณ์ พร้อมบริหารจัดการ License Software ขององค์กรอย่างสม่ำเสมอ"
 ];
-data.experience[2].translations.th.highlight = "โปรเจกต์สำคัญ: รับผิดชอบงานย้ายระบบ Server ของโรงพยาบาล (HIS) จาก On-Premise ขึ้น Cloud\n• วางแผนและคุมงานย้ายข้อมูล HIS ทั้งระบบขึ้น Cloud ได้อย่างราบรื่น\n• เทสต์ Backup & Restore ป้องกันข้อมูลหายระหว่างย้ายระบบ\n• จูนระบบ Cloud ให้ทำงานนิ่ง และเพิ่มความปลอดภัยตามมาตรฐานข้อมูลสุขภาพ\n• ช่วยลดค่าดูแล Server ประหยัดงบ และทำให้ขยายระบบในอนาคตได้ง่าย โปรเจกต์จบตรงเวลาและส่งมอบผ่าน UAT เรียบร้อย";
+data.experience[2].translations.th.highlight = "โปรเจกต์ออกแบบและติดตั้งระบบ Server (Active Directory) ในฐานะ PM\nรับผิดชอบในฐานะ Project Manager ออกแบบและติดตั้งระบบ Active Directory จำนวน 2 เครื่องแบบ Redundancy รองรับ High Availability พร้อม Server เครื่องที่ 3 ทำหน้าที่ Backup ออกแบบโครงสร้าง OU, Group Policy (GPO) และ File Share Permission ติดตั้งระบบ Virtualization ด้วย VMware ESXi + vCenter Server, ระบบฐานข้อมูล SQL Server และระบบสำรองข้อมูลด้วย Veeam Backup + NAS Synology บริหารจัดการการจัดหา Server, Software และ Storage รวมถึงเปรียบเทียบราคาจากผู้จำหน่ายเพื่อให้คุ้มค่างบประมาณ ดำเนินโครงการเสร็จภายใน 30 วันตามแผนงานที่วางไว้";
 
 // Exp 4
 data.experience[3].translations.th.bullets = [
-  "1. ดูแล Server และ Active Directory",
-  "- คอยเช็คการทำงานของ Server และจัดการ AD ของบริษัท",
-  "- สร้าง/ลบ User, จัดการ Group Policy และสิทธิ์การเข้าถึงข้อมูล",
-  "2. ซ่อมและแก้ปัญหา IT",
-  "- ซ่อมคอมพิวเตอร์, แก้ปัญหา Network, อินเทอร์เน็ต, อีเมล และระบบ ERP (Oracle)",
-  "3. บำรุงรักษาอุปกรณ์",
-  "- ดูแลบำรุงรักษา PC, Notebook และอุปกรณ์เน็ตเวิร์กให้พร้อมใช้เสมอ",
-  "4. สำรองข้อมูล (Backup)",
-  "- ทำ Backup ข้อมูล Server และเครื่องพนักงานตามนโยบาย",
-  "- หมั่นเทสต์ไฟล์ Backup เพื่อให้มั่นใจว่ากู้ข้อมูลได้จริงตอนฉุกเฉิน",
-  "5. ซัพพอร์ตพนักงาน (Helpdesk)",
-  "- ให้คำปรึกษาและแก้ปัญหาคอมพิวเตอร์ให้พนักงานทำงานได้สะดวกขึ้น"
+  "IT Support & Helpdesk",
+  "ดูแล Helpdesk และ Desktop Support ให้ผู้ใช้งานในองค์กร แก้ปัญหาฮาร์ดแวร์ ซอฟต์แวร์ และเครือข่ายเบื้องต้น จัดการบัญชีผู้ใช้ สิทธิ์การเข้าถึง และ Shared Folder รวมถึงดูแลเครื่องพิมพ์และเครื่องถ่ายเอกสารส่วนกลางให้ใช้งานได้ต่อเนื่อง",
+  "IT Governance & ISO Standards",
+  "จัดทำ IT Policy & Procedure ให้สอดคล้องกับ ISO 9001:2015 และตรวจสอบการทำงานของแผนกไอทีให้เป็นไปตามข้อกำหนด รองรับการ Audit",
+  "Server & Infrastructure Management",
+  "ดูแล Windows Server และ Active Directory แบบ Redundancy รองรับ High Availability จัดโครงสร้าง OU และกำหนดสิทธิ์ผ่าน GPO ตั้งค่า Shadow Copy สำหรับ Backup และ Restore ไฟล์ พร้อมวางแผน Preventive Maintenance ประจำปี",
+  "Business Applications Support",
+  "ดูแลและแก้ปัญหาการใช้งานระบบ ERP (Oracle), MES (Manufacturing Execution System) และ WMS (Warehouse Management System) รวมถึงระบบบริหารเงินเดือน (Payday) ของฝ่าย HR",
+  "Endpoint & Security Systems",
+  "ดูแลระบบกล้องวงจรปิด (CCTV) ทั่วทั้งองค์กร และระบบสแกนลายนิ้วมือ (Time Attendance) สำหรับบันทึกเวลาเข้า-ออกงานของพนักงาน"
 ];
 data.experience[3].translations.th.highlight = "ผลงานเด่น: \nออกแบบและติดตั้งกล้อง CCTV จำนวน 152 ตัว พร้อมเดินสายสัญญาณ Fiber Optic ทั้งหมด เพื่อให้สามารถดูภาพและควบคุมกล้องทุกตัวได้จากจุดเดียว ครอบคลุมทั่วพื้นที่โรงงาน";
 
