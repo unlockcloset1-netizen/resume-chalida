@@ -94,30 +94,30 @@ export default function Resume() {
 
       {/* RESUME CONTAINER */}
       <div className="max-w-[1150px] mx-auto pt-10 px-4 sm:px-6 print:pt-0 print:px-0 print:max-w-none">
-        <div className="bg-white shadow-[0_40px_100px_-20px_rgba(0,0,0,0.15)] overflow-hidden flex flex-col md:flex-row min-h-screen rounded-3xl border border-slate-100 print:shadow-none print:border-none print:rounded-none">
+        <div className="resume-container bg-white shadow-[0_40px_100px_-20px_rgba(0,0,0,0.15)] overflow-hidden flex flex-col md:flex-row print:flex-row min-h-screen rounded-3xl border border-slate-100 print:shadow-none print:border-none print:rounded-none">
           
-          {/* LEFT SIDEBAR (NAVY) */}
+          {/* SIDEBAR (NAVY) */}
           <Sidebar data={data} lang={lang} />
 
           {/* MAIN CONTENT (WHITE) */}
-          <main className="flex-1 p-10 md:p-16 space-y-20 bg-white print:p-12">
+          <main className="resume-main flex-1 p-10 md:p-16 space-y-20 print:space-y-8 bg-white print:p-8">
             
             {/* SUMMARY SECTION */}
-            <section className="space-y-8">
+            <section className="space-y-8 print:space-y-4">
               <div className="flex items-center gap-4 border-b-4 border-slate-900 pb-3">
                 <User className="w-8 h-8 text-slate-900" />
-                <h2 className="text-[22px] font-black text-slate-900 uppercase tracking-[0.2em]">
+                <h2 className="text-[22px] font-black text-slate-900 uppercase tracking-[0.2em] print:text-[14px]">
                   {labels?.summaryTitle || ''}
                 </h2>
               </div>
-              <p className="text-[19px] text-slate-700 leading-[1.8] font-medium text-justify">
+              <p className="text-[19px] print:text-[12px] text-slate-700 leading-[1.8] print:leading-[1.4] font-medium text-justify">
                  {pTr?.summary || ''}
               </p>
             </section>
 
             <ExperienceSection data={data} lang={lang} />
 
-            <div className="grid grid-cols-1 gap-20">
+            <div className="grid grid-cols-1 gap-20 print:gap-8">
               <EducationSection data={data} lang={lang} />
               <CertsSection data={data} lang={lang} />
             </div>
@@ -144,11 +144,17 @@ export default function Resume() {
 
         @media print {
           body { background: white !important; }
-          @page { margin: 0; size: A4; }
+          @page { margin: 8mm 8mm; size: A4; }
           footer { display: none !important; }
           nav { display: none !important; }
           .min-h-screen { min-height: 0 !important; }
           .pb-20 { padding-bottom: 0 !important; }
+          
+          /* Force exact color printing */
+          * {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+          }
         }
 
         ::-webkit-scrollbar { width: 10px; }
