@@ -2,7 +2,7 @@
 echo ========================================
 echo  Setting SUPABASE_SERVICE_ROLE_KEY...
 echo ========================================
-cd /d "C:\Users\ITadmin\resume-next"
+cd /d "D:\Resume"
 
 REM Remove existing key if any (ignore errors)
 vercel env rm SUPABASE_SERVICE_ROLE_KEY production --yes 2>nul

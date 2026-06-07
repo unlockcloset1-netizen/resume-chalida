@@ -2,7 +2,7 @@
 echo ========================================
 echo  Pushing to GitHub...
 echo ========================================
-cd /d "C:\Users\ITadmin\resume-next"
+cd /d "D:\Resume"
 
 REM Delete ALL git lock files
 del /f .git\index.lock 2>nul
