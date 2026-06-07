@@ -1,118 +1,507 @@
 {
     "meta":  {
-                 "lastUpdated":  "2026-06-07 14:20:00"
+                 "lastUpdated":  "2026-06-07 09:22:31"
              },
+    "certs":  [
+                  {
+                      "id":  "cert-1",
+                      "file":  "certs/CCNA_ea2808.jpg",
+                      "translations":  {
+                                           "en":  {
+                                                      "org":  "Jodoi IT \u0026 Service (2022)",
+                                                      "name":  "CCNA — Cisco Certified Network Associate"
+                                                  },
+                                           "th":  {
+                                                      "org":  "Jodoi IT \u0026 Service (2565)",
+                                                      "name":  "CCNA — Cisco Certified Network Associate"
+                                                  },
+                                           "zh":  {
+                                                      "org":  "Jodoi IT \u0026 Service (2022)",
+                                                      "name":  "CCNA — 思科认证网络工程师"
+                                                  }
+                                       }
+                  },
+                  {
+                      "id":  "cert-2",
+                      "file":  "certs/NSE_3_98b8ac.jpg",
+                      "translations":  {
+                                           "en":  {
+                                                      "org":  "Fortinet (2023)",
+                                                      "name":  "NSE 3 Network Security Associate"
+                                                  },
+                                           "th":  {
+                                                      "org":  "Fortinet (2566)",
+                                                      "name":  "NSE 3 Network Security Associate"
+                                                  },
+                                           "zh":  {
+                                                      "org":  "Fortinet (2023)",
+                                                      "name":  "NSE 3 网络安全工程师"
+                                                  }
+                                       }
+                  },
+                  {
+                      "id":  "cert-3",
+                      "file":  "certs/NSE_2_3b085b.jpg",
+                      "translations":  {
+                                           "en":  {
+                                                      "org":  "Fortinet (2022)",
+                                                      "name":  "NSE 2 Network Security Associate"
+                                                  },
+                                           "th":  {
+                                                      "org":  "Fortinet (2565)",
+                                                      "name":  "NSE 2 Network Security Associate"
+                                                  },
+                                           "zh":  {
+                                                      "org":  "Fortinet (2022)",
+                                                      "name":  "NSE 2 网络安全工程师"
+                                                  }
+                                       }
+                  },
+                  {
+                      "id":  "cert-4",
+                      "file":  "certs/NSE_1_ca066a.jpg",
+                      "translations":  {
+                                           "en":  {
+                                                      "org":  "Fortinet (2022)",
+                                                      "name":  "NSE 1 Network Security Associate"
+                                                  },
+                                           "th":  {
+                                                      "org":  "Fortinet (2565)",
+                                                      "name":  "NSE 1 Network Security Associate"
+                                                  },
+                                           "zh":  {
+                                                      "org":  "Fortinet (2022)",
+                                                      "name":  "NSE 1 网络安全工程师"
+                                                  }
+                                       }
+                  },
+                  {
+                      "id":  "cert-5",
+                      "file":  "certs/AD001_Configuring_and_Troubleshooting_-_Windows_Server_2019_Active_Directory_Domain_Services_e0d0c5.jpg",
+                      "translations":  {
+                                           "en":  {
+                                                      "org":  "elife systems (2020)",
+                                                      "name":  "Configuring Windows Server 2019 AD"
+                                                  },
+                                           "th":  {
+                                                      "org":  "elife systems (2563)",
+                                                      "name":  "Configuring Windows Server 2019 AD"
+                                                  },
+                                           "zh":  {
+                                                      "org":  "elife systems (2020)",
+                                                      "name":  "配置 Windows Server 2019 AD"
+                                                  }
+                                       }
+                  },
+                  {
+                      "id":  "cert-6",
+                      "file":  "certs/AD002_Fix_and_Advance_Troubleshooting_Windows_Server_AD_a42922.jpg",
+                      "translations":  {
+                                           "en":  {
+                                                      "org":  "elife systems (2021)",
+                                                      "name":  "Advanced Troubleshooting Windows Server AD"
+                                                  },
+                                           "th":  {
+                                                      "org":  "elife systems (2564)",
+                                                      "name":  "Fix and Advance Troubleshooting Windows Server AD"
+                                                  },
+                                           "zh":  {
+                                                      "org":  "elife systems (2021)",
+                                                      "name":  "Windows Server AD 高级故障排除"
+                                                  }
+                                       }
+                  },
+                  {
+                      "id":  "cert-7",
+                      "file":  "certs/SQL_85028e.jpg",
+                      "translations":  {
+                                           "en":  {
+                                                      "org":  "BORNTODEV (2026)",
+                                                      "name":  "Essential SQL For Everyone"
+                                                  },
+                                           "th":  {
+                                                      "org":  "BORNTODEV (2569)",
+                                                      "name":  "Essential SQL For Everyone"
+                                                  },
+                                           "zh":  {
+                                                      "org":  "BORNTODEV (2026)",
+                                                      "name":  "人人都懂 SQL"
+                                                  }
+                                       }
+                  },
+                  {
+                      "id":  "cert-8",
+                      "file":  "certs/Python2_749f22.jpg",
+                      "translations":  {
+                                           "en":  {
+                                                      "org":  "Cisco Networking Academy (2026)",
+                                                      "name":  "Python"
+                                                  },
+                                           "th":  {
+                                                      "org":  "Cisco Networking Academy (2569)",
+                                                      "name":  "Python"
+                                                  },
+                                           "zh":  {
+                                                      "org":  "思科网络学院 (2026)",
+                                                      "name":  "Python"
+                                                  }
+                                       }
+                  }
+              ],
     "labels":  {
-                   "th":  {
-                              "summaryTitle":  "เกี่ยวกับฉัน",
-                              "experienceTitle":  "ประสบการณ์ทำงาน",
-                              "educationTitle":  "การศึกษา",
-                              "skillsTitle":  "ทักษะ",
-                              "certsTitle":  "ใบรับรอง / อบรม",
-                              "keyResult":  "ผลงานเด่น",
-                              "footer":  "© 2026 Patiwat Meekaeo — สร้างด้วย Next.js + Tailwind CSS"
-                          },
                    "en":  {
-                              "summaryTitle":  "About Me",
-                              "experienceTitle":  "Experience",
-                              "educationTitle":  "Education",
-                              "skillsTitle":  "Skills",
-                              "certsTitle":  "Certifications \u0026 Training",
+                              "footer":  "© 2026 Patiwat Meekaeo — Built with Next.js + Tailwind CSS",
                               "keyResult":  "Key Result",
-                              "footer":  "© 2026 Patiwat Meekaeo — Built with Next.js + Tailwind CSS"
+                              "certsTitle":  "Certifications \u0026 Training",
+                              "skillsTitle":  "Skills",
+                              "summaryTitle":  "About Me",
+                              "educationTitle":  "Education",
+                              "experienceTitle":  "Experience"
+                          },
+                   "th":  {
+                              "footer":  "© 2026 Patiwat Meekaeo — สร้างด้วย Next.js + Tailwind CSS",
+                              "keyResult":  "ผลงานเด่น",
+                              "certsTitle":  "ใบรับรอง / อบรม",
+                              "skillsTitle":  "ทักษะ",
+                              "summaryTitle":  "เกี่ยวกับฉัน",
+                              "educationTitle":  "การศึกษา",
+                              "experienceTitle":  "ประสบการณ์ทำงาน"
                           },
                    "zh":  {
-                              "summaryTitle":  "关于我",
-                              "experienceTitle":  "工作经验",
-                              "educationTitle":  "教育背景",
-                              "skillsTitle":  "专业技能",
-                              "certsTitle":  "证书与培训",
+                              "footer":  "© 2026 Patiwat Meekaeo — 使用 Next.js + Tailwind CSS 构建",
                               "keyResult":  "关键成果",
-                              "footer":  "© 2026 Patiwat Meekaeo — 使用 Next.js + Tailwind CSS 构建"
+                              "certsTitle":  "证书与培训",
+                              "skillsTitle":  "专业技能",
+                              "summaryTitle":  "关于我",
+                              "educationTitle":  "教育背景",
+                              "experienceTitle":  "工作经验"
                           }
                },
+    "skills":  [
+                   {
+                       "id":  "sk-1",
+                       "translations":  {
+                                            "en":  {
+                                                       "tags":  [
+                                                                    "Cisco",
+                                                                    "Switch L2/L3",
+                                                                    "VLAN / STP",
+                                                                    "Zabbix Monitoring",
+                                                                    "TP-Link Omada",
+                                                                    "Mikrotik"
+                                                                ],
+                                                       "label":  "Infrastructure \u0026 Networking"
+                                                   },
+                                            "th":  {
+                                                       "tags":  [
+                                                                    "Cisco",
+                                                                    "Switch L2/L3",
+                                                                    "VLAN / STP",
+                                                                    "Zabbix Monitoring",
+                                                                    "TP-Link Omada",
+                                                                    "Mikrotik"
+                                                                ],
+                                                       "label":  "Infrastructure \u0026 Networking"
+                                                   },
+                                            "zh":  {
+                                                       "tags":  [
+                                                                    "思科 (Cisco)",
+                                                                    "L2/L3 交换机",
+                                                                    "虚拟局域网 (VLAN / STP)",
+                                                                    "Zabbix 网络监控",
+                                                                    "TP-Link Omada 无线方案",
+                                                                    "Mikrotik 路由配置"
+                                                                ],
+                                                       "label":  "基础设施与网络"
+                                                   }
+                                        }
+                   },
+                   {
+                       "id":  "sk-2",
+                       "translations":  {
+                                            "en":  {
+                                                       "tags":  [
+                                                                    "Windows Server",
+                                                                    "Active Directory",
+                                                                    "Group Policy (GPO)",
+                                                                    "VMware",
+                                                                    "Hyper-V",
+                                                                    "Proxmox",
+                                                                    "Nutanix"
+                                                                ],
+                                                       "label":  "Systems \u0026 Virtualization"
+                                                   },
+                                            "th":  {
+                                                       "tags":  [
+                                                                    "Windows Server",
+                                                                    "Active Directory",
+                                                                    "Group Policy (GPO)",
+                                                                    "VMware",
+                                                                    "Hyper-V",
+                                                                    "Proxmox",
+                                                                    "Nutanix"
+                                                                ],
+                                                       "label":  "Systems \u0026 Virtualization"
+                                                   },
+                                            "zh":  {
+                                                       "tags":  [
+                                                                    "Windows Server 运维",
+                                                                    "Active Directory 域控管理",
+                                                                    "组策略 (GPO)",
+                                                                    "VMware 虚拟化",
+                                                                    "Hyper-V",
+                                                                    "Proxmox",
+                                                                    "Nutanix 超融合"
+                                                                ],
+                                                       "label":  "系统与虚拟化"
+                                                   }
+                                        }
+                   },
+                   {
+                       "id":  "sk-3",
+                       "translations":  {
+                                            "en":  {
+                                                       "tags":  [
+                                                                    "Firewall Policy (Fortigate / Sophos / Zyxel)",
+                                                                    "VPN (Site-to-Site / Client)",
+                                                                    "MFA (Multi-Factor Auth)",
+                                                                    "IPS / IDS",
+                                                                    "ESET Endpoint Security",
+                                                                    "Web Filtering"
+                                                                ],
+                                                       "label":  "Cybersecurity \u0026 Protection"
+                                                   },
+                                            "th":  {
+                                                       "tags":  [
+                                                                    "Firewall Policy (Fortigate / Sophos / Zyxel)",
+                                                                    "VPN (Site-to-Site / Client)",
+                                                                    "MFA (Multi-Factor Auth)",
+                                                                    "IPS / IDS",
+                                                                    "ESET Endpoint Security",
+                                                                    "Web Filtering"
+                                                                ],
+                                                       "label":  "Cybersecurity \u0026 Protection"
+                                                   },
+                                            "zh":  {
+                                                       "tags":  [
+                                                                    "防火墙策略 (Fortigate / Sophos / Zyxel)",
+                                                                    "VPN 隧道 (Site-to-Site / Client)",
+                                                                    "多因子身份验证 (MFA)",
+                                                                    "入侵检测与防御 (IPS / IDS)",
+                                                                    "ESET 终端安全防护",
+                                                                    "网页过滤与行为管理"
+                                                                ],
+                                                       "label":  "网络安全与防护"
+                                                   }
+                                        }
+                   },
+                   {
+                       "id":  "sk-7",
+                       "translations":  {
+                                            "en":  {
+                                                       "tags":  [
+                                                                    "SAN (Storage Area Network)",
+                                                                    "Synology NAS",
+                                                                    "Veeam Backup",
+                                                                    "Shadow Copy / Snapshot",
+                                                                    "Disaster Recovery (DR)"
+                                                                ],
+                                                       "label":  "Storage \u0026 Data Backup"
+                                                   },
+                                            "th":  {
+                                                       "tags":  [
+                                                                    "SAN (Storage Area Network)",
+                                                                    "Synology NAS",
+                                                                    "Veeam Backup",
+                                                                    "Shadow Copy / Snapshot",
+                                                                    "Disaster Recovery (DR)"
+                                                                ],
+                                                       "label":  "Storage \u0026 Data Backup"
+                                                   },
+                                            "zh":  {
+                                                       "tags":  [
+                                                                    "存储区域网络 (SAN)",
+                                                                    "群晖 (Synology NAS) 管理",
+                                                                    "Veeam 备份方案",
+                                                                    "快照与阴影复制 (Snapshot / Shadow Copy)",
+                                                                    "容灾恢复 (Disaster Recovery)"
+                                                                ],
+                                                       "label":  "存储与数据备份"
+                                                   }
+                                        }
+                   },
+                   {
+                       "id":  "sk-4",
+                       "translations":  {
+                                            "en":  {
+                                                       "tags":  [
+                                                                    "Microsoft 365 (Admin)",
+                                                                    "Exchange Online / Teams",
+                                                                    "Google Workspace",
+                                                                    "ERP (Mango / Oracle)"
+                                                                ],
+                                                       "label":  "Cloud \u0026 Enterprise Solutions"
+                                                   },
+                                            "th":  {
+                                                       "tags":  [
+                                                                    "Microsoft 365 (Admin)",
+                                                                    "Exchange Online / Teams",
+                                                                    "Google Workspace",
+                                                                    "ERP (Mango / Oracle)"
+                                                                ],
+                                                       "label":  "Cloud \u0026 Enterprise Solutions"
+                                                   },
+                                            "zh":  {
+                                                       "tags":  [
+                                                                    "Microsoft 365 企业管理",
+                                                                    "Exchange Online / Teams 运维",
+                                                                    "Google Workspace 管理",
+                                                                    "ERP 系统运维 (Mango / Oracle)"
+                                                                ],
+                                                       "label":  "云与企业解决方案"
+                                                   }
+                                        }
+                   },
+                   {
+                       "id":  "sk-6",
+                       "translations":  {
+                                            "en":  {
+                                                       "tags":  [
+                                                                    "SQL (Query / Join / Aggregation)",
+                                                                    "MS SQL Server / Sybase",
+                                                                    "Python",
+                                                                    "Google Apps Script",
+                                                                    "PHP / JavaScript / HTML5"
+                                                                ],
+                                                       "label":  "Programming \u0026 Database"
+                                                   },
+                                            "th":  {
+                                                       "tags":  [
+                                                                    "SQL (Query / Join / Aggregation)",
+                                                                    "MS SQL Server / Sybase",
+                                                                    "Python",
+                                                                    "Google Apps Script",
+                                                                    "PHP / JavaScript / HTML5"
+                                                                ],
+                                                       "label":  "Programming \u0026 Database"
+                                                   },
+                                            "zh":  {
+                                                       "tags":  [
+                                                                    "SQL 数据库开发 (Query / Join)",
+                                                                    "MS SQL Server / Sybase 维护",
+                                                                    "Python 自动化脚本",
+                                                                    "Google Apps Script 开发",
+                                                                    "Web 开发 (PHP / JS / HTML5)"
+                                                                ],
+                                                       "label":  "编程与数据库"
+                                                   }
+                                        }
+                   },
+                   {
+                       "id":  "sk-8",
+                       "translations":  {
+                                            "en":  {
+                                                       "tags":  [
+                                                                    "Thai (Native)",
+                                                                    "English (Beginner)"
+                                                                ],
+                                                       "label":  "Spoken Languages"
+                                                   },
+                                            "th":  {
+                                                       "tags":  [
+                                                                    "Thai (Native)",
+                                                                    "English (Beginner)"
+                                                                ],
+                                                       "label":  "Spoken Languages"
+                                                   },
+                                            "zh":  {
+                                                       "tags":  [
+                                                                    "泰语 (母语)",
+                                                                    "英语 (基础)"
+                                                                ],
+                                                       "label":  "语言能力"
+                                                   }
+                                        }
+                   }
+               ],
     "personal":  {
                      "email":  "patiwatmeekaeo@gmail.com",
                      "phone":  "081-601-9666",
+                     "photo":  "photos/profile.jpg",
                      "translations":  {
-                                          "th":  {
-                                                     "name":  "ปฏิวัติ มีแก้ว",
-                                                     "title":  "IT Manager (Acting) | Infrastructure \u0026 Data Strategy",
-                                                     "location":  "กรุงเทพมหานคร, ประเทศไทย",
-                                                     "dob":  "11 ม.ค. 2526 (อายุ 43 ปี)",
-                                                     "summary":  "นักบริหารระบบไอทีประสบการณ์กว่า 9 ปี ผู้เชี่ยวชาญการออกแบบและวางระบบโครงสร้างพื้นฐานเครือข่ายระดับองค์กร (Network Infrastructure, Active Directory, Windows Server), การบริหารจัดการระบบสำรองข้อมูล (Backup \u0026 Recovery ด้วย Veeam และ NAS) และระบบเฝ้าระวังเครือข่าย (Network Monitoring) ควบคู่ไปกับการดูแลระบบคลาวด์ Microsoft 365 (Email, SharePoint), ไฟร์วอลล์ (Firewall เช่น Fortigate, Sophos) และควบคุมระบบ ERP ในฐานะ Administrator (Mango ERP, Oracle ERP) นอกจากนี้ยังมีทักษะในการพัฒนาระบบเว็บแอปพลิเคชันและจัดการฐานข้อมูลภายในองค์กรโดยใช้ Python, SQL, JavaScript และ PHP เพื่อเพิ่มประสิทธิภาพการทำงานและลดต้นทุนไอทีอย่างเป็นรูปธรรม\n\nปัจจุบันดำรงตำแหน่งผู้จัดการแผนกไอที (Acting IT Manager \u0026 Infrastructure) ที่ S.MEC Engineering ควบคุมดูแลระบบไอทีครบวงจรเพื่อสนับสนุนผู้ใช้งานกว่า 160 คน โดยมีทักษะครอบคลุมตั้งแต่การวางระบบเครือข่ายหลัก ไปจนถึงการเขียนโปรแกรมและการจัดการข้อมูลอย่างเป็นระบบ"
-                                                 },
                                           "en":  {
+                                                     "dob":  "Born Jan 11, 1983 (Age 43)",
                                                      "name":  "Patiwat Meekaeo",
                                                      "title":  "IT Manager (Acting) | Infrastructure \u0026 Data Strategy",
-                                                     "location":  "Bangkok, Thailand",
-                                                     "dob":  "Born Jan 11, 1983 (Age 43)",
-                                                     "summary":  "Expert in IT Infrastructure management and data strategy with comprehensive experience in Systems, Networking, and Security. Currently serving as IT Manager (Acting) at S.MEC Engineering, responsible for the end-to-end design and foundation of organizational IT systems. Highly proficient in Active Directory management, high-speed networking (L2/L3, VLAN, Fiber Optic), and security management through Firewall (Fortigate), as well as overseeing ISO 9001:2015 standards for the IT department.\n\nBeyond systems administration, I excel in leveraging SQL database skills and Web Application development to drive organizational efficiency. This includes building real-time budget and cost analysis dashboards that reduce data complexity and provide precise support for executive decision-making. Proven track record in leading support teams to deliver services strictly according to established SLA and KPI standards."
+                                                     "summary":  "Expert in IT Infrastructure management and data strategy with comprehensive experience in Systems, Networking, and Security. Currently serving as IT Manager (Acting) at S.MEC Engineering, responsible for the end-to-end design and foundation of organizational IT systems. Highly proficient in Active Directory management, high-speed networking (L2/L3, VLAN, Fiber Optic), and security management through Firewall (Fortigate), as well as overseeing ISO 9001:2015 standards for the IT department.\n\nBeyond systems administration, I excel in leveraging SQL database skills and Web Application development to drive organizational efficiency. This includes building real-time budget and cost analysis dashboards that reduce data complexity and provide precise support for executive decision-making. Proven track record in leading support teams to deliver services strictly according to established SLA and KPI standards.",
+                                                     "location":  "Bangkok, Thailand"
+                                                 },
+                                          "th":  {
+                                                     "dob":  "11 ม.ค. 2526 (อายุ 43 ปี)",
+                                                     "name":  "ปฏิวัติ มีแก้ว",
+                                                     "title":  "IT Manager (Acting) | Infrastructure \u0026 Data Strategy",
+                                                     "summary":  "นักบริหารระบบไอทีประสบการณ์กว่า 9 ปี ผู้เชี่ยวชาญการออกแบบและวางระบบโครงสร้างพื้นฐานเครือข่ายระดับองค์กร (Network Infrastructure, Active Directory, Windows Server), การบริหารจัดการระบบสำรองข้อมูล (Backup \u0026 Recovery ด้วย Veeam และ NAS) และระบบเฝ้าระวังเครือข่าย (Network Monitoring) ควบคู่ไปกับการดูแลระบบคลาวด์ Microsoft 365 (Email, SharePoint), ไฟร์วอลล์ (Firewall เช่น Fortigate, Sophos) และควบคุมระบบ ERP ในฐานะ Administrator (Mango ERP, Oracle ERP) นอกจากนี้ยังมีทักษะในการพัฒนาระบบเว็บแอปพลิเคชันและจัดการฐานข้อมูลภายในองค์กรโดยใช้ Python, SQL, JavaScript และ PHP เพื่อเพิ่มประสิทธิภาพการทำงานและลดต้นทุนไอทีอย่างเป็นรูปธรรม\n\nปัจจุบันดำรงตำแหน่งผู้จัดการแผนกไอที (Acting IT Manager \u0026 Infrastructure) ที่ S.MEC Engineering ควบคุมดูแลระบบไอทีครบวงจรเพื่อสนับสนุนผู้ใช้งานกว่า 160 คน โดยมีทักษะครอบคลุมตั้งแต่การวางระบบเครือข่ายหลัก ไปจนถึงการเขียนโปรแกรมและการจัดการข้อมูลอย่างเป็นระบบ",
+                                                     "location":  "กรุงเทพมหานคร, ประเทศไทย"
                                                  },
                                           "zh":  {
+                                                     "dob":  "1983年1月11日生(43岁)",
                                                      "name":  "巴蒂瓦特 米格欧",
                                                      "title":  "IT 经理(代理) | 基础设施与数据战略",
-                                                     "location":  "泰国曼谷",
-                                                     "dob":  "1983年1月11日生(43岁)",
-                                                     "summary":  "IT 基础设施 management 与数据战略专家，在系统、网络和安全方面拥有全面经验。目前担任 S.MEC Engineering 的代理 IT 经理，负责企业 IT 系统的端到端设计与基础构建。精通 Active Directory 管理、高速网络（L2/L3、VLAN、光纤）以及通过防火墙（Fortigate）进行安全管理，并负责 IT 部门的 ISO 9001:2015 标准监管。\n\n除系统管理外，我还擅长利用 SQL 数据库技能和 Web 应用程序开发来提升组织效率。这包括构建实时预算和成本分析仪表板，从而降低数据复杂性，并为高管决策提供精准支持。在领导支持团队、严格按照既定 SLA 和 KPI 标准交付服务方面拥有卓越的表现。"
+                                                     "summary":  "IT 基础设施 management 与数据战略专家，在系统、网络和安全方面拥有全面经验。目前担任 S.MEC Engineering 的代理 IT 经理，负责企业 IT 系统的端到端设计与基础构建。精通 Active Directory 管理、高速网络（L2/L3、VLAN、光纤）以及通过防火墙（Fortigate）进行安全管理，并负责 IT 部门的 ISO 9001:2015 标准监管。\n\n除系统管理外，我还擅长利用 SQL 数据库技能和 Web 应用程序开发来提升组织效率。这包括构建实时预算和成本分析仪表板，从而降低数据复杂性，并为高管决策提供精准支持。在领导支持团队、严格按照既定 SLA 和 KPI 标准交付服务方面拥有卓越的表现。",
+                                                     "location":  "泰国曼谷"
                                                  }
-                                      },
-                     "photo":  "photos/profile.jpg"
+                                      }
                  },
+    "education":  [
+                      {
+                          "id":  "edu-1",
+                          "translations":  {
+                                               "en":  {
+                                                          "org":  "Sukhothai Thammathirat Open University",
+                                                          "meta":  "Expected 2027 | GPA 2.90",
+                                                          "title":  "B.Sc. in Information and Communications Technology"
+                                                      },
+                                               "th":  {
+                                                          "org":  "มหาวิทยาลัยสุโขทัยธรรมาธิราช",
+                                                          "meta":  "คาดว่าจบ 2570 | GPA 2.90",
+                                                          "title":  "กำลังศึกษา วิทยาศาสตรบัณฑิต สาขาเทคโนโลยีสารสนเทศและการสื่อสาร"
+                                                      },
+                                               "zh":  {
+                                                          "org":  "素可泰他玛提叻开放大学",
+                                                          "meta":  "预计 2027 年毕业 | GPA 2.90",
+                                                          "title":  "信息与通信技术理学学士"
+                                                      }
+                                           }
+                      },
+                      {
+                          "id":  "edu-2",
+                          "translations":  {
+                                               "en":  {
+                                                          "org":  "Nang Rong Technical College",
+                                                          "meta":  "Graduated 2002 | GPA 2.25",
+                                                          "title":  "Vocational Certificate in Sound Technology"
+                                                      },
+                                               "th":  {
+                                                          "org":  "วิทยาลัยเทคนิคนางรอง",
+                                                          "meta":  "จบ 2545 | GPA 2.25",
+                                                          "title":  "ประกาศนียบัตรวิชาชีพ (ปวช.) สาขาเทคโนโลยีระบบเสียง"
+                                                      },
+                                               "zh":  {
+                                                          "org":  "南荣技术学院",
+                                                          "meta":  "2002年毕业 | GPA 2.25",
+                                                          "title":  "音响技术职业证书"
+                                                      }
+                                           }
+                      }
+                  ],
     "experience":  [
                        {
                            "id":  "exp-1",
                            "translations":  {
-                                                "th":  {
-                                                           "title":  "IT Manager (Acting)",
-                                                           "org":  "S.MEC Engineering Co., Ltd.",
-                                                           "meta":  "พ.ย. 2566 – ปัจจุบัน",
-                                                           "bullets":  [
-                                                                           "1. IT Planning \u0026 Management",
-                                                                           "- วางแผนงบประมาณ IT ประจำปี (Capex \u0026 Opex) และบริหารทีม IT Support เพื่อดูแลพนักงานกว่า 160 คน",
-                                                                           "- ประเมินสเปกและเปรียบเทียบราคาอุปกรณ์จากคู่ค้า (Vendor) เพื่อให้ได้ความคุ้มค่าและคุณภาพสูงสุด",
-                                                                           "- ดูแลระบบและจัดทำ IT Policy / Procedure ให้สอดคล้องกับมาตรฐาน ISO 9001:2015",
-                                                                           "- กำหนด SLA, KPI ติดตามความคืบหน้า ประเมินผล และพัฒนาศักยภาพทีม IT อย่างต่อเนื่อง",
-                                                                           "- จัดอบรมพนักงานด้านการใช้งานระบบและความปลอดภัยทางไซเบอร์ พร้อมสรุปผลการดำเนินงานรายงานผู้บริหาร",
-                                                                           "2. Network \u0026 Infrastructure",
-                                                                           "- ออกแบบและติดตั้งระบบเครือข่ายสำนักงานใหญ่ตั้งแต่ศูนย์ด้วย TP-Link Omada (Router, OC200, Switch, AP) พร้อมกำหนด VLAN Segmentation",
-                                                                           "- วางระบบ Dual ISP (AIS + TOT) แบบ Load Balancing และ WAN Failover เพื่อให้ระบบทำงานต่อเนื่อง 99%",
-                                                                           "- บริหารจัดการ Omada: Inter-VLAN Routing, SSID แยกตามกลุ่มผู้ใช้, QoS, Port Trunk/Access และมอนิเตอร์ Bandwidth, Client, Uptime แบบ Real-time",
-                                                                           "- บริหาร Active Directory 2 Server แบบ Replication (HA) รวมถึงการจัดการ OU, GPO, DNS, DHCP และ File Share Permission",
-                                                                           "3. Security \u0026 Endpoint",
-                                                                           "- คอนฟิกและบริหารจัดการ Fortigate 100F: Firewall Policy, SSL/IPSec VPN, NAT, IPS และ Web Filtering",
-                                                                           "- ตรวจสอบ Traffic, Threat และ Log อย่างสม่ำเสมอเพื่อป้องกันภัยคุกคาม",
-                                                                           "- ดูแลอุปกรณ์ปลายทาง 163 เครื่อง (Notebook 158, PC 5) รวมถึงกล้อง CCTV และระบบสแกนลายนิ้วมือที่เชื่อมต่อ Cloud ประจำไซด์งาน",
-                                                                           "- จัดการระบบสำรองข้อมูล (Backup) ผ่าน NAS รายวัน/รายสัปดาห์ พร้อมจัดทำแผน Disaster Recovery",
-                                                                           "4. Server, Cloud \u0026 Virtualization",
-                                                                           "- บริหารจัดการและดูแลระบบ Virtualization ทั้ง VMware, Hyper-V, Proxmox และ Nutanix",
-                                                                           "- ดูแลระบบ Cloud Server: Humano HR (Inet Cloud)",
-                                                                           "- บริหารจัดการ Microsoft 365: User Management, Exchange, Teams และ MFA",
-                                                                           "- ควบคุมดูแล License ซอฟต์แวร์องค์กร: M365, AutoCAD, Revit, BIM และ SketchUp",
-                                                                           "5. Database \u0026 ERP",
-                                                                           "- บริหารจัดการ Mango ERP (UIH Cloud): จัดการผู้ใช้, กำหนดสิทธิ์ Module, ตั้งค่า Workflow (PR/PO/WO) และฝึกอบรมพนักงาน",
-                                                                           "- ดูแล SQL Server: User Management, Backup/Restore, Basic Indexing, ตรวจสอบ Error Log และจัดการคำสั่งพื้นฐาน (SELECT, INSERT, UPDATE, DELETE, JOIN, GROUP BY, SUM)",
-                                                                           "6. Internal Web Application Development",
-                                                                           "- พัฒนาและดูแลระบบภายในด้วย Google Apps Script + Google Sheets",
-                                                                           "- พัฒนาระบบ Help Desk Ticketing, IT Project Dashboard (สำหรับติดตามงาน/งบประมาณ), Print Cost Dashboard และระบบแจ้งเตือนต่ออายุ Software License ผ่าน LINE/Email",
-                                                                           "7. ผลงานเด่น",
-                                                                           "- พัฒนา Dashboard วิเคราะห์ต้นทุนการใช้งานเครื่องถ่ายเอกสารรายโครงการ (17 โครงการ) เพื่อติดตามและบริหารจัดการงบประมาณให้เกิดประสิทธิภาพสูงสุด",
-                                                                           "- พัฒนา Web-based Application (HTML + API + SQL) สำหรับติดตามงบประมาณ IT และสรุปค่าใช้จ่ายแยกรายโครงการ เพื่อวิเคราะห์ Cost การใช้งานจริงและสนับสนุนการตัดสินใจเชิงกลยุทธ์",
-                                                                           "- พัฒนาระบบ Help Desk (Vercel + Google Apps Script): เพิ่มประสิทธิภาพการจัดการงานแจ้งซ่อมและติดตามสถานะงานภายในองค์กรแบบ Real-time",
-                                                                           "- เปลี่ยนจาก AutoCAD เป็น ZwCAD (70 License): ลด Cost ได้ ~770,000 บาท/ปี",
-                                                                           "- ย้าย Virtualization จาก VMware เป็น Nutanix: ลด Cost ด้าน Server ได้ ~132,000 บาท/ปี",
-                                                                           "- ย้าย Cloud Server ระบบ HR: ลด Cost ได้ ~124,000 บาท/ปี พร้อมประสิทธิภาพที่สูงขึ้น",
-                                                                           "- บริหารจัดการ License Microsoft 365 (160 user): ปรับโครงสร้างต้นทุนให้เหมาะสม ลด Cost ได้ ~100,000 บาท/ปี",
-                                                                           "- เปลี่ยนโซลูชัน Antivirus (150 License): ลด Cost ได้ ~45,000 บาท/ปี",
-                                                                           "- วาง Infrastructure สำนักงานใหญ่ใหม่ทั้งหมด: รองรับพนักงาน 160 คน พร้อมระบบ Network และ Security (Fortigate 100F)",
-                                                                           "- นำทีมดำเนินการย้ายระบบ ERP Mango (Sybase to SQL Web): จบโครงการภายใน 2 เดือน ช่วยเพิ่มประสิทธิภาพและความเสถียรของระบบให้รองรับการใช้งานได้ดียิ่งขึ้น"
-                                                                       ],
-                                                           "highlight":  ""
-                                                       },
                                                 "en":  {
-                                                           "title":  "IT Manager (Acting)",
                                                            "org":  "S.MEC Engineering Co., Ltd.",
                                                            "meta":  "Nov 2023 – Present",
+                                                           "title":  "IT Manager (Acting)",
                                                            "bullets":  [
                                                                            "1. IT Planning \u0026 Management",
                                                                            "- Plan annual IT budget (Capex \u0026 Opex) and manage the IT Support team to serve over 160 employees.",
@@ -155,10 +544,56 @@
                                                                        ],
                                                            "highlight":  ""
                                                        },
+                                                "th":  {
+                                                           "org":  "S.MEC Engineering Co., Ltd.",
+                                                           "meta":  "พ.ย. 2566 – ปัจจุบัน",
+                                                           "title":  "IT Manager (Acting)",
+                                                           "bullets":  [
+                                                                           "1. IT Planning \u0026 Management",
+                                                                           "- วางแผนงบประมาณ IT ประจำปี (Capex \u0026 Opex) และบริหารทีม IT Support เพื่อดูแลพนักงานกว่า 160 คน",
+                                                                           "- ประเมินสเปกและเปรียบเทียบราคาอุปกรณ์จากคู่ค้า (Vendor) เพื่อให้ได้ความคุ้มค่าและคุณภาพสูงสุด",
+                                                                           "- ดูแลระบบและจัดทำ IT Policy / Procedure ให้สอดคล้องกับมาตรฐาน ISO 9001:2015",
+                                                                           "- กำหนด SLA, KPI ติดตามความคืบหน้า ประเมินผล และพัฒนาศักยภาพทีม IT อย่างต่อเนื่อง",
+                                                                           "- จัดอบรมพนักงานด้านการใช้งานระบบและความปลอดภัยทางไซเบอร์ พร้อมสรุปผลการดำเนินงานรายงานผู้บริหาร",
+                                                                           "2. Network \u0026 Infrastructure",
+                                                                           "- ออกแบบและติดตั้งระบบเครือข่ายสำนักงานใหญ่ตั้งแต่ศูนย์ด้วย TP-Link Omada (Router, OC200, Switch, AP) พร้อมกำหนด VLAN Segmentation",
+                                                                           "- วางระบบ Dual ISP (AIS + TOT) แบบ Load Balancing และ WAN Failover เพื่อให้ระบบทำงานต่อเนื่อง 99%",
+                                                                           "- บริหารจัดการ Omada: Inter-VLAN Routing, SSID แยกตามกลุ่มผู้ใช้, QoS, Port Trunk/Access และมอนิเตอร์ Bandwidth, Client, Uptime แบบ Real-time",
+                                                                           "- บริหาร Active Directory 2 Server แบบ Replication (HA) รวมถึงการจัดการ OU, GPO, DNS, DHCP และ File Share Permission",
+                                                                           "3. Security \u0026 Endpoint",
+                                                                           "- คอนฟิกและบริหารจัดการ Fortigate 100F: Firewall Policy, SSL/IPSec VPN, NAT, IPS และ Web Filtering",
+                                                                           "- ตรวจสอบ Traffic, Threat และ Log อย่างสม่ำเสมอเพื่อป้องกันภัยคุกคาม",
+                                                                           "- ดูแลอุปกรณ์ปลายทาง 163 เครื่อง (Notebook 158, PC 5) รวมถึงกล้อง CCTV และระบบสแกนลายนิ้วมือที่เชื่อมต่อ Cloud ประจำไซด์งาน",
+                                                                           "- จัดการระบบสำรองข้อมูล (Backup) ผ่าน NAS รายวัน/รายสัปดาห์ พร้อมจัดทำแผน Disaster Recovery",
+                                                                           "4. Server, Cloud \u0026 Virtualization",
+                                                                           "- บริหารจัดการและดูแลระบบ Virtualization ทั้ง VMware, Hyper-V, Proxmox และ Nutanix",
+                                                                           "- ดูแลระบบ Cloud Server: Humano HR (Inet Cloud)",
+                                                                           "- บริหารจัดการ Microsoft 365: User Management, Exchange, Teams และ MFA",
+                                                                           "- ควบคุมดูแล License ซอฟต์แวร์องค์กร: M365, AutoCAD, Revit, BIM และ SketchUp",
+                                                                           "5. Database \u0026 ERP",
+                                                                           "- บริหารจัดการ Mango ERP (UIH Cloud): จัดการผู้ใช้, กำหนดสิทธิ์ Module, ตั้งค่า Workflow (PR/PO/WO) และฝึกอบรมพนักงาน",
+                                                                           "- ดูแล SQL Server: User Management, Backup/Restore, Basic Indexing, ตรวจสอบ Error Log และจัดการคำสั่งพื้นฐาน (SELECT, INSERT, UPDATE, DELETE, JOIN, GROUP BY, SUM)",
+                                                                           "6. Internal Web Application Development",
+                                                                           "- พัฒนาและดูแลระบบภายในด้วย Google Apps Script + Google Sheets",
+                                                                           "- พัฒนาระบบ Help Desk Ticketing, IT Project Dashboard (สำหรับติดตามงาน/งบประมาณ), Print Cost Dashboard และระบบแจ้งเตือนต่ออายุ Software License ผ่าน LINE/Email",
+                                                                           "7. ผลงานเด่น",
+                                                                           "- พัฒนา Dashboard วิเคราะห์ต้นทุนการใช้งานเครื่องถ่ายเอกสารรายโครงการ (17 โครงการ) เพื่อติดตามและบริหารจัดการงบประมาณให้เกิดประสิทธิภาพสูงสุด",
+                                                                           "- พัฒนา Web-based Application (HTML + API + SQL) สำหรับติดตามงบประมาณ IT และสรุปค่าใช้จ่ายแยกรายโครงการ เพื่อวิเคราะห์ Cost การใช้งานจริงและสนับสนุนการตัดสินใจเชิงกลยุทธ์",
+                                                                           "- พัฒนาระบบ Help Desk (Vercel + Google Apps Script): เพิ่มประสิทธิภาพการจัดการงานแจ้งซ่อมและติดตามสถานะงานภายในองค์กรแบบ Real-time",
+                                                                           "- เปลี่ยนจาก AutoCAD เป็น ZwCAD (70 License): ลด Cost ได้ ~770,000 บาท/ปี",
+                                                                           "- ย้าย Virtualization จาก VMware เป็น Nutanix: ลด Cost ด้าน Server ได้ ~132,000 บาท/ปี",
+                                                                           "- ย้าย Cloud Server ระบบ HR: ลด Cost ได้ ~124,000 บาท/ปี พร้อมประสิทธิภาพที่สูงขึ้น",
+                                                                           "- บริหารจัดการ License Microsoft 365 (160 user): ปรับโครงสร้างต้นทุนให้เหมาะสม ลด Cost ได้ ~100,000 บาท/ปี",
+                                                                           "- เปลี่ยนโซลูชัน Antivirus (150 License): ลด Cost ได้ ~45,000 บาท/ปี",
+                                                                           "- วาง Infrastructure สำนักงานใหญ่ใหม่ทั้งหมด: รองรับพนักงาน 160 คน พร้อมระบบ Network และ Security (Fortigate 100F)",
+                                                                           "- นำทีมดำเนินการย้ายระบบ ERP Mango (Sybase to SQL Web): จบโครงการภายใน 2 เดือน ช่วยเพิ่มประสิทธิภาพและความเสถียรของระบบให้รองรับการใช้งานได้ดียิ่งขึ้น"
+                                                                       ],
+                                                           "highlight":  ""
+                                                       },
                                                 "zh":  {
-                                                           "title":  "IT 经理(代理)",
                                                            "org":  "S.MEC Engineering 有限公司",
                                                            "meta":  "2023年11月 – 至今",
+                                                           "title":  "IT 经理(代理)",
                                                            "bullets":  [
                                                                            "1. IT 规划与管理 (IT Planning \u0026 Management)",
                                                                            "- 规划年度 IT 预算（资本支出与运营支出），并管理 IT 支持团队以服务超过 160 名员工。",
@@ -206,36 +641,10 @@
                        {
                            "id":  "exp-2",
                            "translations":  {
-                                                "th":  {
-                                                           "title":  "IT Network Support",
-                                                           "org":  "TK-Connecting Co., Ltd.",
-                                                           "meta":  "ต.ค. 2564 – ก.พ. 2566",
-                                                           "bullets":  [
-                                                                           "1. ออกแบบและวางแผน IT Solution",
-                                                                           "- คุยกับลูกค้าเพื่อวิเคราะห์ความต้องการและออกแบบระบบ (Network, Server, Security, Cloud)",
-                                                                           "- ทำ Solution Diagram และเตรียมเอกสารเสนอราคา",
-                                                                           "2. สนับสนุนทีมขาย (Pre-Sales)",
-                                                                           "- ไปพรีเซนต์งานกับเซลส์ ช่วยอธิบายเชิงเทคนิคให้ลูกค้าเข้าใจ",
-                                                                           "- ตอบคำถามและให้คำปรึกษาเพื่อช่วยให้ลูกค้าตัดสินใจง่ายขึ้น",
-                                                                           "3. ติดตั้งและตั้งค่าระบบ (Implementation)",
-                                                                           "- ติดตั้งและ Config อุปกรณ์ให้ลูกค้า (Server, Firewall, Switch, Router, NAS)",
-                                                                           "- ติดตั้งระบบ IT Monitoring ด้วย Zabbix เพื่อเฝ้าระวังและวิเคราะห์ Log อุปกรณ์ Network/Server ให้ลูกค้า",
-                                                                           "- เทสต์ระบบให้ชัวร์ก่อนส่งมอบงาน",
-                                                                           "4. บริการหลังการขาย (After-Sales Support)",
-                                                                           "- รีโมทและวิ่ง On-site เพื่อแก้ปัญหาให้ลูกค้าในช่วงรับประกัน",
-                                                                           "5. บำรุงรักษาระบบ (PM)",
-                                                                           "- เข้าตรวจเช็คอุปกรณ์ตามรอบ (Server, UPS, Network)",
-                                                                           "- ทำรายงานสภาพระบบ (Network Health Check Report) ส่งให้ลูกค้า",
-                                                                           "6. การทำเอกสารและอบรม",
-                                                                           "- ทำคู่มือและสอนลูกค้าใช้งานระบบ",
-                                                                           "- จัดทำเอกสารส่งมอบงาน (UAT)"
-                                                                       ],
-                                                           "highlight":  "ผลงานเด่น:\n• ออกแบบและติดตั้งระบบ Network ให้องค์กรลูกค้ากว่า 10 โปรเจกต์ (โปรเจกต์ใหญ่สุดมูลค่า 800,000 บาท)\n• ติดตั้งและ Config อุปกรณ์ Network (Switch, Router, Firewall) และ Server ให้อย่างเสถียร\n• ทำ VPN Site-to-Site เชื่อมต่อสาขาต่างๆ ให้พนักงานทำงานข้ามสาขาได้อย่างปลอดภัย\n• ช่วยทีมขายทำ Solution Diagram อธิบายเทคนิคจนปิดการขายได้เยอะขึ้น"
-                                                       },
                                                 "en":  {
-                                                           "title":  "IT Network Support",
                                                            "org":  "TK-Connecting Co., Ltd.",
                                                            "meta":  "Oct 2021 – Feb 2023",
+                                                           "title":  "IT Network Support",
                                                            "bullets":  [
                                                                            "1. IT Solution Design \u0026 Planning",
                                                                            "- Analyzed client requirements to design customized systems (Network, Server, Security, Cloud)",
@@ -257,10 +666,29 @@
                                                                        ],
                                                            "highlight":  "Key Accomplishments:\n• Designed and implemented Network Infrastructure for 10+ enterprise projects (largest project valued at 800k THB).\n• Ensured stable operation of high-availability Network and Server environments.\n• Deployed Site-to-Site VPN solutions to enable secure inter-branch connectivity.\n• Improved deal closure rates by providing high-quality technical diagrams and pre-sales consultation."
                                                        },
+                                                "th":  {
+                                                           "org":  "TK-Connecting Co., Ltd.",
+                                                           "meta":  "ต.ค. 2564 – ก.พ. 2566",
+                                                           "title":  "IT Network Support",
+                                                           "bullets":  [
+                                                                           "ดูแลงานโครงการให้ลูกค้าแบบครบวงจร ตั้งแต่ออกพบลูกค้าเพื่อเก็บความต้องการ (Requirement) ออกแบบและวางแผนระบบ ลงหน้างานติดตั้งจริง จนถึง Support ดูแลลูกค้าหลังการติดตั้ง",
+                                                                           "1. ระบบ Virtualization (VMware, Hyper-V, Proxmox)",
+                                                                           "ออกแบบ ติดตั้ง และบริหารจัดการระบบ Virtualization หลายแพลตฟอร์ม ทั้ง VMware ESXi + vCenter Server, Microsoft Hyper-V และ Proxmox VE พร้อมดูแล VM Guest, vSwitch (Virtual Network) และ VMware vSAN สำหรับ Storage ทั้งภายในองค์กรและติดตั้งให้แก่ลูกค้า",
+                                                                           "2. ระบบ Server \u0026 High Availability",
+                                                                           "ติดตั้งและบริหารจัดการ Windows Server พร้อม Active Directory 2 Server แบบ Replication รองรับ High Availability จัดโครงสร้าง OU, GPO, DNS, DHCP และ File Share Permission ตั้งค่า Shadow Copy สำหรับ Backup และ Restore ไฟล์ พร้อมวางแผน Preventive Maintenance ประจำปี",
+                                                                           "3. ระบบ Backup",
+                                                                           "ออกแบบและบริหารจัดการระบบสำรองข้อมูลด้วย Veeam Backup + NAS Synology",
+                                                                           "4. ระบบความปลอดภัย (Security \u0026 Endpoint)",
+                                                                           "ติดตั้งและ Config Firewall หลายแพลตฟอร์ม (Fortigate, Zyxel, Sophos) ครอบคลุม Firewall Policy, SSL VPN, IPSec VPN, NAT, IPS และ Web Filtering พร้อม Monitor Traffic, Threat และตรวจสอบ Security Log และ Traffic Log อย่างสม่ำเสมอ",
+                                                                           "5. ระบบเครือข่าย (Network)",
+                                                                           "ออกแบบและติดตั้งระบบเครือข่าย ครอบคลุม VLAN, Inter-VLAN Routing, SSID แยกตามประเภทผู้ใช้, QoS และ Port Trunk/Access พร้อม Monitor Network ผ่าน Omada Controller ติดตาม Bandwidth, Client และ Uptime แบบ Real-time พร้อมดูแล Switches, Biometric, CCTV และอุปกรณ์ปลายทาง ทั้งภายในองค์กรและให้แก่ลูกค้า"
+                                                                       ],
+                                                           "highlight":  "ออกแบบและติดตั้งระบบ Network ให้ลูกค้าองค์กรกว่า 10 โปรเจกต์ ตั้งแต่ขนาดกลางถึงขนาดใหญ่ ติดตั้งและ Config อุปกรณ์ Network (Switch, Router, Firewall) พร้อม Server ให้ทำงานได้อย่างเสถียร ตั้งค่า VPN Site-to-Site เชื่อมต่อระหว่างสาขาเพื่อให้พนักงานทำงานข้ามสาขาได้อย่างปลอดภัย รวมถึงสนับสนุนทีมขายจัดทำ Solution Diagram และอธิบายด้านเทคนิคให้ลูกค้า ช่วยปิดการขายได้มากขึ้น"
+                                                       },
                                                 "zh":  {
-                                                           "title":  "IT 网络支持",
                                                            "org":  "TK-Connecting 有限公司",
                                                            "meta":  "2021年10月 – 2023年2月",
+                                                           "title":  "IT 网络支持",
                                                            "bullets":  [
                                                                            "1. IT 解决方案设计与规划",
                                                                            "- 分析客户需求，量身定制系统架构（网络、服务器、安全、云端）",
@@ -287,34 +715,10 @@
                        {
                            "id":  "exp-3",
                            "translations":  {
-                                                "th":  {
-                                                           "title":  "IT Support",
-                                                           "org":  "Professional Laboratories Management Corp Pub Co., Ltd.",
-                                                           "meta":  "พ.ค. 2563 – ต.ค. 2564",
-                                                           "bullets":  [
-                                                                           "1. ดูแลจัดการระบบ Server",
-                                                                           "- จัดการ User ผ่าน Active Directory",
-                                                                           "- ตั้งค่าความปลอดภัยด้วย Group Policy และกำหนดสิทธิ์การแชร์ไฟล์",
-                                                                           "2. จัดการระบบ Cloud และความปลอดภัย",
-                                                                           "- ดูแลระบบ HIS-LIS SQL SYMPHONY",
-                                                                           "- จัดการแอนตี้ไวรัส (ESET Nod32) บน Cloud",
-                                                                           "- ดูแลระบบ Google Workspace (อีเมลและบัญชีองค์กร)",
-                                                                           "3. โครงสร้างพื้นฐาน IT",
-                                                                           "- ออกแบบและติดตั้ง Server AD, Switch, สแกนนิ้ว, กล้อง CCTV, NAS และระบบ Backup",
-                                                                           "- ติดตั้งระบบ IT Monitoring ด้วย Zabbix เพื่อเฝ้าระวังและวิเคราะห์ Log อุปกรณ์ Network/Server ภายในองค์กร",
-                                                                           "4. ซัพพอร์ตและซ่อมบำรุง",
-                                                                           "- จัดคิวและตามงานแจ้งซ่อมผ่านระบบออนไลน์",
-                                                                           "- ตั้ง SLA และเก็บข้อมูลมาวิเคราะห์เพื่อปรับปรุงการทำงานให้เร็วขึ้น",
-                                                                           "5. จัดการงบประมาณ",
-                                                                           "- วางแผนงบซื้ออุปกรณ์, ค่าซ่อมบำรุง และค่า License รายปี",
-                                                                           "- คุยกับ Vendor เทียบราคาเพื่อหาตัวเลือกที่คุ้มที่สุด"
-                                                                       ],
-                                                           "highlight":  "โปรเจกต์สำคัญ: รับผิดชอบงานย้ายระบบ Server ของโรงพยาบาล (HIS) จาก On-Premise ขึ้น Cloud\n• วางแผนและคุมงานย้ายข้อมูล HIS ทั้งระบบขึ้น Cloud ได้ได้อย่างราบรื่น\n• เทสต์ Backup \u0026 Restore ป้องกันข้อมูลหายระหว่างย้ายระบบ\n• จูนระบบ Cloud ให้ทำงานนิ่ง และเพิ่มความปลอดภัยตามมาตรฐานข้อมูลสุขภาพ\n• ช่วยลดค่าดูแล Server ประหยัดงบ และทำให้ขยายระบบในอนาคตได้ง่าย โปรเจกต์จบตรงเวลาและส่งมอบผ่าน UAT เรียบร้อย"
-                                                       },
                                                 "en":  {
-                                                           "title":  "IT Support",
                                                            "org":  "Professional Laboratories Management Corp Pub Co., Ltd.",
                                                            "meta":  "May 2020 – Oct 2021",
+                                                           "title":  "IT Support",
                                                            "bullets":  [
                                                                            "1. Server \u0026 Identity Management",
                                                                            "- Managed users and security policies via Active Directory and GPO",
@@ -335,10 +739,34 @@
                                                                        ],
                                                            "highlight":  "Key Project: Successfully led the Hospital Information System (HIS) server migration from On-Premise to Cloud.\n• Managed the seamless data transfer of the entire HIS system to Cloud Infrastructure.\n• Performed comprehensive Backup \u0026 Restore testing to ensure zero data loss.\n• Optimized the cloud environment for stability and healthcare-grade data security compliance.\n• Reduced server maintenance overhead and enabled future scalability. Project was delivered on-time and passed all UAT."
                                                        },
+                                                "th":  {
+                                                           "org":  "Professional Laboratories Management Corp Pub Co., Ltd.",
+                                                           "meta":  "พ.ค. 2563 – ต.ค. 2564",
+                                                           "title":  "IT Support",
+                                                           "bullets":  [
+                                                                           "1. ระบบ Virtualization (VMware)",
+                                                                           "บริหารจัดการ VMware ESXi และ vCenter Server ดูแล VM Guest, vSwitch (Virtual Network) และ VMware vSAN สำหรับ Storage",
+                                                                           "2. ระบบ Server \u0026 High Availability",
+                                                                           "ดูแล Windows Server และ Active Directory แบบ Redundancy จัดโครงสร้าง OU และกำหนดสิทธิ์ผ่าน GPO ตั้งค่า Shadow Copy สำหรับ Backup และ Restore ไฟล์ พร้อมวางแผน Preventive Maintenance ประจำปี",
+                                                                           "3. ระบบ Backup",
+                                                                           "บริหารจัดการระบบสำรองข้อมูลด้วย Veeam Backup + NAS Synology",
+                                                                           "4. ระบบ HIS-LIS (SQL Symphony)",
+                                                                           "ดูแลระบบ HIS-LIS ให้ทำงานต่อเนื่อง 24 ชั่วโมง พร้อมร่วมทีมย้ายฐานข้อมูล HIS จาก On-Premise ขึ้นสู่ Cloud Infrastructure",
+                                                                           "5. ระบบความปลอดภัย",
+                                                                           "จัดการ Endpoint Security ผ่าน ESET NOD32 (On-Premise) และบริหารจัดการ Google G-Suite ในฐานะ Admin: สร้าง/ลบ/โอนย้ายบัญชีผู้ใช้, กำหนดสิทธิ์การเข้าถึง, จัดการ Group, License และ Shared Drive",
+                                                                           "6. ระบบเครือข่ายและอุปกรณ์ไอที",
+                                                                           "ติดตั้งและดูแล Switches, Biometric, CCTV และอุปกรณ์ปลายทาง พร้อมบริหารสิทธิ์ผ่าน GPO และบัญชีผู้ใช้ผ่าน Active Directory",
+                                                                           "7. Business Applications Support",
+                                                                           "ดูแลและแก้ไขปัญหาการใช้งานโปรแกรมบัญชี Express On Cloud ให้ใช้งานได้ต่อเนื่อง",
+                                                                           "8. IT Asset Management",
+                                                                           "จัดทำและดูแลทะเบียนทรัพย์สินไอที ตรวจสอบสถานะการทำงานของอุปกรณ์ พร้อมบริหารจัดการ License Software ขององค์กรอย่างสม่ำเสมอ"
+                                                                       ],
+                                                           "highlight":  "โปรเจกต์ออกแบบและติดตั้งระบบ Server (Active Directory) ในฐานะ PM\nรับผิดชอบในฐานะ Project Manager ออกแบบและติดตั้งระบบ Active Directory จำนวน 2 เครื่องแบบ Redundancy รองรับ High Availability พร้อม Server เครื่องที่ 3 ทำหน้าที่ Backup ออกแบบโครงสร้าง OU, Group Policy (GPO) และ File Share Permission ติดตั้งระบบ Virtualization ด้วย VMware ESXi + vCenter Server, ระบบฐานข้อมูล SQL Server และระบบสำรองข้อมูลด้วย Veeam Backup + NAS Synology บริหารจัดการการจัดหา Server, Software และ Storage รวมถึงเปรียบเทียบราคาจากผู้จำหน่ายเพื่อให้คุ้มค่างบประมาณ ดำเนินโครงการเสร็จภายใน 30 วันตามแผนงานที่วางไว้"
+                                                       },
                                                 "zh":  {
-                                                           "title":  "IT 支持",
                                                            "org":  "Professional Laboratories Management Corp 公众有限公司",
                                                            "meta":  "2020年5月 – 2021年10月",
+                                                           "title":  "IT 支持",
                                                            "bullets":  [
                                                                            "1. 服务器与身份管理",
                                                                            "- 通过 Active Directory 和组策略 (GPO) 管理用户及安全策略",
@@ -364,30 +792,10 @@
                        {
                            "id":  "exp-4",
                            "translations":  {
-                                                "th":  {
-                                                           "title":  "IT Support",
-                                                           "org":  "Nanmee Industry Co., Ltd.",
-                                                           "meta":  "มี.ค. 2562 – เม.ย. 2563",
-                                                           "bullets":  [
-                                                                           "1. ดูแล Server และ Active Directory",
-                                                                           "- คอยเช็คการทำงานของ Server และจัดการ AD ของบริษัท",
-                                                                           "- สร้าง/ลบ User, จัดการ Group Policy และสิทธิ์การเข้าถึงข้อมูล",
-                                                                           "2. ซ่อมและแก้ปัญหา IT",
-                                                                           "- ซ่อมคอมพิวเตอร์, แก้ปัญหา Network, อินเทอร์เน็ต, อีเมล และระบบ ERP (Oracle)",
-                                                                           "3. บำรุงรักษาอุปกรณ์",
-                                                                           "- ดูแลบำรุงรักษา PC, Notebook และอุปกรณ์เน็ตเวิร์กให้พร้อมใช้เสมอ",
-                                                                           "4. สำรองข้อมูล (Backup)",
-                                                                           "- ทำ Backup ข้อมูล Server และเครื่องพนักงานตามนโยบาย",
-                                                                           "- หมั่นเทสต์ไฟล์ Backup เพื่อให้มั่นใจว่ากู้ข้อมูลได้จริงตอนฉุกเฉิน",
-                                                                           "5. ซัพพอร์ตพนักงาน (Helpdesk)",
-                                                                           "- ให้คำปรึกษาและแก้ปัญหาคอมพิวเตอร์ให้พนักงานทำงานได้สะดวกขึ้น"
-                                                                       ],
-                                                           "highlight":  "ผลงานเด่น: \nออกแบบและติดตั้งกล้อง CCTV จำนวน 152 ตัว พร้อมเดินสายสัญญาณ Fiber Optic ทั้งหมด เพื่อให้สามารถดูภาพและควบคุมกล้องทุกตัวได้จากจุดเดียว ครอบคลุมทั่วพื้นที่โรงงาน"
-                                                       },
                                                 "en":  {
-                                                           "title":  "IT Support",
                                                            "org":  "Nanmee Industry Co., Ltd.",
                                                            "meta":  "Mar 2019 – Apr 2020",
+                                                           "title":  "IT Support",
                                                            "bullets":  [
                                                                            "1. Server \u0026 AD Maintenance",
                                                                            "- Monitored server health and managed corporate Active Directory",
@@ -404,10 +812,28 @@
                                                                        ],
                                                            "highlight":  "Major Achievement: Designed and installed a massive 152-camera CCTV system with a complete Fiber Optic backbone, enabling centralized monitoring and control across the entire facility."
                                                        },
+                                                "th":  {
+                                                           "org":  "Nanmee Industry Co., Ltd.",
+                                                           "meta":  "มี.ค. 2562 – เม.ย. 2563",
+                                                           "title":  "IT Support",
+                                                           "bullets":  [
+                                                                           "IT Support \u0026 Helpdesk",
+                                                                           "ดูแล Helpdesk และ Desktop Support ให้ผู้ใช้งานในองค์กร แก้ปัญหาฮาร์ดแวร์ ซอฟต์แวร์ และเครือข่ายเบื้องต้น จัดการบัญชีผู้ใช้ สิทธิ์การเข้าถึง และ Shared Folder รวมถึงดูแลเครื่องพิมพ์และเครื่องถ่ายเอกสารส่วนกลางให้ใช้งานได้ต่อเนื่อง",
+                                                                           "IT Governance \u0026 ISO Standards",
+                                                                           "จัดทำ IT Policy \u0026 Procedure ให้สอดคล้องกับ ISO 9001:2015 และตรวจสอบการทำงานของแผนกไอทีให้เป็นไปตามข้อกำหนด รองรับการ Audit",
+                                                                           "Server \u0026 Infrastructure Management",
+                                                                           "ดูแล Windows Server และ Active Directory แบบ Redundancy รองรับ High Availability จัดโครงสร้าง OU และกำหนดสิทธิ์ผ่าน GPO ตั้งค่า Shadow Copy สำหรับ Backup และ Restore ไฟล์ พร้อมวางแผน Preventive Maintenance ประจำปี",
+                                                                           "Business Applications Support",
+                                                                           "ดูแลและแก้ปัญหาการใช้งานระบบ ERP (Oracle), MES (Manufacturing Execution System) และ WMS (Warehouse Management System) รวมถึงระบบบริหารเงินเดือน (Payday) ของฝ่าย HR",
+                                                                           "Endpoint \u0026 Security Systems",
+                                                                           "ดูแลระบบกล้องวงจรปิด (CCTV) ทั่วทั้งองค์กร และระบบสแกนลายนิ้วมือ (Time Attendance) สำหรับบันทึกเวลาเข้า-ออกงานของพนักงาน"
+                                                                       ],
+                                                           "highlight":  "ผลงานเด่น: \nออกแบบและติดตั้งกล้อง CCTV จำนวน 152 ตัว พร้อมเดินสายสัญญาณ Fiber Optic ทั้งหมด เพื่อให้สามารถดูภาพและควบคุมกล้องทุกตัวได้จากจุดเดียว ครอบคลุมทั่วพื้นที่โรงงาน"
+                                                       },
                                                 "zh":  {
-                                                           "title":  "IT 支持",
                                                            "org":  "Nanmee Industry 有限公司",
                                                            "meta":  "2019年3月 – 2020年4月",
+                                                           "title":  "IT 支持",
                                                            "bullets":  [
                                                                            "1. 服务器与 AD 维护",
                                                                            "- 监控服务器 health 状态并管理公司 Active Directory",
@@ -429,21 +855,10 @@
                        {
                            "id":  "exp-5",
                            "translations":  {
-                                                "th":  {
-                                                           "title":  "IT Support",
-                                                           "org":  "Ban Leong Chin Inter Co., Ltd.",
-                                                           "meta":  "มี.ค. 2560 – ก.พ. 2562",
-                                                           "bullets":  [
-                                                                           "ดูแล Server, Active Directory และ User Account Lifecycle",
-                                                                           "แก้ปัญหา Hardware, Software, Network, Email และ Oracle ERP",
-                                                                           "บริหารจัดการ Data Backup และ Disaster Recovery"
-                                                                       ],
-                                                           "highlight":  ""
-                                                       },
                                                 "en":  {
-                                                           "title":  "IT Support",
                                                            "org":  "Ban Leong Chin Inter Co., Ltd.",
                                                            "meta":  "Mar 2017 – Feb 2019",
+                                                           "title":  "IT Support",
                                                            "bullets":  [
                                                                            "Managed Server, Active Directory, and User Account Lifecycle",
                                                                            "Troubleshot Hardware, Software, Network, Email, and Oracle ERP",
@@ -451,10 +866,21 @@
                                                                        ],
                                                            "highlight":  ""
                                                        },
+                                                "th":  {
+                                                           "org":  "Ban Leong Chin Inter Co., Ltd.",
+                                                           "meta":  "มี.ค. 2560 – ก.พ. 2562",
+                                                           "title":  "IT Support",
+                                                           "bullets":  [
+                                                                           "ดูแล Server, Active Directory และ User Account Lifecycle",
+                                                                           "แก้ปัญหา Hardware, Software, Network, Email และ Oracle ERP",
+                                                                           "บริหารจัดการ Data Backup และ Disaster Recovery"
+                                                                       ],
+                                                           "highlight":  ""
+                                                       },
                                                 "zh":  {
-                                                           "title":  "IT 支持",
                                                            "org":  "Ban Leong Chin Inter 有限公司",
                                                            "meta":  "2017年3月 – 2019年2月",
+                                                           "title":  "IT 支持",
                                                            "bullets":  [
                                                                            "管理服务器、Active Directory 与用户账户生命周期",
                                                                            "排除硬件、软件、网络、电子邮件与 Oracle ERP 故障",
@@ -464,440 +890,5 @@
                                                        }
                                             }
                        }
-                   ],
-    "education":  [
-                      {
-                          "id":  "edu-1",
-                          "translations":  {
-                                               "th":  {
-                                                          "title":  "กำลังศึกษา วิทยาศาสตรบัณฑิต สาขาเทคโนโลยีสารสนเทศและการสื่อสาร",
-                                                          "org":  "มหาวิทยาลัยสุโขทัยธรรมาธิราช",
-                                                          "meta":  "คาดว่าจบ 2570 | GPA 2.90"
-                                                      },
-                                               "en":  {
-                                                          "title":  "B.Sc. in Information and Communications Technology",
-                                                          "org":  "Sukhothai Thammathirat Open University",
-                                                          "meta":  "Expected 2027 | GPA 2.90"
-                                                      },
-                                               "zh":  {
-                                                          "title":  "信息与通信技术理学学士",
-                                                          "org":  "素可泰他玛提叻开放大学",
-                                                          "meta":  "预计 2027 年毕业 | GPA 2.90"
-                                                      }
-                                           }
-                      },
-                      {
-                          "id":  "edu-2",
-                          "translations":  {
-                                               "th":  {
-                                                          "title":  "ประกาศนียบัตรวิชาชีพ (ปวช.) สาขาเทคโนโลยีระบบเสียง",
-                                                          "org":  "วิทยาลัยเทคนิคนางรอง",
-                                                          "meta":  "จบ 2545 | GPA 2.25"
-                                                      },
-                                               "en":  {
-                                                          "title":  "Vocational Certificate in Sound Technology",
-                                                          "org":  "Nang Rong Technical College",
-                                                          "meta":  "Graduated 2002 | GPA 2.25"
-                                                      },
-                                               "zh":  {
-                                                          "title":  "音响技术职业证书",
-                                                          "org":  "南荣技术学院",
-                                                          "meta":  "2002年毕业 | GPA 2.25"
-                                                      }
-                                           }
-                      }
-                  ],
-    "skills":  [
-                   {
-                       "id":  "sk-1",
-                       "translations":  {
-                                            "th":  {
-                                                       "label":  "Infrastructure \u0026 Networking",
-                                                       "tags":  [
-                                                                    "Cisco",
-                                                                    "Switch L2/L3",
-                                                                    "VLAN / STP",
-                                                                    "Zabbix Monitoring",
-                                                                    "TP-Link Omada",
-                                                                    "Mikrotik"
-                                                                ]
-                                                   },
-                                            "en":  {
-                                                       "label":  "Infrastructure \u0026 Networking",
-                                                       "tags":  [
-                                                                    "Cisco",
-                                                                    "Switch L2/L3",
-                                                                    "VLAN / STP",
-                                                                    "Zabbix Monitoring",
-                                                                    "TP-Link Omada",
-                                                                    "Mikrotik"
-                                                                ]
-                                                   },
-                                            "zh":  {
-                                                       "label":  "基础设施与网络",
-                                                       "tags":  [
-                                                                    "思科 (Cisco)",
-                                                                    "L2/L3 交换机",
-                                                                    "虚拟局域网 (VLAN / STP)",
-                                                                    "Zabbix 网络监控",
-                                                                    "TP-Link Omada 无线方案",
-                                                                    "Mikrotik 路由配置"
-                                                                ]
-                                                   }
-                                        }
-                   },
-                   {
-                       "id":  "sk-2",
-                       "translations":  {
-                                            "th":  {
-                                                       "label":  "Systems \u0026 Virtualization",
-                                                       "tags":  [
-                                                                    "Windows Server",
-                                                                    "Active Directory",
-                                                                    "Group Policy (GPO)",
-                                                                    "VMware",
-                                                                    "Hyper-V",
-                                                                    "Proxmox",
-                                                                    "Nutanix"
-                                                                ]
-                                                   },
-                                            "en":  {
-                                                       "label":  "Systems \u0026 Virtualization",
-                                                       "tags":  [
-                                                                    "Windows Server",
-                                                                    "Active Directory",
-                                                                    "Group Policy (GPO)",
-                                                                    "VMware",
-                                                                    "Hyper-V",
-                                                                    "Proxmox",
-                                                                    "Nutanix"
-                                                                ]
-                                                   },
-                                            "zh":  {
-                                                       "label":  "系统与虚拟化",
-                                                       "tags":  [
-                                                                    "Windows Server 运维",
-                                                                    "Active Directory 域控管理",
-                                                                    "组策略 (GPO)",
-                                                                    "VMware 虚拟化",
-                                                                    "Hyper-V",
-                                                                    "Proxmox",
-                                                                    "Nutanix 超融合"
-                                                                ]
-                                                   }
-                                        }
-                   },
-                   {
-                       "id":  "sk-3",
-                       "translations":  {
-                                            "th":  {
-                                                       "label":  "Cybersecurity \u0026 Protection",
-                                                       "tags":  [
-                                                                    "Firewall Policy (Fortigate / Sophos / Zyxel)",
-                                                                    "VPN (Site-to-Site / Client)",
-                                                                    "MFA (Multi-Factor Auth)",
-                                                                    "IPS / IDS",
-                                                                    "ESET Endpoint Security",
-                                                                    "Web Filtering"
-                                                                ]
-                                                   },
-                                            "en":  {
-                                                       "label":  "Cybersecurity \u0026 Protection",
-                                                       "tags":  [
-                                                                    "Firewall Policy (Fortigate / Sophos / Zyxel)",
-                                                                    "VPN (Site-to-Site / Client)",
-                                                                    "MFA (Multi-Factor Auth)",
-                                                                    "IPS / IDS",
-                                                                    "ESET Endpoint Security",
-                                                                    "Web Filtering"
-                                                                ]
-                                                   },
-                                            "zh":  {
-                                                       "label":  "网络安全与防护",
-                                                       "tags":  [
-                                                                    "防火墙策略 (Fortigate / Sophos / Zyxel)",
-                                                                    "VPN 隧道 (Site-to-Site / Client)",
-                                                                    "多因子身份验证 (MFA)",
-                                                                    "入侵检测与防御 (IPS / IDS)",
-                                                                    "ESET 终端安全防护",
-                                                                    "网页过滤与行为管理"
-                                                                ]
-                                                   }
-                                        }
-                   },
-                   {
-                       "id":  "sk-7",
-                       "translations":  {
-                                            "th":  {
-                                                       "label":  "Storage \u0026 Data Backup",
-                                                       "tags":  [
-                                                                    "SAN (Storage Area Network)",
-                                                                    "Synology NAS",
-                                                                    "Veeam Backup",
-                                                                    "Shadow Copy / Snapshot",
-                                                                    "Disaster Recovery (DR)"
-                                                                ]
-                                                   },
-                                            "en":  {
-                                                       "label":  "Storage \u0026 Data Backup",
-                                                       "tags":  [
-                                                                    "SAN (Storage Area Network)",
-                                                                    "Synology NAS",
-                                                                    "Veeam Backup",
-                                                                    "Shadow Copy / Snapshot",
-                                                                    "Disaster Recovery (DR)"
-                                                                ]
-                                                   },
-                                            "zh":  {
-                                                       "label":  "存储与数据备份",
-                                                       "tags":  [
-                                                                    "存储区域网络 (SAN)",
-                                                                    "群晖 (Synology NAS) 管理",
-                                                                    "Veeam 备份方案",
-                                                                    "快照与阴影复制 (Snapshot / Shadow Copy)",
-                                                                    "容灾恢复 (Disaster Recovery)"
-                                                                ]
-                                                   }
-                                        }
-                   },
-                   {
-                       "id":  "sk-4",
-                       "translations":  {
-                                            "th":  {
-                                                       "label":  "Cloud \u0026 Enterprise Solutions",
-                                                       "tags":  [
-                                                                    "Microsoft 365 (Admin)",
-                                                                    "Exchange Online / Teams",
-                                                                    "Google Workspace",
-                                                                    "ERP (Mango / Oracle)"
-                                                                ]
-                                                   },
-                                            "en":  {
-                                                       "label":  "Cloud \u0026 Enterprise Solutions",
-                                                       "tags":  [
-                                                                    "Microsoft 365 (Admin)",
-                                                                    "Exchange Online / Teams",
-                                                                    "Google Workspace",
-                                                                    "ERP (Mango / Oracle)"
-                                                                ]
-                                                   },
-                                            "zh":  {
-                                                       "label":  "云与企业解决方案",
-                                                       "tags":  [
-                                                                    "Microsoft 365 企业管理",
-                                                                    "Exchange Online / Teams 运维",
-                                                                    "Google Workspace 管理",
-                                                                    "ERP 系统运维 (Mango / Oracle)"
-                                                                ]
-                                                   }
-                                        }
-                   },
-                   {
-                       "id":  "sk-6",
-                       "translations":  {
-                                            "th":  {
-                                                       "label":  "Programming \u0026 Database",
-                                                       "tags":  [
-                                                                    "SQL (Query / Join / Aggregation)",
-                                                                    "MS SQL Server / Sybase",
-                                                                    "Python",
-                                                                    "Google Apps Script",
-                                                                    "PHP / JavaScript / HTML5"
-                                                                ]
-                                                   },
-                                            "en":  {
-                                                       "label":  "Programming \u0026 Database",
-                                                       "tags":  [
-                                                                    "SQL (Query / Join / Aggregation)",
-                                                                    "MS SQL Server / Sybase",
-                                                                    "Python",
-                                                                    "Google Apps Script",
-                                                                    "PHP / JavaScript / HTML5"
-                                                                ]
-                                                   },
-                                            "zh":  {
-                                                       "label":  "编程与数据库",
-                                                       "tags":  [
-                                                                    "SQL 数据库开发 (Query / Join)",
-                                                                    "MS SQL Server / Sybase 维护",
-                                                                    "Python 自动化脚本",
-                                                                    "Google Apps Script 开发",
-                                                                    "Web 开发 (PHP / JS / HTML5)"
-                                                                ]
-                                                   }
-                                        }
-                   },
-                   {
-                       "id":  "sk-8",
-                       "translations":  {
-                                            "th":  {
-                                                       "label":  "Spoken Languages",
-                                                       "tags":  [
-                                                                    "Thai (Native)",
-                                                                    "English (Beginner)"
-                                                                ]
-                                                   },
-                                            "en":  {
-                                                       "label":  "Spoken Languages",
-                                                       "tags":  [
-                                                                    "Thai (Native)",
-                                                                    "English (Beginner)"
-                                                                ]
-                                                   },
-                                            "zh":  {
-                                                       "label":  "语言能力",
-                                                       "tags":  [
-                                                                    "泰语 (母语)",
-                                                                    "英语 (基础)"
-                                                                ]
-                                                   }
-                                        }
-                   }
-               ],
-    "certs":  [
-                  {
-                      "id":  "cert-1",
-                      "translations":  {
-                                           "th":  {
-                                                      "name":  "CCNA — Cisco Certified Network Associate",
-                                                      "org":  "Jodoi IT \u0026 Service (2565)"
-                                                  },
-                                           "en":  {
-                                                      "name":  "CCNA — Cisco Certified Network Associate",
-                                                      "org":  "Jodoi IT \u0026 Service (2022)"
-                                                  },
-                                           "zh":  {
-                                                      "name":  "CCNA — 思科认证网络工程师",
-                                                      "org":  "Jodoi IT \u0026 Service (2022)"
-                                                  }
-                                       },
-                      "file":  "certs/CCNA_ea2808.jpg"
-                  },
-                  {
-                      "id":  "cert-2",
-                      "translations":  {
-                                           "th":  {
-                                                      "name":  "NSE 3 Network Security Associate",
-                                                      "org":  "Fortinet (2566)"
-                                                  },
-                                           "en":  {
-                                                      "name":  "NSE 3 Network Security Associate",
-                                                      "org":  "Fortinet (2023)"
-                                                  },
-                                           "zh":  {
-                                                      "name":  "NSE 3 网络安全工程师",
-                                                      "org":  "Fortinet (2023)"
-                                                  }
-                                       },
-                      "file":  "certs/NSE_3_98b8ac.jpg"
-                  },
-                  {
-                      "id":  "cert-3",
-                      "translations":  {
-                                           "th":  {
-                                                      "name":  "NSE 2 Network Security Associate",
-                                                      "org":  "Fortinet (2565)"
-                                                  },
-                                           "en":  {
-                                                      "name":  "NSE 2 Network Security Associate",
-                                                      "org":  "Fortinet (2022)"
-                                                  },
-                                           "zh":  {
-                                                      "name":  "NSE 2 网络安全工程师",
-                                                      "org":  "Fortinet (2022)"
-                                                  }
-                                       },
-                      "file":  "certs/NSE_2_3b085b.jpg"
-                  },
-                  {
-                      "id":  "cert-4",
-                      "translations":  {
-                                           "th":  {
-                                                      "name":  "NSE 1 Network Security Associate",
-                                                      "org":  "Fortinet (2565)"
-                                                  },
-                                           "en":  {
-                                                      "name":  "NSE 1 Network Security Associate",
-                                                      "org":  "Fortinet (2022)"
-                                                  },
-                                           "zh":  {
-                                                      "name":  "NSE 1 网络安全工程师",
-                                                      "org":  "Fortinet (2022)"
-                                                  }
-                                       },
-                      "file":  "certs/NSE_1_ca066a.jpg"
-                  },
-                  {
-                      "id":  "cert-5",
-                      "translations":  {
-                                           "th":  {
-                                                      "name":  "Configuring Windows Server 2019 AD",
-                                                      "org":  "elife systems (2563)"
-                                                  },
-                                           "en":  {
-                                                      "name":  "Configuring Windows Server 2019 AD",
-                                                      "org":  "elife systems (2020)"
-                                                  },
-                                           "zh":  {
-                                                      "name":  "配置 Windows Server 2019 AD",
-                                                      "org":  "elife systems (2020)"
-                                                  }
-                                       },
-                      "file":  "certs/AD001_Configuring_and_Troubleshooting_-_Windows_Server_2019_Active_Directory_Domain_Services_e0d0c5.jpg"
-                  },
-                  {
-                      "id":  "cert-6",
-                      "translations":  {
-                                           "th":  {
-                                                      "name":  "Fix and Advance Troubleshooting Windows Server AD",
-                                                      "org":  "elife systems (2564)"
-                                                  },
-                                           "en":  {
-                                                      "name":  "Advanced Troubleshooting Windows Server AD",
-                                                      "org":  "elife systems (2021)"
-                                                  },
-                                           "zh":  {
-                                                      "name":  "Windows Server AD 高级故障排除",
-                                                      "org":  "elife systems (2021)"
-                                                  }
-                                       },
-                      "file":  "certs/AD002_Fix_and_Advance_Troubleshooting_Windows_Server_AD_a42922.jpg"
-                  },
-                  {
-                      "id":  "cert-7",
-                      "translations":  {
-                                           "th":  {
-                                                      "name":  "Essential SQL For Everyone",
-                                                      "org":  "BORNTODEV (2569)"
-                                                  },
-                                           "en":  {
-                                                      "name":  "Essential SQL For Everyone",
-                                                      "org":  "BORNTODEV (2026)"
-                                                  },
-                                           "zh":  {
-                                                      "name":  "人人都懂 SQL",
-                                                      "org":  "BORNTODEV (2026)"
-                                                  }
-                                       },
-                      "file":  "certs/SQL_85028e.jpg"
-                  },
-                  {
-                      "id":  "cert-8",
-                      "translations":  {
-                                           "th":  {
-                                                      "name":  "Python",
-                                                      "org":  "Cisco Networking Academy (2569)"
-                                                  },
-                                           "en":  {
-                                                      "name":  "Python",
-                                                      "org":  "Cisco Networking Academy (2026)"
-                                                  },
-                                           "zh":  {
-                                                      "name":  "Python",
-                                                      "org":  "思科网络学院 (2026)"
-                                                  }
-                                       },
-                      "file":  "certs/Python2_749f22.jpg"
-                  }
-              ]
+                   ]
 }
