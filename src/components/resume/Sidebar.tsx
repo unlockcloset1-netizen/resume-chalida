@@ -8,6 +8,37 @@ interface SidebarProps {
   lang: 'th' | 'en' | 'zh';
 }
 
+const getDynamicDob = (dobText: string) => {
+  if (!dobText) return '';
+  
+  let birthYear = 1983;
+  let birthMonth = 0; // January
+  let birthDay = 11;
+
+  // Extract year (4 digits)
+  const yearMatch = dobText.match(/\b(19\d{2}|20\d{2}|25\d{2})\b/);
+  if (yearMatch) {
+    const y = parseInt(yearMatch[1], 10);
+    birthYear = y > 2400 ? y - 543 : y;
+  }
+
+  // Calculate age
+  const birthDate = new Date(birthYear, birthMonth, birthDay);
+  const today = new Date();
+  let age = today.getFullYear() - birthDate.getFullYear();
+  const m = today.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+    age--;
+  }
+
+  // Replace age patterns
+  let text = dobText;
+  text = text.replace(/อายุ\s*\d+\s*ปี/g, `อายุ ${age} ปี`);
+  text = text.replace(/Age\s*\d+/gi, `Age ${age}`);
+  text = text.replace(/\d+\s*岁/g, `${age}岁`);
+  return text;
+};
+
 export const Sidebar: React.FC<SidebarProps> = ({ data, lang }) => {
   const pTr = data.personal.translations[lang] || data.personal.translations.th;
   const labels = data.labels[lang] || data.labels.th;
@@ -65,7 +96,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ data, lang }) => {
               { icon: Mail, value: data.personal.email, link: `mailto:${data.personal.email}` },
               { icon: Phone, value: data.personal.phone, link: `tel:${data.personal.phone}` },
               { icon: MapPin, value: pTr.location },
-              { icon: Calendar, value: pTr.dob }
+              { icon: Calendar, value: getDynamicDob(pTr.dob) }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4 print:gap-2 group">
                 <div className="w-8 h-8 print:w-6 print:h-6 rounded-lg bg-slate-800 flex items-center justify-center text-blue-400 flex-shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-all">
