@@ -27,7 +27,12 @@ export const CertsSection: React.FC<CertsSectionProps> = ({ data, lang }) => {
             <div 
               key={c.id} 
               className={`group flex items-start gap-4 p-5 print:p-3 rounded-2xl print:rounded-xl border border-slate-100 bg-white transition-all duration-300 hover:border-blue-200 hover:shadow-xl hover:-translate-y-1 ${c.file ? 'cursor-pointer' : ''} print:break-inside-avoid`}
-              onClick={() => c.file && window.open(`/${c.file}`, '_blank')}
+              onClick={() => {
+                if (c.file) {
+                  const targetUrl = c.file.startsWith('http') ? c.file : `/${c.file}`;
+                  window.open(targetUrl, '_blank');
+                }
+              }}
             >
               <div className="w-12 h-12 print:w-8 print:h-8 rounded-xl print:rounded-lg bg-slate-50 text-slate-400 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-all shadow-sm">
                 <ShieldCheck className="w-6 h-6 print:w-4 print:h-4" />
