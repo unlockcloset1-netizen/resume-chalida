@@ -143,13 +143,62 @@ export default function Resume() {
         }
 
         @media print {
-          body { background: white !important; }
-          @page { margin: 8mm 8mm; size: A4; }
+          body {
+            background: white !important;
+            color: black !important;
+          }
+          @page {
+            margin: 8mm 8mm;
+            size: A4;
+          }
           footer { display: none !important; }
           nav { display: none !important; }
-          .min-h-screen { min-height: 0 !important; }
+          
+          /* Prevent height and overflow truncation */
+          html, body, .min-h-screen {
+            height: auto !important;
+            min-height: 0 !important;
+            overflow: visible !important;
+          }
           .pb-20 { padding-bottom: 0 !important; }
           
+          .resume-container {
+            display: grid !important;
+            grid-template-columns: 32% 68% !important;
+            width: 100% !important;
+            min-height: 0 !important;
+            height: auto !important;
+            overflow: visible !important;
+            box-shadow: none !important;
+            border: none !important;
+            border-radius: 0 !important;
+          }
+          
+          .resume-sidebar {
+            width: 100% !important;
+            height: auto !important;
+            overflow: visible !important;
+            background-color: #001f3f !important;
+            color: white !important;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+          }
+          
+          /* Target scrollable inner div of the sidebar */
+          .resume-sidebar > div {
+            overflow: visible !important;
+            height: auto !important;
+            flex: none !important;
+            padding: 20px !important;
+          }
+          
+          .resume-main {
+            width: 100% !important;
+            height: auto !important;
+            overflow: visible !important;
+            padding: 30px !important;
+          }
+
           /* Force exact color printing */
           * {
             -webkit-print-color-adjust: exact !important;

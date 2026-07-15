@@ -25,7 +25,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ data, lang
         {data.experience.map((item) => {
           const iTr = item.translations[lang] || item.translations.th;
           return (
-            <div key={item.id} className="relative group print:break-inside-avoid">
+            <div key={item.id} className="relative group">
               <div className="flex flex-col gap-6 print:gap-3">
                 {/* Header Info */}
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 print:gap-2">
