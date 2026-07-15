@@ -21,9 +21,9 @@ const getCertLogoUrl = (name: string, org: string) => {
     return 'https://cdn.simpleicons.org/fortinet';
   }
 
-  // 3. Windows Server / Active Directory / Microsoft
+  // 3. Windows Server / Active Directory / Windows
   if (n.includes('windows server') || n.includes('ad') || n.includes('active directory') || o.includes('elife systems')) {
-    return 'https://cdn.simpleicons.org/microsoft';
+    return 'https://cdn.simpleicons.org/windows';
   }
 
   // 4. SQL / Database
