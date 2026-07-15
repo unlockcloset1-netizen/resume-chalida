@@ -99,7 +99,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ data, lang }) => {
               { icon: Calendar, value: getDynamicDob(pTr.dob) }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4 print:gap-2 group">
-                <div className="w-8 h-8 print:w-6 print:h-6 rounded-lg bg-slate-800 flex items-center justify-center text-blue-400 flex-shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                <div className="w-9 h-9 print:w-6 print:h-6 rounded-full bg-slate-800/40 border border-slate-700/30 flex items-center justify-center text-blue-400 flex-shrink-0 group-hover:bg-gradient-to-tr group-hover:from-blue-600 group-hover:to-indigo-600 group-hover:text-white group-hover:border-blue-500/50 group-hover:shadow-[0_0_10px_rgba(59,130,246,0.3)] transition-all duration-300">
                   <item.icon className="w-4 h-4 print:w-3 print:h-3" />
                 </div>
                 <div className="flex flex-col min-w-0 pt-1 print:pt-0">

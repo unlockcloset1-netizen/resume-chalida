@@ -104,9 +104,11 @@ export default function Resume() {
             
             {/* SUMMARY SECTION */}
             <section className="space-y-8 print:space-y-4">
-              <div className="flex items-center gap-4 border-b-4 border-slate-900 pb-3">
-                <User className="w-8 h-8 text-slate-900" />
-                <h2 className="text-[22px] font-black text-slate-900 uppercase tracking-[0.2em] print:text-[14px]">
+              <div className="flex items-center gap-4 border-b border-slate-100 pb-4">
+                <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white shadow-md shadow-blue-500/10 print:w-8 print:h-8 print:bg-none print:shadow-none">
+                  <User className="w-6 h-6 print:w-5 print:h-5 text-white print:text-slate-900" />
+                </div>
+                <h2 className="text-[22px] font-black text-slate-900 uppercase tracking-[0.2em] print:text-[14px] leading-none">
                   {labels?.summaryTitle || ''}
                 </h2>
               </div>
