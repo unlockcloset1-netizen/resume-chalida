@@ -18,7 +18,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ data, lang
         <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white shadow-md shadow-blue-500/10 print:w-8 print:h-8 print:bg-none print:shadow-none">
           <Briefcase className="w-6 h-6 print:w-5 print:h-5 text-white print:text-slate-900" />
         </div>
-        <h2 className="text-[22px] print:text-[14px] font-black text-slate-900 uppercase tracking-[0.2em] leading-none">
+        <h2 className="text-[18px] print:text-[14px] font-black text-slate-900 uppercase tracking-[0.2em] leading-none">
           {labels.experienceTitle}
         </h2>
       </div>
@@ -32,10 +32,10 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ data, lang
                 {/* Header Info */}
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 print:gap-2">
                   <div className="space-y-1 print:space-y-0.5">
-                    <h3 className="text-[24px] print:text-[16px] font-black text-slate-900 leading-tight group-hover:text-blue-700 transition-colors">
+                    <h3 className="text-[18px] print:text-[16px] font-black text-slate-900 leading-tight group-hover:text-blue-700 transition-colors">
                       {iTr.title}
                     </h3>
-                    <div className="flex items-center gap-2 text-blue-600 font-bold text-[18px] print:text-[13px]">
+                    <div className="flex items-center gap-2 text-blue-600 font-bold text-[15px] print:text-[13px]">
                       <Building2 className="w-5 h-5 print:w-4 print:h-4" />
                       <span>{iTr.org}</span>
                     </div>
@@ -47,7 +47,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ data, lang
                 
                 {/* Content */}
                 <div className="bg-white pl-0 sm:pl-4 border-l-2 border-slate-50 print:border-none print:pl-0">
-                  <div className="text-[17px] text-slate-700 leading-relaxed">
+                  <div className="text-[14px] text-slate-700 leading-relaxed">
                     <RichText text={iTr.bullets} />
                   </div>
                   
@@ -59,7 +59,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ data, lang
                         <Trophy className="w-5 h-5 print:w-4 print:h-4 text-blue-600" />
                         {labels.keyResult}
                       </div>
-                      <div className="relative z-10 text-[16px] print:text-[12px]">
+                      <div className="relative z-10 text-[14px] print:text-[12px]">
                         <RichText text={iTr.highlight} />
                       </div>
                     </div>

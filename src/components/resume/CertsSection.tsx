@@ -76,7 +76,7 @@ export const CertsSection: React.FC<CertsSectionProps> = ({ data, lang }) => {
         <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white shadow-md shadow-blue-500/10 print:w-8 print:h-8 print:bg-none print:shadow-none">
           <Award className="w-6 h-6 print:w-5 print:h-5 text-white print:text-slate-900" />
         </div>
-        <h2 className="text-[22px] print:text-[14px] font-black text-slate-900 uppercase tracking-[0.2em] leading-none">
+        <h2 className="text-[18px] print:text-[14px] font-black text-slate-900 uppercase tracking-[0.2em] leading-none">
           {labels.certsTitle}
         </h2>
       </div>
@@ -101,8 +101,8 @@ export const CertsSection: React.FC<CertsSectionProps> = ({ data, lang }) => {
               </div>
               
               <div className="flex-1 min-w-0 pt-0.5">
-                <h4 className="font-black text-slate-900 text-[16px] print:text-[12px] leading-snug mb-1 group-hover:text-blue-700 transition-colors">{cTr.name}</h4>
-                <div className="text-blue-600 font-bold text-[13px] print:text-[10px] uppercase tracking-wider">{cTr.org}</div>
+                <h4 className="font-black text-slate-900 text-[14px] print:text-[12px] leading-snug mb-1 group-hover:text-blue-700 transition-colors">{cTr.name}</h4>
+                <div className="text-blue-600 font-bold text-[12px] print:text-[10px] uppercase tracking-wider">{cTr.org}</div>
               </div>
               
               {c.file && (
