@@ -77,11 +77,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ data, lang }) => {
           </div>
         </div>
         
-        <h1 className="text-[28px] print:text-[18px] font-black text-white leading-tight mb-2 tracking-tight">
+        <h1 className="text-[24px] print:text-[18px] font-black text-white leading-tight mb-1 tracking-tight">
           {pTr.name}
         </h1>
         
-        <div className="text-[13px] print:text-[10px] font-black text-blue-400 uppercase tracking-widest mt-2 print:mt-1 border-t border-slate-700/50 pt-3 print:pt-1.5 w-full">
+        <div className="text-[14px] print:text-[10px] font-bold text-blue-300 mt-2 print:mt-1 border-t border-slate-700/50 pt-3 print:pt-1.5 w-full leading-normal">
           {pTr.title}
         </div>
       </div>

@@ -1,18 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Prompt:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
-
-@font-face {
-  font-family: 'TH Sarabun New';
-  src: url('/fonts/THSarabunNew.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'TH Sarabun New';
-  src: url('/fonts/THSarabunNew Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
 
 :root {
   --background: #f8fafc;
@@ -25,15 +12,15 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary-blue: var(--primary-blue);
-  --font-sarabun: 'TH Sarabun New', sans-serif;
+  --font-sarabun: 'Sarabun', 'Prompt', 'Inter', sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sarabun);
-  font-size: 19px; /* ขนาดที่แนะนำ 18-20px */
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
 /* Custom Utilities */
