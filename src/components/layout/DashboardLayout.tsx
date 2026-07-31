@@ -64,10 +64,10 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           {/* Logo */}
           <div className="flex items-center h-16 px-6 border-b border-slate-100 mb-4">
             <div className="w-8 h-8 bg-primary-blue rounded-lg flex items-center justify-center text-white font-bold shrink-0">
-              P
+              C
             </div>
             {isSidebarOpen && (
-              <span className="ml-3 font-bold text-xl tracking-tight text-slate-950">IT Manager</span>
+              <span className="ml-3 font-bold text-xl tracking-tight text-slate-950">Resume Admin</span>
             )}
           </div>
 
