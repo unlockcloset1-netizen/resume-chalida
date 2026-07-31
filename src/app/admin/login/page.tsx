@@ -44,7 +44,7 @@ export default function LoginPage() {
               <Lock className="w-8 h-8" />
             </div>
             <h1 className="text-2xl font-bold text-slate-800">Admin Login</h1>
-            <p className="text-slate-900 text-sm font-bold mt-1">Patiwat Resume — Dashboard</p>
+            <p className="text-slate-900 text-sm font-bold mt-1">Chalida Resume — Dashboard</p>
           </div>
           
           <div className="p-8">

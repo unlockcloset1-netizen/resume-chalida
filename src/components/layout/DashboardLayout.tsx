@@ -144,7 +144,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
             <div className="h-8 w-px bg-slate-200 mx-2"></div>
             <div className="flex items-center gap-3">
               <div className="text-right hidden sm:block">
-                <p className="text-[16px] font-bold text-slate-950 leading-none">Patiwat M.</p>
+                <p className="text-[16px] font-bold text-slate-950 leading-none">Chalida</p>
                 <p className="text-[14px] font-semibold text-slate-800 mt-1">Administrator</p>
               </div>
               <div className="w-10 h-10 rounded-full bg-slate-200 border-2 border-white overflow-hidden shadow-sm">
@@ -154,7 +154,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src =
-                      'https://ui-avatars.com/api/?name=Patiwat+Meekaeo&background=0071e3&color=fff';
+                      'https://ui-avatars.com/api/?name=Chalida&background=0071e3&color=fff';
                   }}
                 />
               </div>

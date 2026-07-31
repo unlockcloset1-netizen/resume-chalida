@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Patiwat Meekaeo — Resume",
-  description: "Personal Resume of Patiwat Meekaeo, IT Manager (Acting)",
+  title: "Chalida — Resume",
+  description: "Personal Resume of Chalida",
 };
 
 export default function RootLayout({
