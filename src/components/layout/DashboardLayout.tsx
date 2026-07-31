@@ -91,7 +91,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                   {item.icon}
                 </span>
                 {isSidebarOpen && (
-                  <span className="ml-3 text-[16px]">{item.title}</span>
+                  <span className="ml-3 text-sm">{item.title}</span>
                 )}
               </Link>
             ))}
@@ -104,7 +104,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
               className="flex items-center w-full px-3 py-3 text-slate-900 hover:bg-red-50 hover:text-red-600 rounded-xl transition-colors duration-200 font-bold"
             >
               <LogOut size={20} className="text-slate-800 group-hover:text-red-600" />
-              {isSidebarOpen && <span className="ml-3 text-[16px]">ออกจากระบบ</span>}
+              {isSidebarOpen && <span className="ml-3 text-sm">ออกจากระบบ</span>}
             </button>
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
               <input
                 type="text"
                 placeholder="ค้นหาข้อมูล..."
-                className="bg-transparent border-none focus:ring-0 text-[16px] ml-2 w-full text-slate-950 font-bold"
+                className="bg-transparent border-none focus:ring-0 text-sm ml-2 w-full text-slate-950 font-bold"
               />
             </div>
           </div>
@@ -144,8 +144,8 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
             <div className="h-8 w-px bg-slate-200 mx-2"></div>
             <div className="flex items-center gap-3">
               <div className="text-right hidden sm:block">
-                <p className="text-[16px] font-bold text-slate-950 leading-none">Chalida</p>
-                <p className="text-[14px] font-semibold text-slate-800 mt-1">Administrator</p>
+                <p className="text-sm font-bold text-slate-950 leading-none">Chalida</p>
+                <p className="text-xs font-semibold text-slate-800 mt-1">Administrator</p>
               </div>
             </div>
           </div>
