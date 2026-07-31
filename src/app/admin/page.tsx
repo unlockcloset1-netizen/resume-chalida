@@ -172,7 +172,7 @@ export default function AdminPage() {
     } else if (section === 'education') {
       newItem = { id, translations: { th: { title: '', org: '', meta: '' }, en: { title: '', org: '', meta: '' }, zh: { title: '', org: '', meta: '' } } };
     } else if (section === 'skills') {
-      newItem = { id, translations: { th: { label: '', tags: [] }, en: { label: '', tags: [] }, zh: { label: '', tags: [] } } };
+      newItem = { id, tags: [], translations: { th: { name: '' }, en: { name: '' }, zh: { name: '' } } };
     } else if (section === 'certs') {
       newItem = { id, translations: { th: { name: '', org: '' }, en: { name: '', org: '' }, zh: { name: '', org: '' } } };
     }
@@ -414,12 +414,12 @@ export default function AdminPage() {
                   {data.skills.map((item, idx) => (
                     <div key={item.id} className="bg-white rounded-3xl border-2 border-slate-100 p-10 space-y-8 shadow-sm hover:border-slate-200 transition-all">
                       <div className="flex justify-between items-center border-b-2 border-slate-50 pb-4">
-                        <input className="text-[20px] font-black text-slate-900 border-none outline-none focus:ring-0 bg-transparent w-full uppercase" value={item.translations[activeLang].label} onChange={(e) => { const newData = { ...data }; newData.skills[idx].translations[activeLang].label = e.target.value; setData(newData); }} placeholder="CATEGORY NAME" />
+                        <input className="text-[20px] font-black text-slate-900 border-none outline-none focus:ring-0 bg-transparent w-full uppercase" value={item.translations[activeLang]?.name || ''} onChange={(e) => { const newData = { ...data }; if (!newData.skills[idx].translations[activeLang]) { newData.skills[idx].translations[activeLang] = { name: '' }; } newData.skills[idx].translations[activeLang].name = e.target.value; setData(newData); }} placeholder="CATEGORY NAME" />
                         <button onClick={() => removeItem('skills', item.id)} className="text-slate-200 hover:text-red-500 transition-all"><Trash2 className="w-5 h-5" /></button>
                       </div>
                       <div className="space-y-3">
                         <FieldLabel>Tags (Comma separated)</FieldLabel>
-                        <textarea rows={5} className="w-full text-[17px] border-2 border-slate-50 rounded-2xl p-6 focus:border-slate-900 outline-none transition-all text-slate-900 font-bold bg-slate-50/30 leading-relaxed" value={item.translations[activeLang].tags.join(', ')} onChange={(e) => { const newData = { ...data }; newData.skills[idx].translations[activeLang].tags = e.target.value.split(',').map(t => t.trim()).filter(t => t !== ''); setData(newData); }} />
+                        <textarea rows={5} className="w-full text-[17px] border-2 border-slate-50 rounded-2xl p-6 focus:border-slate-900 outline-none transition-all text-slate-900 font-bold bg-slate-50/30 leading-relaxed" value={(item.tags || []).join(', ')} onChange={(e) => { const newData = { ...data }; newData.skills[idx].tags = e.target.value.split(',').map(t => t.trim()).filter(t => t !== ''); setData(newData); }} />
                       </div>
                     </div>
                   ))}

@@ -124,10 +124,10 @@ export const Sidebar: React.FC<SidebarProps> = ({ data, lang }) => {
               return (
                 <div key={s.id} className="space-y-2 print:space-y-1">
                   <h4 className="text-[12px] print:text-[10px] font-black text-blue-400/80 uppercase tracking-widest">
-                    {sTr.label}
+                    {sTr?.name || ''}
                   </h4>
                   <div className="flex flex-wrap gap-2 print:gap-1">
-                    {(sTr.tags || []).map((tag, tIdx) => (
+                    {(s.tags || []).map((tag, tIdx) => (
                       <span key={tIdx} className="text-[13px] print:text-[10px] font-bold text-white bg-slate-800/50 px-3 py-1 print:px-2 print:py-0.5 rounded-md border border-slate-700/50">
                         {tag}
                       </span>
@@ -143,7 +143,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ data, lang }) => {
         {languageSkills && (
           <SidebarSection title={lang === 'th' ? 'ภาษา' : 'LANGUAGES'} icon={Languages}>
             <div className="space-y-4 print:space-y-2">
-              {((languageSkills.translations[lang] || languageSkills.translations.th).tags || []).map((langItem, idx) => (
+              {((languageSkills.tags || [])).map((langItem, idx) => (
                 <div key={idx} className="flex flex-col gap-1.5 print:gap-1">
                   <div className="flex justify-between items-center">
                     <span className="text-[14px] print:text-[11px] font-bold text-white">{langItem.split('(')[0].trim()}</span>
@@ -164,7 +164,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ data, lang }) => {
       </div>
 
       <div className="p-8 print:p-4 text-[11px] print:text-[9px] font-bold text-slate-500 text-center border-t border-slate-800 bg-slate-900/20 mt-auto">
-        PORTFOLIO 2026 • IT MANAGER
+        PORTFOLIO 2026 • QM & ISO MANAGER
       </div>
     </aside>
   );

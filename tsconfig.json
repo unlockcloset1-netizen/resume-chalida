@@ -37,6 +37,8 @@
     "src/components/ui/sonner.tsx",
     "src/components/LanguageContext.tsx",
     "src/components/ui/badge.tsx",
-    "src/components/ui/card.tsx"
+    "src/components/ui/card.tsx",
+    "backup_ver02",
+    "src/components/Resume_Ver01.tsx"
   ]
 }
