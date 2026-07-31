@@ -1,22 +1,22 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-31 13:26:59"
+    "lastUpdated": "2026-07-31 13:38:10"
   },
   "certs": [
     {
       "id": "cert-1",
       "translations": {
         "en": {
-          "name": "ISO 9001:2015 Lead Auditor",
-          "org": "IRCA Registered Training Organization"
+          "name": "ISO 9001:2015 QMS Lead Auditor (IRCA Certified)",
+          "org": "BSI Group Thailand"
         },
         "th": {
-          "name": "ผู้ตรวจประเมินหลักระบบบริหารงานคุณภาพ ISO 9001:2015 (Lead Auditor)",
-          "org": "IRCA Registered Training Organization"
+          "name": "ผู้ตรวจประเมินหลักระบบบริหารงานคุณภาพ ISO 9001:2015 Lead Auditor (รับรองโดย IRCA)",
+          "org": "สถาบันมาตรฐานอังกฤษ (BSI Group Thailand)"
         },
         "zh": {
-          "name": "ISO 9001:2015 主任审核员资格证书",
-          "org": "IRCA 注册培训机构"
+          "name": "ISO 9001:2015 质量管理体系主任审核员资格认证 (IRCA 注册)",
+          "org": "英国标准协会 (BSI 泰国)"
         }
       },
       "file": ""
@@ -25,16 +25,52 @@
       "id": "cert-2",
       "translations": {
         "en": {
-          "name": "Certified Lean Six Sigma Green Belt",
-          "org": "Thailand Quality Association"
+          "name": "ISO 14001:2015 & ISO 45001:2018 IMS Lead Auditor",
+          "org": "SGS Academy Thailand"
         },
         "th": {
-          "name": "ใบรับรองลีน ซิกส์ ซิกม่า ระดับกรีนเบลท์ (Lean Six Sigma Green Belt)",
-          "org": "สมาคมส่งเสริมเทคโนโลยี (ไทย-ญี่ปุ่น)"
+          "name": "ผู้ตรวจประเมินหลักระบบการจัดการสิ่งแวดล้อม อาชีวอนามัยและความปลอดภัย ISO 14001 & ISO 45001 Lead Auditor",
+          "org": "สถาบันเอสจีเอส (SGS Academy Thailand)"
         },
         "zh": {
-          "name": "精益六西格玛绿带认证",
-          "org": "泰国质量协会"
+          "name": "ISO 14001 & ISO 45001 环境及职业健康安全管理体系主任审核员",
+          "org": "SGS 培训学院 (泰国)"
+        }
+      },
+      "file": ""
+    },
+    {
+      "id": "cert-3",
+      "translations": {
+        "en": {
+          "name": "ISO/IEC 27001:2022 ISMS Lead Implementer",
+          "org": "PECB Certified"
+        },
+        "th": {
+          "name": "ผู้เชี่ยวชาญการจัดทำระบบความปลอดภัยของข้อมูล ISO/IEC 27001:2022 Lead Implementer",
+          "org": "สถาบันรับรองมาตรฐาน PECB"
+        },
+        "zh": {
+          "name": "ISO/IEC 27001:2022 信息安全管理体系主导实施师",
+          "org": "PECB 权威认证"
+        }
+      },
+      "file": ""
+    },
+    {
+      "id": "cert-4",
+      "translations": {
+        "en": {
+          "name": "ISO 50001:2018 EnMS Internal Auditor & Energy Coordinator",
+          "org": "Management System Certification Institute (MASCI)"
+        },
+        "th": {
+          "name": "ผู้ตรวจประเมินภายในระบบการจัดการพลังงาน ISO 50001:2018 และผู้ประสานงานพลังงาน",
+          "org": "สถาบันรับรองมาตรฐานไอเอสโอ (สอ.) / MASCI"
+        },
+        "zh": {
+          "name": "ISO 50001:2018 能源管理体系内部审核员及能源协调员",
+          "org": "泰国管理体系认证机构 (MASCI)"
         }
       },
       "file": ""
@@ -74,57 +110,80 @@
       "id": "skill-1",
       "translations": {
         "en": {
-          "name": "Quality Management & Compliance"
+          "name": "Integrated Management System (IMS)"
         },
         "th": {
-          "name": "การบริหารงานคุณภาพและการปฏิบัติตามข้อกำหนด"
+          "name": "ระบบการจัดการแบบบูรณาการ (IMS)"
         },
         "zh": {
-          "name": "质量管理与合规"
+          "name": "综合管理体系 (IMS)"
         }
       },
       "tags": [
-        "ISO 9001:2015",
-        "ISO 14001:2015",
-        "ISO 45001:2018"
+        "ISO 9001:2015 (QMS)",
+        "ISO 14001:2015 (EMS)",
+        "ISO 45001:2018 (OH&S)",
+        "ISO 50001:2018 (EnMS)"
       ]
     },
     {
       "id": "skill-2",
       "translations": {
         "en": {
-          "name": "Auditing & Process Analysis"
+          "name": "Risk, Security & Continuity"
         },
         "th": {
-          "name": "การตรวจสอบและการวิเคราะห์กระบวนการ"
+          "name": "การบริหารความเสี่ยง ความปลอดภัย และความต่อเนื่อง"
         },
         "zh": {
-          "name": "审核与过程分析"
+          "name": "风险、信息安全与业务连续性"
         }
       },
       "tags": [
-        "Internal Audit",
-        "External Audit Coordination",
-        "SOP Development"
+        "ISO 22301:2019 (BCMS)",
+        "ISO/IEC 27001:2022 (ISMS)",
+        "ISO 31000 (Risk)",
+        "IATF 16949 (Automotive)"
       ]
     },
     {
       "id": "skill-3",
       "translations": {
         "en": {
-          "name": "Continuous Improvement"
+          "name": "Auditing & QA CAPA"
         },
         "th": {
-          "name": "การปรับปรุงอย่างต่อเนื่อง"
+          "name": "การตรวจประเมิน และมาตรการแก้ไข (CAPA)"
         },
         "zh": {
-          "name": "持续改进"
+          "name": "体系审核与纠正防范 (CAPA)"
+        }
+      },
+      "tags": [
+        "Lead Auditing",
+        "Internal Audits",
+        "Root Cause Analysis",
+        "Supplier Audits"
+      ]
+    },
+    {
+      "id": "skill-4",
+      "translations": {
+        "en": {
+          "name": "Process Improvement"
+        },
+        "th": {
+          "name": "การพัฒนาและปรับปรุงกระบวนการ"
+        },
+        "zh": {
+          "name": "业务流程改进"
         }
       },
       "tags": [
         "Lean Six Sigma",
         "Kaizen",
-        "Root Cause Analysis (CAPA)"
+        "SOP Standardization",
+        "KPI Management"
       ]
     }
   ],
@@ -136,22 +195,22 @@
       "en": {
         "dob": "12 June 1986",
         "name": "Chalida Maneeyoi",
-        "title": "Quality Management (QM) & ISO Manager",
-        "summary": "Quality Management (QM) & ISO Manager with over 15 years of experience in establishing, auditing, and maintaining ISO quality standards (ISO 9001, ISO 14001, ISO 45001). Skilled in process optimization, internal audits, and continuous improvement (Kaizen/Lean).",
+        "title": "Integrated Management System (IMS) & ISO Specialist",
+        "summary": "Integrated Management System (IMS) Specialist and ISO Lead Auditor with over 15 years of expertise. Certified and experienced in establishing, auditing, and maintaining ISO 9001 (Quality), ISO 14001 (Environment), ISO 45001 (OH&S), ISO 50001 (Energy), ISO 22301 (BCMS), and ISO/IEC 27001 (Information Security) across manufacturing and corporate sectors.",
         "location": "Bangkok, Thailand"
       },
       "th": {
         "dob": "12 มิถุนายน 2529",
         "name": "ชลิดา มณีย้อย",
-        "title": "ผู้จัดการฝ่ายบริหารงานคุณภาพและระบบ ISO",
-        "summary": "ผู้จัดการฝ่ายควบคุมคุณภาพ (QM) และระบบมาตรฐาน ISO มีประสบการณ์มากกว่า 15 ปีในการจัดตั้ง ควบคุม และบำรุงรักษาระบบบริหารงานคุณภาพ (ISO 9001, ISO 14001, ISO 45001) เชี่ยวชาญการปรับปรุงกระบวนการทำงาน การตรวจสอบภายใน (Internal Audit) และการเพิ่มประสิทธิภาพในอุตสาหกรรมการผลิตและการบริการ",
+        "title": "ผู้เชี่ยวชาญระบบบริหารมาตรฐานสากลบูรณาการ (IMS) และ ISO",
+        "summary": "ผู้เชี่ยวชาญและที่ปรึกษาด้านระบบการจัดการมาตรฐานสากล (ISO) ทุกมิติ มีประสบการณ์มากกว่า 15 ปีในการจัดวางระบบ ตรวจสอบ และบริหารโครงการมาตรฐานบูรณาการ (IMS) ครอบคลุม ISO 9001, 14001, 45001, 50001, 22301 และ 27001 ในภาคการผลิต ยานยนต์ และเทคโนโลยี มุ่งเน้นการปฏิบัติตามข้อกำหนด กฎหมาย และการปรับปรุงประสิทธิภาพกระบวนการทำงานอย่างต่อเนื่อง",
         "location": "กรุงเทพมหานคร, ประเทศไทย"
       },
       "zh": {
         "dob": "1986年6月12日",
         "name": "查利达 · 马尼约",
-        "title": "质量管理 (QM) 与 ISO 经理",
-        "summary": "拥有超过15年建立、审核和维护 ISO 质量标准（ISO 9001、ISO 14001、ISO 45001）经验的质量管理 (QM) 与 ISO 经理。擅长流程优化、内部审核和持续改进（精益/改善）。",
+        "title": "综合管理体系 (IMS) 及 ISO 资深专家",
+        "summary": "拥有超过15年丰富实战经验的综合管理体系 (IMS) 专家及 ISO 主任审核员。在建立、审核及维护 ISO 9001（质量）、ISO 14001（环境）、ISO 45001（职业健康安全）、ISO 50001（能源）、ISO 22301（业务连续性）以及 ISO/IEC 27001（信息安全）体系领域拥有深厚资质。",
         "location": "泰国曼谷"
       }
     }
@@ -184,24 +243,24 @@
       "translations": {
         "en": {
           "meta": "Jan 2019 - Present",
-          "title": "QM & ISO Manager",
-          "org": "Quality Manufacturing Solutions Co., Ltd.",
-          "bullets": "- Overlooked and maintained ISO 9001:2015 and ISO 14001:2015 standards across all departments.\n- Led internal audit teams and coordinated external certification audits.\n- Implemented Lean Six Sigma tools to reduce defects in manufacturing processes.",
-          "highlight": "Reduced waste costs by 25% and maintained ISO certifications with zero major non-conformities (CARs)."
+          "title": "Integrated Management System (IMS) Manager / Management Representative",
+          "org": "Global Standard Solutions Co., Ltd.",
+          "bullets": "- Strategized and established an Integrated Management System (IMS) merging ISO 9001, 14001, 45001, and 50001 into a unified corporate workflow.\n- Spearheaded Business Continuity (BCMS - ISO 22301) and Information Security (ISMS - ISO/IEC 27001) compliance projects for HQ.\n- Managed annual internal audits and facilitated external audits from Certification Bodies to ensure 100% compliance and zero major CARs.",
+          "highlight": "Successfully launched the IMS platform, reducing audit duration by 30% and securing new ISO certificates within 12 months."
         },
         "th": {
           "meta": "ม.ค. 2562 - ปัจจุบัน",
-          "title": "ผู้จัดการฝ่ายบริหารคุณภาพและระบบ ISO",
-          "org": "บริษัท ควอลิตี้ แมนูแฟคเจอริ่ง โซลูชั่นส์ จำกัด",
-          "bullets": "- วางแผนและควบคุมระบบบริหารงานคุณภาพ ISO 9001:2015 และ ISO 14001:2015 ทั่วทั้งองค์กร\n- นำทีมตรวจสอบภายใน (Internal Audit) และประสานงานการตรวจสอบจากหน่วยงานภายนอก (External Audit)\n- พัฒนาแนวทางการลดของเสียในกระบวนการผลิตด้วยเครื่องมือ Lean Six Sigma",
-          "highlight": "ช่วยองค์กรประหยัดต้นทุนจากของเสียลดลง 25% และผ่านการรับรองระบบ ISO ต่อเนื่องโดยไม่มี CAR ร้ายแรง"
+          "title": "ผู้จัดการระบบมาตรฐานแบบบูรณาการ (IMS) / ตัวแทนฝ่ายบริหาร (MR)",
+          "org": "บริษัท โกลบอล สแตนดาร์ด โซลูชั่นส์ จำกัด",
+          "bullets": "- วางกลยุทธ์การจัดตั้งระบบการตรวจประเมินและบริหารงานมาตรฐาน ISO 9001, 14001, 45001 และ 50001 ร่วมเป็นหนึ่งระบบหลักขององค์กร (IMS)\n- ดูแลการจัดทำระบบการบริหารความต่อเนื่องทางธุรกิจ (BCMS - ISO 22301) และความปลอดภัยของข้อมูล (ISMS - ISO/IEC 27001) สำหรับสำนักงานใหญ่\n- ควบคุมการตรวจประเมินภายในประจำปี และสนับสนุนการประเมินจากผู้ตรวจสอบภายนอก (Certification Body) จนผ่านการรับรองระบบ 100%",
+          "highlight": "จัดตั้งระบบบูรณาการ (IMS) สำเร็จลุล่วงและลดระยะเวลาการตรวจประเมินลง 30% พร้อมได้รับใบรับรองมาตรฐานใหม่ครบถ้วนภายใน 12 เดือน"
         },
         "zh": {
           "meta": "2019年1月 - 至今",
-          "title": "质量管理与 ISO 经理",
-          "org": "卓越制造解决方案有限公司",
-          "bullets": "- 在所有部门内规划和维护 ISO 9001:2015 及 ISO 14001:2015 标准。\n- 领导内部审核团队，并协调外部认证审核。\n- 应用精益六西格玛工具，减少生产过程中的不良品。",
-          "highlight": "通过控制不良率降低了 25% 的损耗成本，并在零重大不符合项 (CAR) 的情况下维持 ISO 认证。"
+          "title": "综合管理体系 (IMS) 经理 / 管理管理者代表",
+          "org": "环球标准解决方案有限公司",
+          "bullets": "- 策划并建立综合管理体系 (IMS)，将 ISO 9001、14001、45001 及 50001 整合为统一的企业工作流程。\n- 牵头总部业务连续性管理体系 (BCMS - ISO 22301) 和信息安全管理体系 (ISMS - ISO/IEC 27001) 合规建设。\n- 管理年度内部审核，协调外部认证机构审核，确保 100% 合规通过且零重大不符合项 (CAR)。",
+          "highlight": "成功上线 IMS 管理平台，使审核周期缩短 30%，并在 12 个月内顺利取得全部新版 ISO 证书。"
         }
       }
     },
@@ -210,24 +269,24 @@
       "translations": {
         "en": {
           "meta": "May 2010 - Dec 2018",
-          "title": "Quality Assurance & ISO Supervisor",
-          "org": "Apex Industries Thailand",
-          "bullets": "- Drafted Quality Manuals and Standard Operating Procedures (SOPs).\n- Conducted ISO compliance and quality standard training for employees.\n- Monitored raw material and finished product quality standards.",
-          "highlight": "Successfully established a new Quality Management System for the second plant, securing certification in 8 months."
+          "title": "Quality Assurance & ISO Coordinator Supervisor",
+          "org": "Precision Parts Automotive Thailand",
+          "bullets": "- Developed Automotive Quality Management System (IATF 16949) alongside ISO 9001 and ISO 14001 standards for precision auto parts manufacturing.\n- Trained and qualified over 80 internal ISO auditors across production and engineering departments.\n- Performed Root Cause Analysis and corrective action plans (CAPA) to close CAR/PAR items on schedule.",
+          "highlight": "Implemented advanced CAPA tools, reducing customer-reported part defects to 0 PPM (Parts Per Million)."
         },
         "th": {
           "meta": "พ.ค. 2553 - ธ.ค. 2561",
-          "title": "หัวหน้างานประกันคุณภาพและระบบ ISO",
-          "org": "เอเพ็กซ์ อินดัสทรีส์ ประเทศไทย",
-          "bullets": "- จัดทำเอกสารคู่มือคุณภาพ (Quality Manual) และขั้นตอนการทำงาน (SOP)\n- ฝึกอบรมความรู้เกี่ยวกับระบบมาตรฐาน ISO ให้แก่พนักงานทุกระดับชั้น\n- ตรวจสอบประสิทธิภาพการทำงานและควบคุมคุณภาพวัตถุดิบและสินค้าสำเร็จรูป",
-          "highlight": "ประสบความสำเร็จในการจัดตั้งระบบบริหารงานคุณภาพใหม่สำหรับโรงงานแห่งที่สองจนได้รับใบรับรองภายใน 8 เดือน"
+          "title": "หัวหน้าผู้ดูแลระบบงานประกันคุณภาพและผู้ประสานงาน ISO",
+          "org": "เพรซิชั่น พาร์ท ออโตโมทีฟ ประเทศไทย",
+          "bullets": "- ดำเนินการพัฒนาระบบบริหารงานคุณภาพสำหรับยานยนต์ (IATF 16949) ควบคู่กับ ISO 9001 และ ISO 14001 ในส่วนงานการผลิตชิ้นส่วนรถยนต์\n- จัดอบรมทักษะการเป็นผู้ตรวจประเมินภายใน (Internal Auditor) สำหรับพนักงานและวิศวกรเพื่อรองรับกฎระเบียบที่เข้มงวด\n- วิเคราะห์สาเหตุรากเหง้า (Root Cause Analysis - CAPA) เพื่อแก้ไขข้อบกพร่องตามรายงาน CAR/PAR อย่างมีประสิทธิภาพ",
+          "highlight": "นำระบบวิเคราะห์สาเหตุและมาตรการป้องกันมาใช้ ส่งผลให้อัตราความบกพร่องของชิ้นส่วนที่ส่งมอบลูกค้าลดลงจนเป็น 0 PPM (Parts Per Million)"
         },
         "zh": {
           "meta": "2010年5月 - 2018年12月",
           "title": "质量保证及 ISO 主管",
-          "org": "泰顶工业集团",
-          "bullets": "- 编写质量手册与标准作业程序 (SOP)。\n- 对所有级别员工开展 ISO 合规和质量标准培训。\n- 监控原材料和成品的质量控制体系。",
-          "highlight": "成功为二厂建立新的质量管理体系，在 8 个月内顺利取得 ISO 认证。"
+          "org": "精工汽车配件 (泰国) 有限公司",
+          "bullets": "- 在汽车零部件精密制造流程中建立和实施汽车质量管理体系 (IATF 16949) 以及 ISO 9001 和 ISO 14001 标准。\n- 培训并考核通过了生产与工程部门的 80 多名内部审核员。\n- 主导根本原因分析 (RCA) 并制定纠正预防措施计划 (CAPA) 准时关闭不合格报告 (CAR/PAR)。",
+          "highlight": "推行先进 CAPA 管理工具，使客户投诉的零部件不良率成功降至 0 PPM（百万分之零缺陷）。"
         }
       }
     }
