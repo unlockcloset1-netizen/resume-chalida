@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 
 // Password is set here as requested. In production, use process.env.ADMIN_PASSWORD
-const ADMIN_PASSWORD = 'Meekaeo2023';
+const ADMIN_PASSWORD = 'Thailand100%';
 
 export async function POST(request: Request) {
   try {
