@@ -54,10 +54,11 @@ export default function SkillsAdmin() {
     newData.skills.push({
       id: `skill-${Date.now()}`,
       translations: {
-        th: { label: '', tags: [] },
-        en: { label: '', tags: [] },
-        zh: { label: '', tags: [] }
-      }
+        th: { name: '' },
+        en: { name: '' },
+        zh: { name: '' }
+      },
+      tags: []
     });
     setData(newData);
   };
@@ -69,11 +70,14 @@ export default function SkillsAdmin() {
     setData(newData);
   };
 
-  const updateItem = (index: number, label: string, tags: string) => {
+  const updateItem = (index: number, name: string, tags: string) => {
     if (!data) return;
     const newData = { ...data };
-    newData.skills[index].translations[activeLang].label = label;
-    newData.skills[index].translations[activeLang].tags = tags.split(',').map(t => t.trim()).filter(t => t !== '');
+    if (!newData.skills[index].translations[activeLang]) {
+      newData.skills[index].translations[activeLang] = { name: '' };
+    }
+    newData.skills[index].translations[activeLang].name = name;
+    newData.skills[index].tags = tags.split(',').map(t => t.trim()).filter(t => t !== '');
     setData(newData);
   };
 
@@ -109,8 +113,8 @@ export default function SkillsAdmin() {
           <div key={item.id} className="bg-white rounded-3xl card-shadow border border-slate-50 p-8 space-y-6">
             <div className="flex justify-between items-center border-b border-slate-50 pb-4">
               <input 
-                value={item.translations[activeLang].label} 
-                onChange={(e) => updateItem(idx, e.target.value, item.translations[activeLang].tags.join(', '))}
+                value={item.translations[activeLang]?.name || ''} 
+                onChange={(e) => updateItem(idx, e.target.value, (item.tags || []).join(', '))}
                 placeholder="ชื่อหมวดหมู่ (เช่น Web Dev)"
                 className="text-xl font-bold text-slate-900 outline-none w-full bg-transparent"
               />
@@ -120,8 +124,8 @@ export default function SkillsAdmin() {
               <label className="text-xs font-bold text-slate-950 uppercase">รายการทักษะ (คั่นด้วย ,)</label>
               <textarea 
                 rows={4}
-                value={item.translations[activeLang].tags.join(', ')}
-                onChange={(e) => updateItem(idx, item.translations[activeLang].label, e.target.value)}
+                value={(item.tags || []).join(', ')}
+                onChange={(e) => updateItem(idx, item.translations[activeLang]?.name || '', e.target.value)}
                 className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary-blue outline-none font-semibold text-slate-950 bg-white leading-relaxed"
               />
             </div>
