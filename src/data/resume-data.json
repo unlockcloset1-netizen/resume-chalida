@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-31 13:47:27"
+    "lastUpdated": "2026-07-31 13:54:30"
   },
   "certs": [
     {
@@ -190,7 +190,7 @@
   "personal": {
     "email": "chalida.m@example.com",
     "phone": "081-234-5678",
-    "photo": "https://adpebuinyafesrvnpbjc.supabase.co/storage/v1/object/public/resume-assets/photos/profile_placeholder.jpg",
+    "photo": "https://adpebuinyafesrvnpbjc.supabase.co/storage/v1/object/public/resume-assets/photos/1785505944994-ergir.jpg",
     "translations": {
       "en": {
         "dob": "12 June 1986",
@@ -286,7 +286,7 @@
           "title": "QHSSE 经理 (石油及零售业务)",
           "org": "泰国的壳牌有限公司 (Shell Thailand)",
           "bullets": "- 负责壳牌在全国范围内的零售服务站及油库的安全、健康、环境和质量 (QHSSE) 管理合规运营。\n- 指导壳牌集团全球 HSSE 控制框架和安全保障标准的落地执行。\n- 协调与政府能源监管部门的高级别第三方审核及法规合规评估工作。",
-          "highlight": "实现连续 1000 万安全工时无工伤事故的佳绩（零目标），荣获壳牌亚太区零售 QHSSE 卓越表现大奖。"
+          "highlight": "实现连续 1000 万安全工时无工伤事故 of the safety (零目标)，荣获壳牌亚太区零售 QHSSE 卓越表现大奖。"
         }
       }
     }
