@@ -116,7 +116,7 @@ export default function AdminPage() {
       }`}
     >
       <Icon className={`w-5 h-5 ${activeSection === section ? 'text-white' : 'text-slate-700'}`} />
-      <span className="font-bold text-[18px]">{label}</span>
+      <span className="font-bold text-sm">{label}</span>
     </button>
   );
 
@@ -126,7 +126,7 @@ export default function AdminPage() {
         <button
           key={l}
           onClick={() => setActiveLang(l)}
-          className={`px-8 py-2 rounded-full text-[14px] font-black uppercase transition-all ${
+          className={`px-8 py-2 rounded-full text-sm font-black uppercase transition-all ${
             activeLang === l 
               ? 'bg-slate-900 text-white shadow-sm' 
               : 'text-slate-800 hover:text-black hover:bg-slate-50'
@@ -141,12 +141,12 @@ export default function AdminPage() {
   const SectionHeader = ({ icon: Icon, title }: { icon: any, title: string }) => (
     <div className="flex items-center gap-4 border-b-4 border-slate-900 pb-4 mb-10">
       <Icon className="w-7 h-7 text-slate-900" />
-      <h3 className="text-[24px] font-black text-slate-900 uppercase tracking-widest">{title}</h3>
+      <h3 className="text-lg font-black text-slate-900 uppercase tracking-widest">{title}</h3>
     </div>
   );
 
   const FieldLabel = ({ children }: { children: React.ReactNode }) => (
-    <label className="text-[16px] font-black text-slate-950 uppercase tracking-wide block mb-2 ml-1">
+    <label className="text-xs font-bold text-slate-500 block mb-1.5 ml-1">
       {children}
     </label>
   );
@@ -208,8 +208,8 @@ export default function AdminPage() {
             <ShieldCheck className="w-6 h-6" />
           </div>
           <div className="flex flex-col">
-            <span className="font-black text-[18px] text-slate-900 tracking-tight leading-none uppercase">Admin</span>
-            <span className="text-[14px] font-black text-slate-400 uppercase tracking-widest mt-1">Management</span>
+            <span className="font-black text-base text-slate-900 tracking-tight leading-none uppercase">Admin</span>
+            <span className="text-xs font-black text-slate-400 uppercase tracking-widest mt-1">Management</span>
           </div>
         </div>
         <nav className="flex-1 p-6 space-y-2">
@@ -220,7 +220,7 @@ export default function AdminPage() {
           <NavItem section="certs" icon={Award} label="ใบรับรอง / อบรม" />
           
           <div className="pt-8 mt-8 border-t border-slate-100">
-            <Link href="/" className="flex items-center gap-3 px-5 py-3 text-slate-400 hover:text-slate-900 transition-all text-[16px] font-bold group">
+            <Link href="/" className="flex items-center gap-3 px-5 py-3 text-slate-400 hover:text-slate-900 transition-all text-sm font-bold group">
               <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" /> ดูหน้า Resume
             </Link>
           </div>
@@ -233,12 +233,12 @@ export default function AdminPage() {
         <header className="bg-white h-20 border-b-2 border-slate-100 flex items-center justify-between px-10 sticky top-0 z-50 shadow-sm">
           <div className="flex items-center gap-4">
             <Menu className="w-5 h-5 text-slate-300" />
-            <h2 className="font-black text-slate-900 text-[18px] uppercase tracking-widest">{activeSection}</h2>
+            <h2 className="font-black text-slate-900 text-sm uppercase tracking-widest">{activeSection}</h2>
           </div>
           
           <div className="flex items-center gap-6">
             {message && (
-              <div className={`px-6 py-2 rounded-full text-[14px] font-black uppercase tracking-wider animate-in fade-in slide-in-from-top-4 ${
+              <div className={`px-6 py-2 rounded-full text-xs font-black uppercase tracking-wider animate-in fade-in slide-in-from-top-4 ${
                 message.type === 'success' ? 'bg-blue-50 text-blue-700 border border-blue-100' : 'bg-red-50 text-red-700 border border-red-100'
               }`}>
                 {message.text}
@@ -247,7 +247,7 @@ export default function AdminPage() {
             <button 
               onClick={handleSave} 
               disabled={saving} 
-              className="bg-slate-900 hover:bg-slate-800 text-white px-10 py-3 rounded-full font-black text-[15px] uppercase tracking-widest shadow-xl disabled:opacity-50 transition-all flex items-center gap-2 active:scale-95"
+              className="bg-slate-900 hover:bg-slate-800 text-white px-10 py-3 rounded-full font-black text-sm uppercase tracking-widest shadow-xl disabled:opacity-50 transition-all flex items-center gap-2 active:scale-95"
             >
               {saving ? <Loader2 className="w-5 h-5 animate-spin text-white" /> : <Save className="w-5 h-5" />}
               {saving ? 'SAVING...' : 'SAVE CHANGES'}
@@ -260,7 +260,7 @@ export default function AdminPage() {
             
             <div className="flex items-center justify-between">
                <LangTabs />
-               <span className="text-[14px] font-black text-slate-300 uppercase tracking-widest">Editing Mode: Real-time Sync</span>
+               <span className="text-xs font-black text-slate-300 uppercase tracking-widest">Editing Mode: Real-time Sync</span>
             </div>
 
             {/* PERSONAL SECTION */}
@@ -273,7 +273,7 @@ export default function AdminPage() {
                       <img src={`/${data.personal.photo || 'photos/placeholder.jpg'}`} className="w-full h-full object-cover object-top" />
                     </div>
                     {uploading === 'photos' && <Loader2 className="w-6 h-6 animate-spin text-blue-600" />}
-                    <label className="cursor-pointer text-[14px] font-black text-blue-700 hover:underline uppercase tracking-wider">
+                    <label className="cursor-pointer text-xs font-bold text-blue-700 hover:underline tracking-wider">
                       Change Photo <input type="file" className="hidden" accept="image/*" onChange={(e) => handleFileUpload(e, 'photos', (path) => updatePersonal('photo', path))} />
                     </label>
                   </div>
@@ -281,25 +281,25 @@ export default function AdminPage() {
                   <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="space-y-1">
                       <FieldLabel>Email Address</FieldLabel>
-                      <input className="w-full px-5 py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none transition-all text-slate-900 font-bold text-[18px] bg-transparent" value={data.personal.email} onChange={(e) => updatePersonal('email', e.target.value)} />
+                      <input className="w-full px-5 py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none transition-all text-slate-900 font-bold text-sm bg-transparent" value={data.personal.email} onChange={(e) => updatePersonal('email', e.target.value)} />
                     </div>
                     <div className="space-y-1">
                       <FieldLabel>Phone Number</FieldLabel>
-                      <input className="w-full px-5 py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none transition-all text-slate-900 font-bold text-[18px] bg-transparent" value={data.personal.phone} onChange={(e) => updatePersonal('phone', e.target.value)} />
+                      <input className="w-full px-5 py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none transition-all text-slate-900 font-bold text-sm bg-transparent" value={data.personal.phone} onChange={(e) => updatePersonal('phone', e.target.value)} />
                     </div>
                     
                     <div className="md:col-span-2 pt-10 space-y-10">
                       <div className="space-y-1">
                         <FieldLabel>Full Name ({activeLang.toUpperCase()})</FieldLabel>
-                        <input className="w-full px-5 py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none transition-all text-[24px] text-slate-900 font-black bg-transparent" value={data.personal.translations[activeLang].name} onChange={(e) => updatePersonal(`${activeLang}.name`, e.target.value, true)} />
+                        <input className="w-full px-5 py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none transition-all text-base text-slate-900 font-bold bg-transparent" value={data.personal.translations[activeLang].name} onChange={(e) => updatePersonal(`${activeLang}.name`, e.target.value, true)} />
                       </div>
                       <div className="space-y-1">
                         <FieldLabel>Professional Title</FieldLabel>
-                        <input className="w-full px-5 py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none transition-all text-slate-900 font-bold text-[18px] bg-transparent" value={data.personal.translations[activeLang].title} onChange={(e) => updatePersonal(`${activeLang}.title`, e.target.value, true)} />
+                        <input className="w-full px-5 py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none transition-all text-slate-900 font-bold text-sm bg-transparent" value={data.personal.translations[activeLang].title} onChange={(e) => updatePersonal(`${activeLang}.title`, e.target.value, true)} />
                       </div>
                       <div className="space-y-2">
                         <FieldLabel>Executive Summary</FieldLabel>
-                        <textarea rows={10} className="w-full p-8 rounded-3xl border-2 border-slate-100 focus:border-slate-900 outline-none transition-all text-slate-700 font-medium text-[18px] leading-relaxed bg-slate-50/30" value={data.personal.translations[activeLang].summary} onChange={(e) => updatePersonal(`${activeLang}.summary`, e.target.value, true)} />
+                        <textarea rows={10} className="w-full p-8 rounded-3xl border-2 border-slate-100 focus:border-slate-900 outline-none transition-all text-slate-700 font-medium text-sm leading-relaxed bg-slate-50/30" value={data.personal.translations[activeLang].summary} onChange={(e) => updatePersonal(`${activeLang}.summary`, e.target.value, true)} />
                       </div>
                     </div>
                   </div>
@@ -312,7 +312,7 @@ export default function AdminPage() {
               <div className="space-y-12 animate-in fade-in duration-500">
                 <div className="flex justify-between items-center">
                   <SectionHeader icon={Briefcase} title="Work Experience" />
-                  <button onClick={() => addItem('experience')} className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2.5 rounded-full font-black text-[14px] uppercase tracking-wider shadow-lg flex items-center gap-2">
+                  <button onClick={() => addItem('experience')} className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2.5 rounded-full font-black text-sm uppercase tracking-wider shadow-lg flex items-center gap-2">
                     <Plus className="w-4 h-4" /> Add Item
                   </button>
                 </div>
@@ -321,7 +321,7 @@ export default function AdminPage() {
                   {data.experience.map((item, idx) => (
                     <div key={item.id} className="bg-white rounded-[2rem] border-2 border-slate-100 p-10 space-y-10 hover:border-slate-200 transition-all shadow-sm">
                       <div className="flex justify-between items-start border-b-2 border-slate-50 pb-4">
-                        <span className="text-[20px] font-black text-slate-300 uppercase tracking-widest">Entry #0{idx + 1}</span>
+                        <span className="text-sm font-black text-slate-300 uppercase tracking-widest">Entry #0{idx + 1}</span>
                         <div className="flex gap-2">
                           <button onClick={() => moveItem('experience', idx, 'up')} disabled={idx === 0} className="p-2 hover:bg-slate-50 rounded-lg text-slate-400 disabled:opacity-20"><ChevronUp className="w-6 h-6" /></button>
                           <button onClick={() => moveItem('experience', idx, 'down')} disabled={idx === data.experience.length - 1} className="p-2 hover:bg-slate-50 rounded-lg text-slate-400 disabled:opacity-20"><ChevronDown className="w-6 h-6" /></button>
@@ -332,26 +332,26 @@ export default function AdminPage() {
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                         <div className="space-y-1">
                           <FieldLabel>Title</FieldLabel>
-                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-[18px] bg-transparent" value={item.translations[activeLang].title} onChange={(e) => { const newData = { ...data }; newData.experience[idx].translations[activeLang].title = e.target.value; setData(newData); }} />
+                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-sm bg-transparent" value={item.translations[activeLang].title} onChange={(e) => { const newData = { ...data }; newData.experience[idx].translations[activeLang].title = e.target.value; setData(newData); }} />
                         </div>
                         <div className="space-y-1">
                           <FieldLabel>Organization</FieldLabel>
-                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-[18px] bg-transparent" value={item.translations[activeLang].org} onChange={(e) => { const newData = { ...data }; newData.experience[idx].translations[activeLang].org = e.target.value; setData(newData); }} />
+                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-sm bg-transparent" value={item.translations[activeLang].org} onChange={(e) => { const newData = { ...data }; newData.experience[idx].translations[activeLang].org = e.target.value; setData(newData); }} />
                         </div>
                         <div className="space-y-1">
                           <FieldLabel>Period</FieldLabel>
-                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-[18px] bg-transparent" value={item.translations[activeLang].meta} onChange={(e) => { const newData = { ...data }; newData.experience[idx].translations[activeLang].meta = e.target.value; setData(newData); }} />
+                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-sm bg-transparent" value={item.translations[activeLang].meta} onChange={(e) => { const newData = { ...data }; newData.experience[idx].translations[activeLang].meta = e.target.value; setData(newData); }} />
                         </div>
                       </div>
                       
                       <div className="space-y-2">
                         <FieldLabel>Responsibilities (One per line)</FieldLabel>
-                        <textarea rows={12} className="w-full p-8 rounded-3xl border-2 border-slate-50 focus:border-slate-900 outline-none transition-all font-medium text-slate-600 text-[18px] leading-[1.8] bg-slate-50/50" value={item.translations[activeLang].bullets.join('\n')} onChange={(e) => { const newData = { ...data }; newData.experience[idx].translations[activeLang].bullets = e.target.value.split('\n'); setData(newData); }} />
+                        <textarea rows={12} className="w-full p-8 rounded-3xl border-2 border-slate-50 focus:border-slate-900 outline-none transition-all font-medium text-slate-600 text-sm leading-[1.8] bg-slate-50/50" value={item.translations[activeLang].bullets.join('\n')} onChange={(e) => { const newData = { ...data }; newData.experience[idx].translations[activeLang].bullets = e.target.value.split('\n'); setData(newData); }} />
                       </div>
                       
                       <div className="space-y-2">
                         <FieldLabel>Key Highlights</FieldLabel>
-                        <textarea rows={6} className="w-full p-8 rounded-3xl border-2 border-blue-50 bg-blue-50/10 focus:border-slate-900 outline-none transition-all font-bold text-slate-800 text-[18px] leading-[1.8]" value={item.translations[activeLang].highlight || ''} onChange={(e) => { const newData = { ...data }; newData.experience[idx].translations[activeLang].highlight = e.target.value; setData(newData); }} />
+                        <textarea rows={6} className="w-full p-8 rounded-3xl border-2 border-blue-50 bg-blue-50/10 focus:border-slate-900 outline-none transition-all font-bold text-slate-800 text-sm leading-[1.8]" value={item.translations[activeLang].highlight || ''} onChange={(e) => { const newData = { ...data }; newData.experience[idx].translations[activeLang].highlight = e.target.value; setData(newData); }} />
                       </div>
                     </div>
                   ))}
@@ -364,7 +364,7 @@ export default function AdminPage() {
               <div className="space-y-12 animate-in fade-in duration-500">
                 <div className="flex justify-between items-center">
                   <SectionHeader icon={GraduationCap} title="Education History" />
-                  <button onClick={() => addItem('education')} className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2.5 rounded-full font-black text-[14px] uppercase tracking-wider shadow-lg flex items-center gap-2">
+                  <button onClick={() => addItem('education')} className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2.5 rounded-full font-black text-sm uppercase tracking-wider shadow-lg flex items-center gap-2">
                     <Plus className="w-4 h-4" /> Add Item
                   </button>
                 </div>
@@ -375,7 +375,7 @@ export default function AdminPage() {
                       <div className="flex justify-between items-center border-b-2 border-slate-50 pb-6">
                         <div className="flex items-center gap-4 text-blue-700">
                            <GraduationCap className="w-8 h-8" />
-                           <span className="font-black uppercase tracking-widest text-[16px]">Entry #{idx + 1}</span>
+                           <span className="font-black uppercase tracking-widest text-sm">Entry #{idx + 1}</span>
                         </div>
                         <button onClick={() => removeItem('education', item.id)} className="p-2 hover:bg-red-50 rounded text-red-300 hover:text-red-500"><Trash2 className="w-6 h-6" /></button>
                       </div>
@@ -383,15 +383,15 @@ export default function AdminPage() {
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                         <div className="space-y-1">
                           <FieldLabel>Degree</FieldLabel>
-                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-[18px] bg-transparent" value={item.translations[activeLang].title} onChange={(e) => { const newData = { ...data }; newData.education[idx].translations[activeLang].title = e.target.value; setData(newData); }} />
+                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-sm bg-transparent" value={item.translations[activeLang].title} onChange={(e) => { const newData = { ...data }; newData.education[idx].translations[activeLang].title = e.target.value; setData(newData); }} />
                         </div>
                         <div className="space-y-1">
                           <FieldLabel>Institution</FieldLabel>
-                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-[18px] bg-transparent" value={item.translations[activeLang].org} onChange={(e) => { const newData = { ...data }; newData.education[idx].translations[activeLang].org = e.target.value; setData(newData); }} />
+                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-sm bg-transparent" value={item.translations[activeLang].org} onChange={(e) => { const newData = { ...data }; newData.education[idx].translations[activeLang].org = e.target.value; setData(newData); }} />
                         </div>
                         <div className="space-y-1">
                           <FieldLabel>Meta Info</FieldLabel>
-                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-[18px] bg-transparent" value={item.translations[activeLang].meta} onChange={(e) => { const newData = { ...data }; newData.education[idx].translations[activeLang].meta = e.target.value; setData(newData); }} />
+                          <input className="w-full py-3 border-b-2 border-slate-100 focus:border-slate-900 outline-none text-slate-900 font-bold text-sm bg-transparent" value={item.translations[activeLang].meta} onChange={(e) => { const newData = { ...data }; newData.education[idx].translations[activeLang].meta = e.target.value; setData(newData); }} />
                         </div>
                       </div>
                     </div>
@@ -405,7 +405,7 @@ export default function AdminPage() {
               <div className="space-y-12 animate-in fade-in duration-500">
                 <div className="flex justify-between items-center">
                   <SectionHeader icon={Settings} title="Skills & Tags" />
-                  <button onClick={() => addItem('skills')} className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2.5 rounded-full font-black text-[14px] uppercase tracking-wider shadow-lg flex items-center gap-2">
+                  <button onClick={() => addItem('skills')} className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2.5 rounded-full font-black text-sm uppercase tracking-wider shadow-lg flex items-center gap-2">
                     <Plus className="w-4 h-4" /> Add Category
                   </button>
                 </div>
@@ -414,12 +414,12 @@ export default function AdminPage() {
                   {data.skills.map((item, idx) => (
                     <div key={item.id} className="bg-white rounded-3xl border-2 border-slate-100 p-10 space-y-8 shadow-sm hover:border-slate-200 transition-all">
                       <div className="flex justify-between items-center border-b-2 border-slate-50 pb-4">
-                        <input className="text-[20px] font-black text-slate-900 border-none outline-none focus:ring-0 bg-transparent w-full uppercase" value={item.translations[activeLang]?.name || ''} onChange={(e) => { const newData = { ...data }; if (!newData.skills[idx].translations[activeLang]) { newData.skills[idx].translations[activeLang] = { name: '' }; } newData.skills[idx].translations[activeLang].name = e.target.value; setData(newData); }} placeholder="CATEGORY NAME" />
+                        <input className="text-base font-bold text-slate-900 border-none outline-none focus:ring-0 bg-transparent w-full uppercase" value={item.translations[activeLang]?.name || ''} onChange={(e) => { const newData = { ...data }; if (!newData.skills[idx].translations[activeLang]) { newData.skills[idx].translations[activeLang] = { name: '' }; } newData.skills[idx].translations[activeLang].name = e.target.value; setData(newData); }} placeholder="CATEGORY NAME" />
                         <button onClick={() => removeItem('skills', item.id)} className="text-slate-200 hover:text-red-500 transition-all"><Trash2 className="w-5 h-5" /></button>
                       </div>
                       <div className="space-y-3">
                         <FieldLabel>Tags (Comma separated)</FieldLabel>
-                        <textarea rows={5} className="w-full text-[17px] border-2 border-slate-50 rounded-2xl p-6 focus:border-slate-900 outline-none transition-all text-slate-900 font-bold bg-slate-50/30 leading-relaxed" value={(item.tags || []).join(', ')} onChange={(e) => { const newData = { ...data }; newData.skills[idx].tags = e.target.value.split(',').map(t => t.trim()).filter(t => t !== ''); setData(newData); }} />
+                        <textarea rows={5} className="w-full text-sm border-2 border-slate-50 rounded-2xl p-6 focus:border-slate-900 outline-none transition-all text-slate-900 font-bold bg-slate-50/30 leading-relaxed" value={(item.tags || []).join(', ')} onChange={(e) => { const newData = { ...data }; newData.skills[idx].tags = e.target.value.split(',').map(t => t.trim()).filter(t => t !== ''); setData(newData); }} />
                       </div>
                     </div>
                   ))}
@@ -432,7 +432,7 @@ export default function AdminPage() {
               <div className="space-y-12 animate-in fade-in duration-500">
                 <div className="flex justify-between items-center">
                   <SectionHeader icon={Award} title="Certificates" />
-                  <button onClick={() => addItem('certs')} className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2.5 rounded-full font-black text-[14px] uppercase tracking-wider shadow-lg flex items-center gap-2">
+                  <button onClick={() => addItem('certs')} className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2.5 rounded-full font-black text-sm uppercase tracking-wider shadow-lg flex items-center gap-2">
                     <Plus className="w-4 h-4" /> Add Item
                   </button>
                 </div>
@@ -444,11 +444,11 @@ export default function AdminPage() {
                         <div className="flex-1 space-y-6">
                           <div className="space-y-1">
                             <FieldLabel>Certificate Name</FieldLabel>
-                            <input className="font-black text-slate-900 text-[18px] w-full border-b-2 border-slate-50 focus:border-slate-900 outline-none bg-transparent" value={item.translations[activeLang].name} onChange={(e) => { const newData = { ...data }; newData.certs[idx].translations[activeLang].name = e.target.value; setData(newData); }} />
+                            <input className="font-bold text-slate-900 text-sm w-full border-b-2 border-slate-50 focus:border-slate-900 outline-none bg-transparent" value={item.translations[activeLang].name} onChange={(e) => { const newData = { ...data }; newData.certs[idx].translations[activeLang].name = e.target.value; setData(newData); }} />
                           </div>
                           <div className="space-y-1">
                             <FieldLabel>Issuer</FieldLabel>
-                            <input className="w-full text-[16px] text-slate-500 font-bold border-b-2 border-slate-50 focus:border-slate-900 outline-none bg-transparent" value={item.translations[activeLang].org} onChange={(e) => { const newData = { ...data }; newData.certs[idx].translations[activeLang].org = e.target.value; setData(newData); }} />
+                            <input className="w-full text-sm text-slate-500 font-bold border-b-2 border-slate-50 focus:border-slate-900 outline-none bg-transparent" value={item.translations[activeLang].org} onChange={(e) => { const newData = { ...data }; newData.certs[idx].translations[activeLang].org = e.target.value; setData(newData); }} />
                           </div>
                         </div>
                         <button onClick={() => removeItem('certs', item.id)} className="text-slate-200 hover:text-red-500 transition-all"><Trash2 className="w-6 h-6" /></button>
@@ -458,8 +458,8 @@ export default function AdminPage() {
                         <FieldLabel>Supporting Document</FieldLabel>
                         <div className="flex gap-4 items-center">
                           <FileText className="w-6 h-6 text-slate-300" />
-                          <input className="flex-1 text-[13px] bg-transparent outline-none text-slate-400 font-mono" readOnly value={item.file || 'No document attached'} />
-                          <label className="cursor-pointer bg-white px-6 py-2 rounded-full shadow-sm text-blue-700 text-[13px] font-black border border-slate-100 hover:bg-slate-900 hover:text-white transition-all">
+                          <input className="flex-1 text-xs bg-transparent outline-none text-slate-400 font-mono" readOnly value={item.file || 'No document attached'} />
+                          <label className="cursor-pointer bg-white px-6 py-2 rounded-full shadow-sm text-blue-700 text-xs font-black border border-slate-100 hover:bg-slate-900 hover:text-white transition-all">
                             UPLOAD <input type="file" className="hidden" onChange={(e) => handleFileUpload(e, 'certs', (p) => { const newData = { ...data }; newData.certs[idx].file = p; setData(newData); })} />
                           </label>
                         </div>
@@ -475,7 +475,7 @@ export default function AdminPage() {
 
       <style jsx global>{`
         body, h1, h2, h3, h4, h5, h6, p, span, a, li, button, input, textarea {
-          font-family: 'Inter', 'Sarabun', sans-serif !important;
+          font-family: 'Sarabun', 'Prompt', 'Inter', sans-serif !important;
         }
 
         body {

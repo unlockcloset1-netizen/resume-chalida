@@ -1,7 +1,7 @@
 .admin-root {
-  font-family: 'Inter', 'Sarabun', sans-serif !important;
-  font-size: 11px !important;
-  background-color: #eef1f5 !important;
+  font-family: 'Sarabun', 'Prompt', 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  background-color: #f1f5f9 !important;
 }
 
 .admin-root h1,
@@ -20,7 +20,7 @@
 .admin-root label,
 .admin-root select,
 .admin-root div {
-  font-family: 'Inter', 'Sarabun', sans-serif !important;
+  font-family: 'Sarabun', 'Prompt', 'Inter', sans-serif !important;
 }
 
 /* 1. ลดความจ้าของสีขาว (eye-comfort) */
@@ -78,37 +78,5 @@
 
 .admin-root .text-slate-600 {
   color: #34404e !important;
-}
-
-/* 3. ขนาดฟอนต์ */
-.admin-root .text-xs {
-  font-size: 9px !important;
-  line-height: 1.5 !important;
-}
-
-.admin-root .text-sm {
-  font-size: 11px !important;
-  line-height: 1.55 !important;
-}
-
-.admin-root .text-base {
-  font-size: 13px !important;
-  line-height: 1.6 !important;
-}
-
-.admin-root .text-lg {
-  font-size: 14px !important;
-}
-
-.admin-root .text-xl {
-  font-size: 15px !important;
-}
-
-.admin-root .text-2xl {
-  font-size: 18px !important;
-}
-
-.admin-root .text-3xl {
-  font-size: 22px !important;
 }
 
