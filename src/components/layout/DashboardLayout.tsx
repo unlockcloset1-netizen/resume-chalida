@@ -27,6 +27,7 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
+  // { title: 'Dashboard', href: '/admin', icon: <LayoutDashboard size={20} /> },
   { title: 'ประวัติส่วนตัว', href: '/admin/profile', icon: <User size={20} /> },
   { title: 'ประสบการณ์ทำงาน', href: '/admin/experience', icon: <Briefcase size={20} /> },
   { title: 'การศึกษา', href: '/admin/education', icon: <GraduationCap size={20} /> },
