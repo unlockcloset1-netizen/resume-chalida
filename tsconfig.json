@@ -32,7 +32,7 @@
   ],
   "exclude": [
     "node_modules",
-    "Patiwat_resume",
+    "Chalida_resume_backup",
     "src/components/ThemeProvider.tsx",
     "src/components/ui/sonner.tsx",
     "src/components/LanguageContext.tsx",
