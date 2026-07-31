@@ -67,7 +67,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ data, lang }) => {
         <div className="relative mb-8 print:mb-4">
           <div className="w-44 h-44 print:w-28 print:h-28 rounded-full border-4 border-blue-500/30 overflow-hidden shadow-2xl relative z-10">
             <img 
-              src={`/${data.personal.photo}`} 
+              src={data.personal.photo ? (data.personal.photo.startsWith('http') ? data.personal.photo : `/${data.personal.photo}`) : 'https://ui-avatars.com/api/?name=User&size=200'} 
               alt={pTr.name} 
               className="w-full h-full object-cover object-top"
             />
