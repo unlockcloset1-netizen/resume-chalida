@@ -1,11 +1,48 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-31 19:16:00"
+    "lastUpdated": "2026-07-31 13:24:49"
   },
-  "certs": [],
+  "certs": [
+    {
+      "id": "cert-1",
+      "translations": {
+        "en": {
+          "name": "Google Analytics Individual Qualification (GAIQ)",
+          "org": "Google Digital Academy"
+        },
+        "th": {
+          "name": "ใบรับรองความเชี่ยวชาญ Google Analytics (GAIQ)",
+          "org": "Google Digital Academy"
+        },
+        "zh": {
+          "name": "Google Analytics 个人专业资格认证 (GAIQ)",
+          "org": "Google Digital Academy"
+        }
+      },
+      "file": ""
+    },
+    {
+      "id": "cert-2",
+      "translations": {
+        "en": {
+          "name": "Inbound Marketing Certification",
+          "org": "HubSpot Academy"
+        },
+        "th": {
+          "name": "ใบรับรองการตลาดแบบดึงดูด (Inbound Marketing)",
+          "org": "HubSpot Academy"
+        },
+        "zh": {
+          "name": "集客营销专业认证",
+          "org": "HubSpot Academy"
+        }
+      },
+      "file": ""
+    }
+  ],
   "labels": {
     "en": {
-      "footer": "© 2026 Your Name — Built with Next.js + Tailwind CSS",
+      "footer": "© 2026 Chalida Rakdee — Built with Next.js + Tailwind CSS",
       "keyResult": "Key Result",
       "certsTitle": "Certifications & Training",
       "skillsTitle": "Skills",
@@ -14,16 +51,16 @@
       "experienceTitle": "Experience"
     },
     "th": {
-      "footer": "© 2569 ชื่อของคุณ — สร้างด้วย Next.js + Tailwind CSS",
+      "footer": "© 2569 ชลิดา รักดี — สร้างด้วย Next.js + Tailwind CSS",
       "keyResult": "ผลงานเด่น",
       "certsTitle": "ใบรับรอง / อบรม",
-      "skillsTitle": "ทักษะ",
+      "skillsTitle": "ทักษะความสามารถ",
       "summaryTitle": "เกี่ยวกับฉัน",
       "educationTitle": "การศึกษา",
       "experienceTitle": "ประสบการณ์ทำงาน"
     },
     "zh": {
-      "footer": "© 2026 您的姓名 — 使用 Next.js + Tailwind CSS 构建",
+      "footer": "© 2026 Chalida Rakdee — 使用 Next.js + Tailwind CSS 构建",
       "keyResult": "关键成果",
       "certsTitle": "证书与培训",
       "skillsTitle": "专业技能",
@@ -32,35 +69,167 @@
       "experienceTitle": "工作经验"
     }
   },
-  "skills": [],
+  "skills": [
+    {
+      "id": "skill-1",
+      "translations": {
+        "en": {
+          "name": "Marketing Strategy"
+        },
+        "th": {
+          "name": "กลยุทธ์การตลาด"
+        },
+        "zh": {
+          "name": "营销战略"
+        }
+      },
+      "tags": [
+        "Brand Strategy",
+        "Campaign Planning",
+        "Market Research"
+      ]
+    },
+    {
+      "id": "skill-2",
+      "translations": {
+        "en": {
+          "name": "Social Media Advertising"
+        },
+        "th": {
+          "name": "โฆษณาโซเชียลมีเดีย"
+        },
+        "zh": {
+          "name": "社交媒体广告"
+        }
+      },
+      "tags": [
+        "Facebook Ads",
+        "Google Ads",
+        "TikTok Ads"
+      ]
+    },
+    {
+      "id": "skill-3",
+      "translations": {
+        "en": {
+          "name": "Data Analytics & SEO"
+        },
+        "th": {
+          "name": "วิเคราะห์ข้อมูลและ SEO"
+        },
+        "zh": {
+          "name": "数据分析与 SEO"
+        }
+      },
+      "tags": [
+        "Google Analytics",
+        "SEMrush",
+        "SEO Optimization"
+      ]
+    }
+  ],
   "personal": {
-    "email": "",
-    "phone": "",
-    "photo": "photos/profile.jpg",
+    "email": "chalida.r@example.com",
+    "phone": "081-234-5678",
+    "photo": "https://adpebuinyafesrvnpbjc.supabase.co/storage/v1/object/public/resume-assets/photos/profile_placeholder.jpg",
     "translations": {
       "en": {
-        "dob": "",
-        "name": "",
-        "title": "",
-        "summary": "",
-        "location": ""
+        "dob": "12 June 1986",
+        "name": "Chalida Rakdee",
+        "title": "Digital Marketing Specialist",
+        "summary": "Digital Marketing Specialist with over 15 years of experience in brand strategy, social media management, and promotional campaigns. Proven track record of increasing sales and customer engagement through data-driven and creative marketing solutions.",
+        "location": "Bangkok, Thailand"
       },
       "th": {
-        "dob": "",
-        "name": "",
-        "title": "",
-        "summary": "",
-        "location": ""
+        "dob": "12 มิถุนายน 2529",
+        "name": "ชลิดา รักดี",
+        "title": "ผู้เชี่ยวชาญด้านการตลาดดิจิทัล",
+        "summary": "ผู้เชี่ยวชาญด้านการตลาดดิจิทัลและการบริหารแบรนด์ มีประสบการณ์มากกว่า 15 ปีในการวางกลยุทธ์การตลาด การบริหารสื่อสังคมออนไลน์ และการจัดกิจกรรมส่งเสริมการขายเพื่อเพิ่มยอดขายและความผูกพันของลูกค้า มุ่งมั่นพัฒนาแคมเปญสร้างสรรค์ที่มีประสิทธิภาพ",
+        "location": "กรุงเทพมหานคร, ประเทศไทย"
       },
       "zh": {
-        "dob": "",
-        "name": "",
-        "title": "",
-        "summary": "",
-        "location": ""
+        "dob": "1986年6月12日",
+        "name": "查利达 · 拉克迪",
+        "title": "数字营销专家",
+        "summary": "拥有超过15年品牌战略、社交媒体管理和促销活动经验的数字营销专家。擅长通过数据驱动和创新的营销解决方案提升销售额和客户参与度。",
+        "location": "泰国曼谷"
       }
     }
   },
-  "education": [],
-  "experience": []
+  "education": [
+    {
+      "id": "edu-1",
+      "translations": {
+        "en": {
+          "meta": "2004 - 2008",
+          "title": "Bachelor of Business Administration in Marketing",
+          "org": "Chulalongkorn University"
+        },
+        "th": {
+          "meta": "พ.ศ. 2547 - 2551",
+          "title": "บริหารธุรกิจบัณฑิต สาขาการตลาด",
+          "org": "จุฬาลงกรณ์มหาวิทยาลัย"
+        },
+        "zh": {
+          "meta": "2004年 - 2008年",
+          "title": "工商管理学士（市场营销专业）",
+          "org": "朱拉隆功大学"
+        }
+      }
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "translations": {
+        "en": {
+          "meta": "Jan 2020 - Present",
+          "title": "Digital Marketing Manager",
+          "org": "Innovate Marketing Co., Ltd.",
+          "bullets": "- Planned and executed digital marketing strategies for B2B and B2C clients.\n- Managed online advertising budgets and analyzed campaign performance.\n- Developed and optimized brand presence across major social media platforms.",
+          "highlight": "Increased conversion rate by 35% through retargeting ad campaigns."
+        },
+        "th": {
+          "meta": "ม.ค. 2563 - ปัจจุบัน",
+          "title": "ผู้จัดการฝ่ายการตลาดดิจิทัล",
+          "org": "บริษัท อินโนเวท มาร์เก็ตติ้ง จำกัด",
+          "bullets": "- วางแผนและดำเนินกลยุทธ์การตลาดดิจิทัลสำหรับลูกค้ากลุ่ม B2C และ B2B\n- บริหารงบประมาณโฆษณาออนไลน์และวิเคราะห์ประสิทธิภาพการทำแคมเปญ\n- พัฒนาและเพิ่มประสิทธิภาพของช่องทางสื่อสังคมออนไลน์ของแบรนด์",
+          "highlight": "เพิ่มอัตราการเปลี่ยนเป็นยอดขาย (Conversion Rate) ขึ้น 35% ผ่านแคมเปญโฆษณาแบบกำหนดเป้าหมายใหม่"
+        },
+        "zh": {
+          "meta": "2020年1月 - 至今",
+          "title": "数字营销经理",
+          "org": "创新营销有限公司",
+          "bullets": "- 策划并执行面向 B2B 和 B2C 客户的数字营销战略。\n- 管理线上广告预算并分析活动效果。\n- 建设和优化品牌在主要社交媒体平台上的影响力。",
+          "highlight": "通过重定向广告活动将转化率提高了 35%。"
+        }
+      }
+    },
+    {
+      "id": "exp-2",
+      "translations": {
+        "en": {
+          "meta": "Mar 2012 - Dec 2019",
+          "title": "Senior Marketing Executive",
+          "org": "Future Brands Asia",
+          "bullets": "- Overlooked company PR materials and marketing content creation.\n- Collaborated with sales teams to design promotional and seasonal events.\n- Analyzed market trends and competitor data to propose strategic directions.",
+          "highlight": "Helped grow core product market share by 12% within a single year."
+        },
+        "th": {
+          "meta": "มี.ค. 2555 - ธ.ค. 2562",
+          "title": "เจ้าหน้าที่บริหารการตลาดอาวุโส",
+          "org": "ฟิวเจอร์ แบรนด์ เอเชีย",
+          "bullets": "- ดูแลการจัดทำสื่อประชาสัมพันธ์และการตลาดของบริษัททั้งหมด\n- ร่วมมือกับฝ่ายขายเพื่อออกแบบกิจกรรมส่งเสริมการขายและโปรโมชันตามฤดูกาล\n- วิเคราะห์ข้อมูลแนวโน้มตลาดและคู่แข่งเพื่อนำเสนอแนวทางกลยุทธ์ใหม่",
+          "highlight": "ช่วยเพิ่มส่วนแบ่งการตลาดของสินค้าหลักขึ้น 12% ภายในระยะเวลา 1 ปี"
+        },
+        "zh": {
+          "meta": "2012年3月 - 2019年12月",
+          "title": "高级营销主管",
+          "org": "未来品牌亚洲",
+          "bullets": "- 统筹公司公关材料及营销内容创作。\n- 与销售团队配合，策划促销和季节性活动。\n- 分析市场趋势和竞争对手数据以提出战略建议。",
+          "highlight": "在一年内将核心产品的市场份额提高了 12%。"
+        }
+      }
+    }
+  ]
 }
