@@ -27,7 +27,6 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { title: 'Dashboard', href: '/admin', icon: <LayoutDashboard size={20} /> },
   { title: 'ประวัติส่วนตัว', href: '/admin/profile', icon: <User size={20} /> },
   { title: 'ประสบการณ์ทำงาน', href: '/admin/experience', icon: <Briefcase size={20} /> },
   { title: 'การศึกษา', href: '/admin/education', icon: <GraduationCap size={20} /> },
@@ -146,17 +145,6 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
               <div className="text-right hidden sm:block">
                 <p className="text-[16px] font-bold text-slate-950 leading-none">Chalida</p>
                 <p className="text-[14px] font-semibold text-slate-800 mt-1">Administrator</p>
-              </div>
-              <div className="w-10 h-10 rounded-full bg-slate-200 border-2 border-white overflow-hidden shadow-sm">
-                <img
-                  src="/photos/profile.jpg"
-                  alt="Profile"
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src =
-                      'https://ui-avatars.com/api/?name=Chalida&background=0071e3&color=fff';
-                  }}
-                />
               </div>
             </div>
           </div>
