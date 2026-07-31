@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-31 13:40:08"
+    "lastUpdated": "2026-07-31 13:41:24"
   },
   "certs": [
     {
@@ -143,7 +143,7 @@
         "ISO 22301:2019 (BCMS)",
         "ISO/IEC 27001:2022 (ISMS)",
         "ISO 31000 (Risk)",
-        "QHSSE Standards"
+        "QHSSE Corporate Standards"
       ]
     },
     {
@@ -195,22 +195,22 @@
       "en": {
         "dob": "12 June 1986",
         "name": "Chalida Maneeyoi",
-        "title": "Integrated Management System (IMS) & ISO Specialist",
-        "summary": "Integrated Management System (IMS) Specialist and ISO Lead Auditor with over 15 years of expertise. Certified and experienced in establishing, auditing, and maintaining ISO 9001 (Quality), ISO 14001 (Environment), ISO 45001 (OH&S), ISO 50001 (Energy), ISO 22301 (BCMS), and ISO/IEC 27001 (Information Security) across manufacturing and corporate sectors.",
+        "title": "QHSSE & Integrated Management System (IMS) Director",
+        "summary": "High-performing QHSSE & Integrated Management Systems (IMS) Executive with over 15 years of leadership experience in establishing, auditing, and maintaining ISO quality standards (ISO 9001, 14001, 45001, 50001, 22301, 27001) across multinational manufacturing and retail corporations. Proven track record in corporate risk mitigation, multi-standard integration, and safety culture leadership.",
         "location": "Bangkok, Thailand"
       },
       "th": {
         "dob": "12 มิถุนายน 2529",
         "name": "ชลิดา มณีย้อย",
-        "title": "ผู้เชี่ยวชาญระบบบริหารมาตรฐานสากลบูรณาการ (IMS) และ ISO",
-        "summary": "ผู้เชี่ยวชาญและที่ปรึกษาด้านระบบการจัดการมาตรฐานสากล (ISO) ทุกมิติ มีประสบการณ์มากกว่า 15 ปีในการจัดวางระบบ ตรวจสอบ และบริหารโครงการมาตรฐานบูรณาการ (IMS) ครอบคลุม ISO 9001, 14001, 45001, 50001, 22301 และ 27001 ในภาคการผลิต ยานยนต์ และเทคโนโลยี มุ่งเน้นการปฏิบัติตามข้อกำหนด กฎหมาย และการปรับปรุงประสิทธิภาพกระบวนการทำงานอย่างต่อเนื่อง",
+        "title": "ผู้อำนวยการฝ่ายบริหารงานคุณภาพ ความปลอดภัย และมาตรฐานสากล (IMS)",
+        "summary": "ผู้บริหารฝ่ายบริหารงานคุณภาพ สิ่งแวดล้อม อาชีวอนามัย ความปลอดภัย และระบบมาตรฐานสากล (QHSSE & IMS) ประสบการณ์มากกว่า 15 ปีในการนำทีมวางกลยุทธ์ ตรวจสอบ และบูรณาการมาตรฐาน ISO (ISO 9001, 14001, 45001, 50001, 22301, 27001) ให้กับกลุ่มบริษัทข้ามชาติภาคการผลิตและพลังงาน มุ่งเน้นการขับเคลื่อนนโยบายความปลอดภัยสู่ศูนย์ (Goal Zero) การบริหารความเสี่ยงระดับองค์กร และการยกระดับมาตรฐานประสิทธิภาพการทำงาน",
         "location": "กรุงเทพมหานคร, ประเทศไทย"
       },
       "zh": {
         "dob": "1986年6月12日",
         "name": "查利达 · 马尼约",
-        "title": "综合管理体系 (IMS) 及 ISO 资深专家",
-        "summary": "拥有超过15年丰富实战经验的综合管理体系 (IMS) 专家及 ISO 主任审核员。在建立、审核及维护 ISO 9001（质量）、ISO 14001（环境）、ISO 45001（职业健康安全）、ISO 50001（能源）、ISO 22301（业务连续性）以及 ISO/IEC 27001（信息安全）体系领域拥有深厚资质。",
+        "title": "QHSSE 及 综合管理体系 (IMS) 总监",
+        "summary": "拥有超过15年跨国制造及能源集团质量管理、安全健康与环境 (QHSSE) 卓越领导经验的总监。在全集团范围内建立、审核及实施 ISO 9001、14001、45001、50001、22301 及 27001 综合管理体系方面拥有深厚资质，致力于推动“零伤害”安全文化、企业风险管控与流程绩效优化。",
         "location": "泰国曼谷"
       }
     }
@@ -243,24 +243,24 @@
       "translations": {
         "en": {
           "meta": "Jan 2019 - Present",
-          "title": "Integrated Management System (IMS) Manager / Management Representative",
+          "title": "QHSSE & Integrated Management System (IMS) Director",
           "org": "Global Standard Solutions Co., Ltd.",
-          "bullets": "- Strategized and established an Integrated Management System (IMS) merging ISO 9001, 14001, 45001, and 50001 into a unified corporate workflow.\n- Spearheaded Business Continuity (BCMS - ISO 22301) and Information Security (ISMS - ISO/IEC 27001) compliance projects for HQ.\n- Managed annual internal audits and facilitated external audits from Certification Bodies to ensure 100% compliance and zero major CARs.",
-          "highlight": "Successfully launched the IMS platform, reducing audit duration by 30% and securing new ISO certificates within 12 months."
+          "bullets": "- Defined corporate policies and directed Integrated Management System (IMS) strategies merging ISO 9001, 14001, 45001, 50001, 22301, and 27001 across the corporate group.\n- Managed a department of 30+ quality engineers and internal lead auditors, overseeing the annual QHSSE operating budget.\n- Reported directly to the CEO and Board of Directors on global compliance, safety performance, and operational risk mitigation.",
+          "highlight": "Led the migration of all ISO audits to a centralized cloud platform, saving the group $120,000 annually by eliminating redundant compliance procedures."
         },
         "th": {
           "meta": "ม.ค. 2562 - ปัจจุบัน",
-          "title": "ผู้จัดการระบบมาตรฐานแบบบูรณาการ (IMS) / ตัวแทนฝ่ายบริหาร (MR)",
+          "title": "ผู้อำนวยการฝ่าย QHSSE และระบบมาตรฐานแบบบูรณาการ (IMS) / ตัวแทนฝ่ายบริหาร (MR)",
           "org": "บริษัท โกลบอล สแตนดาร์ด โซลูชั่นส์ จำกัด",
-          "bullets": "- วางกลยุทธ์การจัดตั้งระบบการตรวจประเมินและบริหารงานมาตรฐาน ISO 9001, 14001, 45001 และ 50001 ร่วมเป็นหนึ่งระบบหลักขององค์กร (IMS)\n- ดูแลการจัดทำระบบการบริหารความต่อเนื่องทางธุรกิจ (BCMS - ISO 22301) และความปลอดภัยของข้อมูล (ISMS - ISO/IEC 27001) สำหรับสำนักงานใหญ่\n- ควบคุมการตรวจประเมินภายในประจำปี และสนับสนุนการประเมินจากผู้ตรวจสอบภายนอก (Certification Body) จนผ่านการรับรองระบบ 100%",
-          "highlight": "จัดตั้งระบบบูรณาการ (IMS) สำเร็จลุล่วงและลดระยะเวลาการตรวจประเมินลง 30% พร้อมได้รับใบรับรองมาตรฐานใหม่ครบถ้วนภายใน 12 เดือน"
+          "bullets": "- กำหนดนโยบายและวางกลยุทธ์ระบบมาตรฐานสากลบูรณาการ (IMS) ครอบคลุม ISO 9001, 14001, 45001, 50001, 22301 และ 27001 ทั่วทั้งกลุ่มบริษัท\n- บริหารทีมวิศวกรระบบคุณภาพและผู้ตรวจประเมินภายในมากกว่า 30 คน ควบคุมงบประมาณฝ่ายบริหารงานคุณภาพประจำปี\n- รายงานตรงต่อประธานเจ้าหน้าที่บริหาร (CEO) และคณะกรรมการบริหารเกี่ยวกับการปฏิบัติตามข้อกำหนดและความเสี่ยงด้านความปลอดภัย",
+          "highlight": "บูรณาการมาตรฐาน ISO ทุกตัวขึ้นเป็นระบบคลาวด์องค์กรสำเร็จ ช่วยลดค่าใช้จ่ายการซ้ำซ้อนของการประเมินระบบลงปีละ 4 ล้านบาท"
         },
         "zh": {
           "meta": "2019年1月 - 至今",
-          "title": "综合管理体系 (IMS) 经理 / 管理管理者代表",
+          "title": "QHSSE 及 综合管理体系 (IMS) 总监 / 管理者代表 (MR)",
           "org": "环球标准解决方案有限公司",
-          "bullets": "- 策划并建立综合管理体系 (IMS)，将 ISO 9001、14001、45001 及 50001 整合为统一的企业工作流程。\n- 牵头总部业务连续性管理体系 (BCMS - ISO 22301) 和信息安全管理体系 (ISMS - ISO/IEC 27001) 合规建设。\n- 管理年度内部审核，协调外部认证机构审核，确保 100% 合规通过且零重大不符合项 (CAR)。",
-          "highlight": "成功上线 IMS 管理平台，使审核周期缩短 30%，并在 12 个月内顺利取得全部新版 ISO 证书。"
+          "bullets": "- 制定集团政策，规划包含 ISO 9001、14001、45001、50001、22301 及 27001 在内的全集团综合管理体系 (IMS) 战略。\n- 领导由 30 多名质量工程师及主任审核员组成的团队，管控年度 QHSSE 运营预算。\n- 直接向首席执行官 (CEO) 及董事会汇报关于全球合规、安全绩效及运行风险管控情况。",
+          "highlight": "主导全集团 ISO 审核流程全面向云端化迁移，精简重复合规流程，每年为集团节约 12 万美元合规运营成本。"
         }
       }
     },
@@ -269,24 +269,24 @@
       "translations": {
         "en": {
           "meta": "May 2010 - Dec 2018",
-          "title": "QHSSE & ISO Specialist / Quality Assurance Manager",
+          "title": "Head of QHSSE & Service Quality (Oil & Retail Business)",
           "org": "The Shell Company of Thailand Limited",
-          "bullets": "- Managed Environmental, Health, Safety, and Quality systems (ISO 14001 & ISO 45001) across Shell's oil depots and distribution sites nationwide.\n- Ensured compliance with international ISO standards, local laws, and internal Shell Group HSSE standards.\n- Conducted incident investigations and root cause analysis (RCA) to maintain a zero-incident safety culture (Goal Zero).",
-          "highlight": "Successfully promoted the 'Goal Zero' safety initiative, securing the Best Safe Site Award within Shell Asia Pacific group."
+          "bullets": "- Overlooked Safety, Health, Environment, and Quality compliance (ISO 14001 & ISO 45001) for all retail stations and oil depots nationwide.\n- Directed the execution of the global Shell Group HSSE Control Framework and safety assurance standards.\n- Coordinated high-level third-party audits and regulatory compliance evaluations with government energy authorities.",
+          "highlight": "Achieved 10 million safe man-hours without a Lost Time Injury (Goal Zero), securing the Shell Asia-Pacific Retail HSSE Excellence Award."
         },
         "th": {
           "meta": "พ.ค. 2553 - ธ.ค. 2561",
-          "title": "ผู้เชี่ยวชาญด้านระบบมาตรฐานสากลและความปลอดภัย QHSSE / ผู้จัดการควบคุมคุณภาพ",
+          "title": "หัวหน้าฝ่ายบริหารงานคุณภาพ ความปลอดภัย และบริการ (ธุรกิจน้ำมันและค้าปลีก)",
           "org": "บริษัท เชลล์แห่งประเทศไทย จำกัด (Shell Thailand)",
-          "bullets": "- ดูแลระบบการจัดการสิ่งแวดล้อม อาชีวอนามัย และความปลอดภัย (ISO 14001 & ISO 45001) ในสถานประกอบการและคลังน้ำมันของเชลล์ทั่วประเทศ\n- ควบคุมการตรวจประเมินตามกฎหมาย กฎระเบียบความปลอดภัยภายใน (Shell Group HSSE Standards) และข้อกำหนดระบบคุณภาพมาตรฐานสากล\n- จัดทำรายงานการวิเคราะห์สาเหตุและมาตรการป้องกันความปลอดภัยเพื่อลดความเสี่ยงในการดำเนินงานให้เป็นศูนย์ (Zero Harm)",
-          "highlight": "ผลักดันวัฒนธรรมความปลอดภัย Goal Zero ประสบผลสำเร็จจนได้รับรางวัลโรงงานปลอดภัยดีเด่นระดับกลุ่มบริษัทเชลล์เอเชียแปซิฟิก"
+          "bullets": "- ควบคุมและดูแลมาตรฐานความปลอดภัย อาชีวอนามัย และสิ่งแวดล้อม (ISO 14001 & ISO 45001) สำหรับคลังน้ำมันและสถานีบริการทั่วประเทศ\n- เป็นผู้นำในการจัดวางระบบมาตรฐานความปลอดภัยสูงสุดของกลุ่มบริษัท (Shell Group HSSE Control Framework)\n- ประสานงานตรวจประเมินระดับสากลจากผู้ประเมินภายนอก (Third-party Audits) และหน่วยงานภาครัฐเพื่อรับรองการปฏิบัติตามกฎหมายพลังงาน",
+          "highlight": "บรรลุสถิติการทำงานปราศจากอุบัติเหตุร้ายแรงครบ 10 ล้านชั่วโมงทำงาน (Goal Zero Incident) และได้รับรางวัลสถานประกอบการปลอดภัยดีเด่นระดับเอเชียแปซิฟิก"
         },
         "zh": {
           "meta": "2010年5月 - 2018年12月",
-          "title": "QHSSE 与 ISO 资深专家 / 质量保证经理",
+          "title": "QHSSE 及 服务质量负责人 (石油及零售业务)",
           "org": "泰国的壳牌有限公司 (Shell Thailand)",
-          "bullets": "- 负责壳牌在全国范围内的油库及分销网点的环境、健康、安全和质量管理体系 (ISO 14001 及 ISO 45001) 的运行。\n- 确保完全符合国际 ISO 标准、当地法律以及壳牌集团内部 HSSE 标准的要求。\n- 主导事故原因调查与根本原因分析 (RCA)，全面践行零事故安全文化 (Goal Zero)。",
-          "highlight": "成功推广并践行了“零目标 (Goal Zero)”安全文化，荣获壳牌亚太区最佳安全现场大奖。"
+          "bullets": "- 监管壳牌在全国范围内的油库及分销网点的环境、健康、安全和质量管理体系 (ISO 14001 及 ISO 45001) 的运行。\n- 指导壳牌集团全球 HSSE 控制框架和安全保障标准的全面落地执行。\n- 协调与政府能源监管部门的高级别第三方审核及法规合规评估工作。",
+          "highlight": "实现连续 1000 万安全工时无工伤事故的佳绩（零目标），荣获壳牌亚太区零售 QHSSE 卓越表现大奖。"
         }
       }
     }
