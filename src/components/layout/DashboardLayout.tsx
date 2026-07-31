@@ -33,7 +33,7 @@ const navItems: NavItem[] = [
   { title: 'การศึกษา', href: '/admin/education', icon: <GraduationCap size={20} /> },
   { title: 'ทักษะความสามารถ', href: '/admin/skills', icon: <Code2 size={20} /> },
   { title: 'ใบรับรอง / อบรม', href: '/admin/certs', icon: <Award size={20} /> },
-  { title: 'ตั้งค่าระบบ', href: '/admin/settings', icon: <Settings size={20} /> },
+  // { title: 'ตั้งค่าระบบ', href: '/admin/settings', icon: <Settings size={20} /> },
 ];
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
